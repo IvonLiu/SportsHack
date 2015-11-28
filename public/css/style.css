@@ -17,7 +17,29 @@
     font-style: italic;
 }
 
+#sign-in-button {
 
+    width: 150px;
+
+}
+
+#login-button {
+
+    width: 150px;
+
+
+}
+
+#logo {
+    margin-top: -100px;
+    background-size: 110%;
+}
+
+#theater-js {
+    width: 100%;
+ 
+    white-space: nowrap;
+}
 
 
 .scene {
