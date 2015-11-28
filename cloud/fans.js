@@ -6,11 +6,8 @@ exports.setFollowedPlayer_cloud = setFollowedPlayer_cloud;
 var ResponseCodes = require('cloud/response_codes.js');
 
 function init_cloud(request, response) {
-	var username = request.params.username;
-
-	var email 
-	var tag = request.params.tag;
-	init(username, tag, {
+	var user = request.user;
+	init(user, {
 		success: function(responseCode, object) {
 			response.success({
 				code: responseCode,
@@ -27,9 +24,9 @@ function init_cloud(request, response) {
 }
 
 function shareMedia_cloud(request, response) {
-	var username = request.params.username;
-	var tag = request.params.tag;
-	shareMedia(username, tag, {
+	var user = request.user;
+	var mediaId = request.params.mediaId;
+	shareMedia(user, mediaId, {
 		success: function(responseCode, object) {
 			response.success({
 				code: responseCode,
@@ -46,9 +43,8 @@ function shareMedia_cloud(request, response) {
 }
 
 function findPlayerMatches_cloud(request, response) {
-	var username = request.params.username;
-	var tag = request.params.tag;
-	findPlayerMatches(username, tag, {
+	var user = request.user;
+	findPlayerMatches(user, {
 		success: function(responseCode, object) {
 			response.success({
 				code: responseCode,
@@ -65,9 +61,9 @@ function findPlayerMatches_cloud(request, response) {
 }
 
 function setFollowedPlayer_cloud(request, response) {
-	var username = request.params.username;
-	var tag = request.params.tag;
-	setFollowedPlayer(username, tag, {
+	var user = request.user;
+	var playerId = request.params.playerId;
+	setFollowedPlayer(user, playerId, {
 		success: function(responseCode, object) {
 			response.success({
 				code: responseCode,
@@ -83,3 +79,60 @@ function setFollowedPlayer_cloud(request, response) {
 	});
 }
 
+function init(user, callbacks) {
+	user.set('points', 0);
+	user.save();
+	user.save(null, {
+		success: function(user) {
+			callbacks.success(ResponseCodes.OK, null);
+			return;
+		},
+		error: function(object, error) {
+			callbacks.error(error.code, error.message);
+			return;
+		}
+	});
+}
+
+function shareMedia(user, mediaId, callbacks) {
+	user.set('points', user.get("points") + 1);
+	user.save(null, {
+		success: function(user) {
+			callbacks.success(ResponseCodes.OK, null);
+			return;
+		},
+		error: function(object, error) {
+			callbacks.error(error.code, error.message);
+			return;
+		}
+	});
+}
+
+function findPlayerMatches(user, callbacks) {
+	var ids = [31, 33, 91, 99, 109];
+	callbacks.success(ResponseCodes.OK, ids);
+}
+
+function setFollowedPlayer(user, playerId, callbacks) {
+	var playerQuery = new Parse.Query("Player");
+	playerQuery.equalTo("roster_id", playerId);
+	playerQuery.first({
+		success: function(player) {
+			user.set("followerPlayer", player);
+			user.save(null, {
+				success: function(user) {
+					callbacks.success(ResponseCodes.OK, null);
+					return;
+				},
+				error: function(object, error) {
+					callbacks.error(error.code, error.message);
+					return;
+				}
+			});
+		},
+		error: function(object, error) {
+			callbacks.error(error.code, error.message);
+			return;
+		}
+	});
+}
