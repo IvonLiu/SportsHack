@@ -2,6 +2,7 @@ exports.init_cloud = init_cloud;
 exports.shareMedia_cloud = shareMedia_cloud;
 exports.findPlayerMatches_cloud = findPlayerMatches_cloud;
 exports.setFollowedPlayer_cloud = setFollowedPlayer_cloud;
+exports.getFeed_cloud = getFeed_cloud;
 
 var ResponseCodes = require('cloud/response_codes.js');
 
@@ -79,6 +80,24 @@ function setFollowedPlayer_cloud(request, response) {
 	});
 }
 
+function getFeed_cloud(request, response) {
+	var user = request.user;
+	getFeed(user, {
+		success: function(responseCode, object) {
+			response.success({
+				code: responseCode,
+				data: object
+			});
+		},
+		error: function(responseCode, errorMsg) {
+			response.success({
+				code: responseCode,
+				data: errorMsg
+			});
+		}
+	});
+}
+
 function init(user, callbacks) {
 	user.set('points', 0);
 	user.save();
@@ -98,8 +117,26 @@ function shareMedia(user, mediaId, callbacks) {
 	user.set('points', user.get("points") + 1);
 	user.save(null, {
 		success: function(user) {
-			callbacks.success(ResponseCodes.OK, null);
-			return;
+			var mediaQuery = new Parse.Query("Media");
+			mediaQuery.equalTo("objectId", mediaId);
+			mediaQuery.first({
+				success: function(media) {
+					media.relation("sharedBy").add(user);
+					media.save(null, {
+						success: function(media) {
+							callbacks.success(ResponseCodes.OK, null);
+							return;
+						},
+						error: function(object, error) {
+							callbacks.error(error.code, error.message);
+							return;
+						}
+					});
+				},
+				error: function(object, error) {
+					callbacks.error(error.code, error.message);
+				}
+			});
 		},
 		error: function(object, error) {
 			callbacks.error(error.code, error.message);
@@ -129,6 +166,20 @@ function setFollowedPlayer(user, playerId, callbacks) {
 					return;
 				}
 			});
+		},
+		error: function(object, error) {
+			callbacks.error(error.code, error.message);
+			return;
+		}
+	});
+}
+
+function getFeed(user, callbacks) {
+	var mediaQuery = user.get("followedPlayer").relation("media").query();
+	mediaQuery.addDescending("createdAt");
+	mediaQuery.find({
+		success: function(feed) {
+			callbacks.success(ResponseCodes.OK, feed);
 		},
 		error: function(object, error) {
 			callbacks.error(error.code, error.message);

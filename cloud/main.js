@@ -65,13 +65,13 @@ Parse.Cloud.define("Fans_shareMedia", Fans.shareMedia_cloud);
  * Gets a list of top matches
  * @return {Player[]} players
  */
-Parse.Cloud.define("Fans_findPlayerMatches", Fans.Fans_findPlayerMatches_cloud);
+Parse.Cloud.define("Fans_findPlayerMatches", Fans.findPlayerMatches_cloud);
 
 /**
  * Sets a player to follow
  * @param {String} playerId
  */
-Parse.Cloud.define("Fans_setFollowedPlayer", Fans.setFollowerPlayed_cloud);
+Parse.Cloud.define("Fans_setFollowedPlayer", Fans.setFollowedPlayer_cloud);
 
 /**
  * Get feed for user
@@ -92,7 +92,14 @@ var Players = require('cloud/players.js');
  * @param {String} playerName
  * @return {Player} player
  */
-Parse.Cloud.define("Players_searchByName", Players.searchByName);
+Parse.Cloud.define("Players_searchByName", Players.searchByName_cloud);
+
+/**
+ * Get player info by ID
+ * @param {String} rosterId
+ * @return {Player} player
+ */
+Parse.Cloud.define("Players_searchByRosterId", Players.searchByRosterId_cloud);
 
 /** Instance */
 
@@ -101,13 +108,6 @@ Parse.Cloud.define("Players_searchByName", Players.searchByName);
  * Links user to Player object
  */
 Parse.Cloud.define("Players_init", Players.init_cloud);
-
-/**
- * Get player info
- * @param {String} playerId
- * @return {Player} player
- */
-Parse.Cloud.define("Players_getInfo", Players.getInfo_cloud);
 
 /**
  * Add a media object
