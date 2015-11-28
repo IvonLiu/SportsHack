@@ -1,7 +1,6 @@
-.input-field  {
+#input-fields  {
 
-    width: 300px !important;
-    /*margin-left: 50% !important;*/
-    /*margin-right: 50% !important;*/
-    background-color: #00acc1 !important;
+    max-width: 300px;
 }
+
+#submit-button {}
