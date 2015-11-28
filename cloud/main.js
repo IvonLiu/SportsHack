@@ -87,6 +87,13 @@ var Players = require('cloud/players.js');
 
 /** Static */
 
+/**
+ * Search player by name
+ * @param {String} playerName
+ * @return {Player} player
+ */
+Parse.Cloud.define("Players_searchByName", Players.searchByName);
+
 /** Instance */
 
 /**
