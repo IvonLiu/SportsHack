@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "SportsHack": {
+      "applicationId": "A9o1bVMJ29KeXuOgFo9paozMJBfAjAyx8yJke3d8"
+    },
+    "_default": {
+      "link": "SportsHack"
+    }
+  }
+}
