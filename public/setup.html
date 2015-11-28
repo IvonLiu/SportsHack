@@ -9,6 +9,26 @@
     <link href="css/style-setup.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
+<script>
+    function init(){
+        var first_name = document.getElementById("first_name");
+        var last_name = document.getElementById("last_name");
+        var user_name = document.getElementById("email");
+        var password = document.getElementById("password");
+        var hometown = document.getElementById("hometown");
+        var favourite_team = document.getElementById("favourite_team");
+        var height = document.getElementById("height");
+        var weight = document.getElementById("weight");
+        Parse.Cloud.run('Fans_init', params, {
+        success: function(object) {
+            // Handle success here
+        },
+        error: function(error) {
+            // Handle error here
+        }
+    });
+    }
+</script>
 <body>
 <!-- NAV BAR -->
 
@@ -93,8 +113,8 @@
 
 </div>
 
-<div class="center" id="submit-button">
-<a  href="player.html" class="waves-effect waves-light btn-large red lighten-1 ">Create Profile</a>
+<div class="center" id="submit-button" onclick="init()">
+<a  href="players.html" class="waves-effect waves-light btn-large red lighten-1 ">Create Profile</a>
 </div>
 
 </body>
