@@ -1,0 +1,3759 @@
+,City,ID,State,height,weight
+0,San Diego,1, CA,6.0,186.0
+1,Fort Erie,3, ON,6.02,300.0
+3,Los Angeles,7, CA,6.03,245.0
+4,Mississauga,9, ON,6.04,289.0
+5,Burnaby,11, BC,6.03,190.0
+6,Beaumont,13, TX,5.08,182.0
+7,Saskatoon,15, SK,6.05,299.0
+8,Dania,17, FL,6.0,220.0
+9,Scarborough,19, ON,6.05,290.0
+10,San Pedro,21, CA,5.11,190.0
+11,New Orleans,23, LA,6.02,285.0
+13,Abbeville,27, MS,6.04,207.0
+14,Selkirk,29, MB,5.1,190.0
+15,East Los Angeles,31, CA,6.01,213.0
+16,Vancouver,33, BC,5.11,185.0
+17,Great Falls,35, MT,5.11,195.0
+18,Kansas City,37, MO,5.1,180.0
+19,Hampstead,39, NC,6.02,257.0
+20,Sumter,41, SC,5.08,175.0
+21,Beaumont,43, TX,6.0,310.0
+22,West Helena,45, AR,6.04,345.0
+23,Austin,47, TX,6.02,270.0
+24,Essex,49, ON,6.03,288.0
+25,Hamilton,51, ON,6.03,210.0
+26,Kingston,53, JM,6.03,315.0
+27,London,55, ON,6.04,310.0
+28,Santa Monica,57, CA,6.01,193.0
+29,Kelowna,59, BC,6.0,194.0
+30,Regina,61, SK,6.02,218.0
+31,Phoenix,63, AZ,6.01,191.0
+32,Charlotte,65, NC,5.11,205.0
+33,Bellmore,67, NY,6.02,200.0
+34,Ottawa,69, ON,6.03,270.0
+35,Houston,71, TX,6.02,195.0
+36,Chicago,73, IL,6.01,208.0
+37,Little Rock,75, AR,6.01,230.0
+38,Tacoma,77, WA,6.0,200.0
+39,London,79, ON,5.11,195.0
+40,Abbotsford,81, BC,6.05,310.0
+41,Hamilton,83, ON,6.01,210.0
+42,London,85, ON,6.04,305.0
+43,Saskatoon,87, SK,6.03,300.0
+45,Spiro,91, OK,6.01,190.0
+47,Shreveport,95, LA,6.03,270.0
+48,St. Louis,97, MO,5.1,195.0
+49,Niagara Falls,99, ON,5.08,195.0
+51,Wellseley,103, MA,6.03,285.0
+52,Buford,105, NC,6.01,230.0
+53,Miami,107, FL,5.09,190.0
+54,Toronto,109, ON,6.02,221.0
+55,Seattle,111, WA,5.11,182.0
+57,St. Laurent,115, QC,6.0,219.0
+58,Toronto,117, ON,6.05,317.0
+59,North Battleford,119, SK,6.04,296.0
+61,Lagos,123, NG,6.04,258.0
+63,Cleveland,127, OH,6.05,250.0
+64,Baton Rouge,129, LA,6.03,230.0
+65,Galveston,131, TX,6.02,223.0
+66,Vancouver,133, BC,6.01,195.0
+67,Quincy,135, IL,6.02,224.0
+68,Kelowna,137, BC,6.0,275.0
+69,New Westminster,139, BC,6.08,290.0
+70,Cowansville,141, QC,6.04,295.0
+71,Regina,143, SK,6.01,185.0
+72,Oshawa,145, ON,6.07,305.0
+73,Windsor,147, ON,6.05,302.0
+74,Abbotsford,149, BC,6.01,240.0
+75,Toronto,151, ON,6.04,255.0
+76,Edmonton,153, AB,5.11,187.0
+78,Winnipeg,157, MB,5.1,185.0
+79,Johnstown,159, PA,5.08,165.0
+80,Yonkers,161, NY,5.1,205.0
+81,Saskatoon,163, SK,6.0,195.0
+82,Mobile,165, AL,6.02,230.0
+83,Richmond,167, VA,5.1,192.0
+84,Washington,169, DC,5.09,190.0
+86,Phoenix,173, AZ,5.1,205.0
+87,Bellflower,175, CA,6.03,205.0
+88,Memphis,177, TN,6.09,275.0
+89,Montreal,179, QC,6.03,266.0
+90,Ottawa,181, ON,6.05,285.0
+91,Washington,183, DC,6.02,220.0
+92,London,185, ON,6.02,195.0
+94,Dundas,189, ON,6.04,270.0
+95,Ottawa,191, ON,6.0,200.0
+96,Regina,193, SK,6.04,296.0
+97,Moose Jaw,195, SK,6.0,210.0
+98,Richmond,197, BC,5.07,175.0
+99,Medicine Hat,199, AB,6.03,292.0
+100,Macon,201, MS,5.11,190.0
+102,Regina,205, SK,6.04,247.0
+103,Bradenton,207, FL,6.02,245.0
+104,Johnstown,209, PA,6.0,198.0
+105,Orange,211, TX,5.1,180.0
+106,Washington,213, DC,6.02,225.0
+107,Fort Wayne,215, IN,6.03,268.0
+108,Toledo,217, OH,6.0,225.0
+109,Danville,219, KY,5.07,165.0
+110,New Orleans,221, LA,5.11,185.0
+112,Seaside,225, CA,5.09,190.0
+114,Waterloo,229, IA,6.0,206.0
+115,Montgomery,231, AL,6.0,240.0
+117,Fort Worth,235, TX,5.09,196.0
+118,Chicoutimi,237, QC,6.0,204.0
+119,Rutherford County,239, NC,6.06,315.0
+120,Viking,241, AB,6.04,295.0
+122,Winnipeg,245, MB,5.09,189.0
+123,Stoney Creek,247, ON,5.11,205.0
+124,Charlesborough,249, QC,6.04,305.0
+125,Ottawa,251, ON,6.06,300.0
+126,Toronto,253, ON,6.06,300.0
+130,Montreal,261, QC,5.11,208.0
+131,Ottawa,263, ON,6.01,240.0
+132,Kelowna,265, BC,6.0,188.0
+133,Tupelo,267, MS,6.01,236.0
+134,Detroit,269, MI,5.1,203.0
+135,Montreal,271, QC,6.04,289.0
+136,Brooklyn,273, NY,6.03,275.0
+137,Houston,275, TX,6.01,242.0
+138,San Diego,277, CA,5.11,198.0
+139,Okeechobee,279, FL,5.11,223.0
+140,Tyler,281, TX,5.08,186.0
+141,Richmond,283, BC,6.01,196.0
+142,Montreal,285, QC,6.0,200.0
+144,Houston,289, TX,5.08,170.0
+145,Chicago,291, IL,6.03,220.0
+146,Compton,293, CA,5.1,209.0
+147,Houston,295, TX,6.04,225.0
+148,Guelph,297, ON,6.01,220.0
+149,Harriman,299, TN,6.02,205.0
+150,Thomasville,301, GA,5.11,180.0
+151,San Francisco,303, CA,5.1,205.0
+153,Oakville,307, ON,6.04,302.0
+154,Toronto,309, ON,6.01,220.0
+155,Montreal,311, QC,6.02,215.0
+156,Edmonton,313, AB,6.01,203.0
+157,Montreal,315, QC,6.03,245.0
+158,Stone Mountain,317, GA,5.11,179.0
+159,Windsor,319, ON,6.03,255.0
+160,Vancouver,321, BC,6.02,200.0
+161,Toronto,323, ON,6.03,249.0
+162,Kingston,325, ON,6.04,262.0
+163,Scarborough,327, ON,6.02,280.0
+164,South Holland,329, IL,5.1,180.0
+165,Winnipeg,331, MB,5.11,185.0
+166,Montreal,333, QC,6.03,338.0
+169,Detroit,339, MI,6.01,204.0
+170,Los Angeles,341, CA,5.11,199.0
+171,Panama,343, FL,6.04,255.0
+172,Miami,345, FL,5.08,183.0
+173,Cleveland,347, OH,5.11,180.0
+174,Toronto,349, ON,5.1,216.0
+175,Trotwood,351, OH,6.01,203.0
+176,Miami,353, FL,6.03,190.0
+178,Honolulu,357, HI,6.01,200.0
+179,Memphis,359, TN,5.11,184.0
+180,Cleveland,361, OH,6.03,255.0
+181,Alexandria,363, VA,6.0,195.0
+182,Detroit,365, MI,6.05,308.0
+184,Mobile,369, AL,6.0,190.0
+185,Clinton,371, NC,6.02,275.0
+186,Montclair,373, CA,5.06,177.0
+187,Toms River,375, NJ,5.07,184.0
+188,Greensville,377, MS,5.08,189.0
+189,Orlando,379, FL,6.05,285.0
+190,Goldsboro,381, NC,6.05,311.0
+191,Happy Camp,383, CA,6.03,214.0
+192,Pahokee,385, FL,5.11,216.0
+193,Richmond,387, VA,6.01,202.0
+195,Richmond,391, IN,6.05,315.0
+196,Miami,393, FL,5.08,165.0
+197,Ajax,395, ON,6.04,222.0
+198,Brawley,397, CA,6.01,235.0
+199,Richmond,399, BC,6.01,305.0
+200,Montreal,401, QC,6.02,251.0
+203,Montreal,407, QC,6.01,200.0
+204,Ottawa,409, ON,5.09,180.0
+206,Kilkenny,413, IE,5.1,183.0
+207,Kingston,415, ON,6.0,235.0
+208,Burlington,417, ON,6.02,285.0
+209,Melfort,419, SK,6.04,293.0
+210,Maple Ridge,421, BC,6.02,215.0
+211,Delta,423, BC,6.01,216.0
+212,Little Rock,425, AR,6.05,317.0
+213,Kingston,427, ON,6.02,237.0
+214,Hudson,429, QC,6.0,199.0
+215,Montreal,431, QC,6.03,300.0
+216,McKeesport,433, PA,5.08,175.0
+218,Chicago,437, IL,6.01,212.0
+219,Detroit,439, MI,5.11,198.0
+221,Beaumont,443, TX,5.09,180.0
+223,San Diego,447, CA,6.0,177.0
+225,Long Beach,451, CA,6.01,200.0
+226,Fort Worth,453, TX,6.02,199.0
+227,San Francisco,455, CA,6.02,180.0
+228,Jacksonville Beach,457, FL,6.05,277.0
+229,Allentown,459, PA,6.0,204.0
+230,Oakland,461, CA,6.0,215.0
+231,Newnan,463, GE,6.0,205.0
+233,Los Angeles,467, CA,5.08,285.0
+234,Chicago,469, IL,5.09,185.0
+235,San Antonio,471, TX,6.02,218.0
+237,Mart,475, TX,5.09,171.0
+239,Haliburton,479, ON,5.08,205.0
+240,Nashville,481, TN,6.05,315.0
+241,Philadelphia,483, PA,6.02,215.0
+242,Hamilton,485, ON,6.02,241.0
+245,Durham,491, NC,6.04,280.0
+247,Natichitoches,495, LA,6.02,230.0
+248,Fort Qu'Appelle,497, SK,6.0,187.0
+250,Collingwood,501, ON,6.03,225.0
+251,Tyndall,503, SD,5.08,205.0
+252,Montr?al,505, QC,5.11,205.0
+253,Sault Ste. Marie,507, ON,6.03,319.0
+254,Birmingham,509, AL,5.11,192.0
+255,Kingston,511, ON,6.03,285.0
+256,Ottawa,513, ON,6.02,190.0
+257,College Park,515, GA,6.02,255.0
+258,North Vancouver,517, C-B/BC,6.04,240.0
+259,Fort Erie,519, ON,6.03,308.0
+261,Winnipeg,523, MB,6.03,230.0
+262,Montreal,525, QC,6.03,200.0
+263,Fabreville,527, QC,6.04,250.0
+264,Baton Rouge,529, LA,6.03,266.0
+265,North Little Rock,531, AR,6.03,295.0
+266,Regina,533, SK,6.02,227.0
+267,London,535, ON,6.03,285.0
+268,Windsor,537, ON,6.06,283.0
+269,West Palm Beach,539, FL,6.0,195.0
+270,DeSoto,541, TX,6.02,225.0
+271,Montgomery,543, PA,5.09,190.0
+275,Tulsa,551, OK,5.07,163.0
+277,Heidelberg,555, GER,6.04,205.0
+279,Chicago,559, IL,5.11,185.0
+280,Durham,561, NC,6.06,335.0
+281,Gainesville,563, FL,6.0,205.0
+282,Baytown,565, TX,6.0,219.0
+283,Waco,567, TX,6.02,203.0
+284,Baltimore,569, MD,6.0,180.0
+285,Syracuse,571, NY,6.03,215.0
+286,Vancouver,573, BC,6.05,295.0
+287,LaPlace,575, LA,5.11,186.0
+290,Lawrence,581, MD,6.07,288.0
+291,Ellwood City,583, PA,6.06,295.0
+292,Chicago,585, IL,5.11,181.0
+293,Oklahoma City,587, OK,6.04,305.0
+294,Compton,589,CA,5.11,185.0
+295,Georgetown,591, TX,6.03,222.0
+297,Morgan City,595, LA,6.0,197.0
+298,Houston,597, TX,5.11,175.0
+300,Kingston,601, JM,6.02,245.0
+301,Vancouver,603, BC,6.03,215.0
+302,Montreal,605, QC,6.0,205.0
+303,Ottawa,607, ON,6.03,298.0
+304,Ashtown Kusami,609, GH,6.0,240.0
+305,Brantford,611, ON,6.06,317.0
+306,Accra,613, GH,5.1,204.0
+307,North Vancouver,615, BC,5.1,205.0
+308,Kinshasa,617, Zaire,6.06,360.0
+309,Kingston,619, ON,6.02,222.0
+310,Ste Foy,621, QC,6.0,302.0
+311,Mississauga,623, ON,6.03,228.0
+312,Mardel Plata,625, AR,6.02,235.0
+314,Montreal,629, QC,6.03,270.0
+315,Sherbrooke,631, QC,6.05,302.0
+317,Chambly,635, QC,6.03,245.0
+318,Burlington,637, ON,5.1,194.0
+319,Myslenice,639, PL,6.02,198.0
+320,Belleville,641, ON,6.03,225.0
+323,Miami,647, FL,6.03,248.0
+324,Manchester,649, JM,5.09,178.0
+328,Cleveland,657, OH,5.09,185.0
+329,Milwaukee,659, WI,6.01,190.0
+330,St. Louis,661, MO,6.03,195.0
+332,Oakland,665, CA,6.03,280.0
+333,Boynton Beach,667, FL,5.11,199.0
+334,Jackson,669, MS,6.01,210.0
+335,Akron,671, OH,6.03,285.0
+339,Tyler,679, TX,5.1,221.0
+340,Dallas,681, TX,6.04,260.0
+341,Evansville,683, IN,6.02,225.0
+343,Iowa City,687, IA,6.02,259.0
+344,Selma,689, AL,6.01,210.0
+345,Eunice,691, LA,6.03,222.0
+347,Oakland,695, CA,5.1,190.0
+348,Rialto,697, CA,6.01,196.0
+349,Hampton,699, VA,5.08,177.0
+351,Gulfport,703, MS,6.05,275.0
+352,Montreal,705, QC,5.09,185.0
+353,Quebec City,707, QC,6.03,300.0
+355,Tacoma,711, WA,6.02,210.0
+356,Los Angeles,713, CA,5.09,190.0
+358,Stockton,717, CA,6.04,310.0
+359,Sherwood Park,719, AB,6.02,260.0
+360,Camden,721, NJ,5.08,205.0
+361,Ottawa,723, ON,6.03,300.0
+362,Welland,725, ON,6.04,290.0
+364,Calgary,729, AB,6.06,295.0
+365,Québec,731, QC,6.03,275.0
+366,Hampton,733, VA,6.02,235.0
+367,Beirut,735, LB,6.02,291.0
+368,Repentigy,737, QC,5.11,185.0
+369,Liberty,739, SK,6.04,295.0
+370,Detroit,741, MI,5.1,217.0
+371,Regina,743, SK,6.0,192.0
+372,Scarborough,745, ON,6.02,189.0
+373,Stony Creek,747, ON,6.0,197.0
+375,New Smyrna Beach,751, FL,6.03,210.0
+377,Sherwood Park,755, AB,6.03,225.0
+379,Kingston,759, ON,6.04,265.0
+380,Mallorytown,761, ON,6.03,260.0
+381,Toronto,763, ON,6.03,224.0
+382,Medicene Hat,765, AB,5.1,210.0
+383,Regina,767, SK,5.1,208.0
+384,Wingate,769, NC,6.01,195.0
+385,Franklin,771, IN,6.03,209.0
+386,Jacksboro,773, TX,5.1,240.0
+387,New Orleans,775, LA,5.04,160.0
+388,New Orleans,777, LA,6.02,225.0
+391,Inglewood,783, CA,5.1,205.0
+393,Mississauga,787, ON,6.02,209.0
+394,Lucedale,789, MS,6.02,262.0
+395,Costa Mesa,791, CA,6.04,241.0
+396,Brooklyn,793, NY,5.11,190.0
+397,Inglewood,795, CA,5.11,185.0
+398,Tampa Bay,797, FL,5.08,177.0
+399,Manchester,799, MD,5.09,190.0
+401,Ponchatoula,803, LA,5.08,198.0
+402,Burlington,805, ON,6.04,305.0
+403,Washington,807, DC,6.06,276.0
+406,Port Arthur,813, TX,5.09,170.0
+409,Oakland,819, CA,6.03,270.0
+410,Kamloops,821, BC,6.0,220.0
+411,Channelview,823, TX,6.03,308.0
+412,Chicago,825, IL,5.11,205.0
+417,Miami,835, FL,5.07,175.0
+418,Rockford,837, IL,5.11,203.0
+419,Miami,839, FL,6.05,300.0
+420,Baton Rouge,841, LA,6.06,335.0
+421,Clanton,843, AL,6.05,322.0
+422,South Jordan,845, UT,6.02,194.0
+424,Surrey,849, BC,6.01,227.0
+425,Meridian,851, MS,6.02,255.0
+426,Plaster Rock,853, NB,6.01,205.0
+427,Regina,855, SK,6.03,210.0
+428,Saltspring,857, BC,6.04,300.0
+429,Nassau,859, BS,6.02,300.0
+430,Lethbridge,861, AB,6.03,235.0
+431,Saskatoon,863, SK,6.01,229.0
+432,Victoria,865, BC,6.01,228.0
+433,Sainte-Justine,867, QC,6.02,220.0
+434,Hamilton,869, ON,6.02,297.0
+435,Gatineau,871, QC,6.0,214.0
+436,Thorsby,873, AB,6.0,220.0
+437,Victoria,875, BC,6.08,312.0
+439,Toronto,879, ON,6.03,261.0
+440,Victoria,881, BC,6.03,305.0
+442,Lethbridge,885, AB,6.03,235.0
+443,Montreal,887, QC,6.02,280.0
+445,Scarborough,891, ON,6.05,245.0
+446,Edmonton,893, AB,6.0,210.0
+447,Saskatoon,895, SK,6.03,285.0
+448,Vancouver,897, BC,6.01,195.0
+449,Toronto,899, ON,6.03,203.0
+450,Elk Grove Village,901, IL,6.01,225.0
+451,Hamilton,903, ON,5.1,208.0
+452,Raymond,905, AB,5.1,175.0
+453,Regina,907, SK,6.02,270.0
+454,Winnipeg,909, MB,5.11,170.0
+455,Cambridge,911, ON,5.09,199.0
+457,Alexandria,915, ON,5.11,180.0
+459,Edmonton,919, AB,6.03,252.0
+461,Flint,923, MI,6.04,240.0
+463,Miami,927, FL,6.02,223.0
+464,Boise,929, ID,5.11,174.0
+465,Seattle,931, WA,5.1,195.0
+466,Bensalem,933, PA,6.02,215.0
+467,Carson,935, CA,6.02,290.0
+469,Atlanta,939, GE,5.11,180.0
+470,Wheaton,941, IL,6.04,213.0
+472,Bronx,945, NY,6.05,260.0
+473,Bethel,947, NC,6.01,234.0
+474,Cleveland,949, OH,5.11,205.0
+480,Beaumont,961, TX,6.04,211.0
+481,Hamilton,963, ON,6.02,215.0
+483,Ottawa,967, ON,6.04,305.0
+484,Monterey Park,969, CA,5.08,196.0
+485,Ottawa,971, ON,6.05,285.0
+486,Edmonton,973, AB,6.02,185.0
+489,Coquitlam,979, BC,6.03,215.0
+491,Ottawa,983, ON,6.03,270.0
+494,Winston Salem,989, NC,6.01,202.0
+495,Etobicoke,991, ON,6.02,302.0
+502,Thunder Bay,1005, ON,6.03,210.0
+506,Windsor,1013, ON,6.02,203.0
+510,Indianola,1021, MS,6.04,221.0
+514,Waterloo,1029, ON,6.0,180.0
+517,Mobile,1035, AL,5.1,191.0
+519,Tennville,1039, GE,5.11,215.0
+524,Seattle,1049, WA,5.11,195.0
+526,Calgary,1053, AB,6.03,240.0
+527,Burnaby,1055, BC,5.11,197.0
+528,Norco,1057, LA,6.01,222.0
+529,Dallas,1059, TX,5.11,173.0
+530,Boltoro,1061, TD,6.01,205.0
+531,Dallas,1063, TX,5.11,196.0
+532,Louisville,1065, MS,5.1,180.0
+533,San Diego,1067, CA,5.1,184.0
+534,Lumberton,1069, NC,6.02,230.0
+535,Saskatoon,1071, SK,5.1,190.0
+536,Washington,1073, DC,5.1,180.0
+538,Los Angeles,1077, CA,6.04,240.0
+539,Shreveport,1079, LA,6.02,265.0
+540,Westerville,1081, OH,6.01,234.0
+541,Euless,1083, TX,5.09,198.0
+546,Seattle,1093, WA,6.03,257.0
+547,Jonesboro,1095, GA,6.04,205.0
+548,Chicago,1097, IL,6.03,215.0
+549,Omaha,1099, NE,6.01,200.0
+550,Regina,1101, SK,5.1,210.0
+551,Scarborough,1103, ON,6.0,189.0
+552,Mbabane,1105, Swaziland,6.04,225.0
+553,Omaha,1107, NE,6.0,220.0
+554,Columbia,1109, SC,6.03,238.0
+556,Kamloops,1113, BC,6.01,209.0
+557,Chilliwack,1115, BC,6.02,210.0
+558,Belleville,1117, ON,6.03,226.0
+559,Raymond,1119, AB,6.04,218.0
+560,Moose Jaw,1121, SK,5.1,200.0
+561,Montreal,1123, QC,6.0,196.0
+562,Norland,1125, ON,5.1,216.0
+563,St. Thomas,1127, ON,5.07,168.0
+564,La Tuque,1129, QC,5.1,199.0
+565,Edmonton,1131, AB,5.1,210.0
+566,Sainte-Foy,1133, QC,6.02,302.0
+567,Saskatoon,1135, SK,6.05,310.0
+568,Smith Falls,1137, ON,6.03,296.0
+569,Newmarket,1139, ON,6.07,287.0
+570,Atlanta,1141, GA,5.08,180.0
+571,Winnipeg,1143, MB,6.05,305.0
+572,Regina,1145, SK,6.02,289.0
+573,Burlington,1147, ON,6.05,295.0
+574,Sarnia,1149, ON,6.02,283.0
+575,Great Falls,1151, MT,6.04,240.0
+576,St-Augustin,1153, QC,6.0,216.0
+577,Port Moody,1155, BC,5.11,233.0
+578,Toronto,1157, ON,6.0,215.0
+579,Drummondville,1159, QC,6.0,212.0
+580,Windsor,1161, ON,6.01,238.0
+581,Winnipeg,1163, MB,5.1,226.0
+582,Kitchener,1165, ON,6.02,237.0
+583,Medicine Hat,1167, AB,6.07,306.0
+584,Calgary,1169, AB,6.01,236.0
+585,Calahoo,1171, AB,6.02,287.0
+586,Brampton,1173, ON,6.07,276.0
+587,Lake Village,1175, AR,5.11,185.0
+588,San Francisco,1177, CA,6.05,300.0
+590,Ottawa,1181, ON,6.01,253.0
+591,Montréal,1183, QC,5.09,190.0
+592,Edmonton,1185, AB,6.01,205.0
+593,London,1187, ON,6.01,200.0
+594,Buffalo,1189, NY,5.11,178.0
+595,Toronto,1191, ON,6.0,197.0
+596,Vancouver,1193, WA,6.03,250.0
+597,Vancouver,1195, BC,5.09,200.0
+598,Monroe,1197, LA,5.11,180.0
+599,Mission Viejo,1199, CA,5.09,175.0
+600,Ottawa,1201, ON,6.05,280.0
+601,Oakland,1203, CA,6.01,210.0
+602,Lake Butler,1205, FL,6.04,270.0
+603,Mobile,1207, AL,5.11,190.0
+605,Tallahassee,1211, FL,6.06,315.0
+607,Truckee,1215, CA,5.09,218.0
+608,Quebec City,1217, QC,6.03,240.0
+609,Bradenton,1219, FL,6.01,230.0
+610,Thomasville,1221, GE,6.01,270.0
+611,Calgary,1223, AB,6.0,215.0
+612,Georgetown,1225, GY,5.11,185.0
+613,Orlando,1227, FL,6.02,200.0
+614,Marshall,1229, TX,6.0,210.0
+615,Vancouver,1231, BC,6.05,275.0
+616,Burlington,1233, ON,6.03,194.0
+617,St. Hippolyte,1235, QC,6.03,253.0
+618,Lethbridge,1237, AB,6.03,244.0
+619,Riverview,1239, NB,6.0,210.0
+620,Vancouver,1241, BC,6.05,325.0
+621,Niagara Falls,1243, ON,5.1,190.0
+622,Edmonton,1245, AB,6.06,285.0
+623,Taber,1247, AB,6.07,320.0
+624,Regina,1249, SK,6.04,295.0
+625,Longueuil,1251, QC,6.04,295.0
+626,Gatineau,1253, QC,6.04,206.0
+627,New Westminster,1255, BC,6.0,219.0
+628,Montreal,1257, QC,6.0,217.0
+629,Laval,1259, QC,5.09,185.0
+630,Scarbrough,1261, ON,5.1,205.0
+631,Oklahoma City,1263, OK,5.09,158.0
+632,Waterloo,1265, ON,5.1,190.0
+633,Windsor,1267, ON,6.06,315.0
+634,Toronto,1269, ON,6.04,300.0
+635,Toronto,1271, ON,6.03,198.0
+636,Calgary,1273, AB,5.11,190.0
+637,Montreal,1275, QC,6.04,300.0
+638,Lethbridge,1277, AB,6.0,225.0
+639,Windsor,1279, ON,5.1,185.0
+641,Knoxville,1283, TN,5.09,188.0
+642,Norfolk,1285, VA,5.11,205.0
+643,East Cleveland,1287, OH,6.04,258.0
+644,Los Angeles,1289, CA,6.02,204.0
+645,Plainfield,1291, NJ,5.07,205.0
+646,Laconia,1293, NH,6.01,230.0
+647,St. Paul,1295, MN,6.01,205.0
+648,New Orleans,1297, LA,6.01,205.0
+649,Atlanta,1299, GE,5.1,185.0
+650,Freeport,1301, TX,5.1,160.0
+651,Miami,1303, FL,6.02,230.0
+652,Hamilton,1305, ON,6.01,225.0
+653,Waterdown,1307, ON,6.0,218.0
+654,West Palm Beach,1309, FL,6.02,200.0
+655,Galveston,1311, TX,6.06,332.0
+656,Bradenton,1313, FL,5.11,185.0
+657,Fayetteville,1315, NC,6.03,210.0
+659,Washington,1319, DC,5.11,192.0
+660,Hollywood,1321, FL,6.04,265.0
+661,Kansas City,1323, MO,6.02,260.0
+662,Miami,1325, FL,6.0,180.0
+663,Dallas,1327, TX,6.01,240.0
+664,Riverside,1329, CA,6.0,214.0
+665,Woodbury,1331, MN,5.11,215.0
+666,Pasadena,1333, CA,6.0,236.0
+667,Spokane,1335, WA,6.01,200.0
+668,Niagara Falls,1337, ON,5.1,225.0
+669,Regina,1339, SK,5.11,220.0
+670,Montréal,1341, QC,6.03,248.0
+672,Magnolia,1345, AR,6.04,270.0
+673,Yorkton,1347, SK,5.1,254.0
+674,Helena,1349, MT,6.02,205.0
+675,Tehran,1351, IR,5.09,177.0
+676,Tuskegee,1353, AL,5.11,188.0
+678,Houston,1357, TX,5.09,180.0
+679,Surrey,1359, BC,6.04,300.0
+680,Waterloo,1361, ON,5.09,195.0
+681,San Clemente,1363, CA,6.02,214.0
+682,New Maryland,1365, NB,6.03,230.0
+683,LaGrange,1367, GA,5.1,190.0
+684,Las Vegas,1369, NV,6.04,220.0
+685,Gainsville,1371, GE,5.08,190.0
+686,Wharton,1373, TX,6.0,180.0
+687,Lebanon,1375, OH,6.06,318.0
+689,Honolulu,1379, HI,6.01,245.0
+690,Independance,1381, KS,6.02,248.0
+691,Guelph,1383, ON,6.04,305.0
+692,Markham,1385, ON,5.09,220.0
+693,Kansas City,1387, MS,6.02,220.0
+694,North Vancouver,1389, BC,6.05,300.0
+695,Whitby,1391, ON,6.02,238.0
+696,Trenton,1393, NJ,5.11,206.0
+697,Columbia,1395, SC,5.11,188.0
+699,Laval,1399, QC,6.02,200.0
+700,Tennville,1401, GA,6.01,185.0
+701,Laval,1403, QC,6.0,215.0
+702,Belton,1405, SC,6.01,233.0
+703,Bishopville,1407, SC,6.0,220.0
+704,Houston,1409, TX,5.11,196.0
+705,New Orleans,1411, LA,5.09,182.0
+706,Port Arthur,1413, TX,6.0,206.0
+707,Opelika,1415, AL,5.08,205.0
+708,Aloha,1417, OR,5.11,205.0
+709,Toronto,1419, ON,5.1,175.0
+710,Atlanta,1421, GA,5.11,169.0
+711,Tarpon Springs,1423, FL,5.1,188.0
+712,Delray Beach,1425, FL,5.09,170.0
+713,Detroit,1427, MI,6.0,182.0
+714,Haywood,1429, CA,5.09,180.0
+715,Jonesboro,1431, LA,6.02,193.0
+716,Huntington Beach,1433, CA,5.09,165.0
+717,Starke,1435, FL,6.01,176.0
+719,Boynton Beach,1439, FL,6.02,235.0
+720,Berbice,1441, GY,6.02,230.0
+721,Augusta,1443, GA,6.05,320.0
+722,Brooklyn,1445, NY,6.01,210.0
+723,Houston,1447, TX,5.09,192.0
+724,Salt Lake City,1449, UT,6.03,225.0
+725,Dallas,1451, TX,5.11,205.0
+726,Zachary,1453, LA,5.1,205.0
+727,New Orleans,1455, LA,6.02,215.0
+728,Atlanta,1457, GA,6.03,215.0
+729,Denver,1459, CO,6.02,219.0
+730,Little Rock,1461, AR,6.01,200.0
+731,New Orleans,1463, LA,6.0,190.0
+732,Los Angeles,1465, CA,6.0,190.0
+733,Newark,1467, NJ,6.0,210.0
+734,Orange,1469, TX,6.0,197.0
+735,McComb,1471, MS,6.01,195.0
+736,Birmingham,1473, AL,6.0,180.0
+737,San Antonio,1475, TX,6.05,255.0
+738,San Antonio,1477, TX,6.04,265.0
+739,St. Petersburg,1479, FL,5.11,182.0
+740,London,1481, ON,6.02,196.0
+741,Winnipeg,1483, MB,6.03,222.0
+742,Lennox,1485, SD,5.11,180.0
+743,Pittsburgh,1487, PA,6.0,205.0
+744,Los Angeles,1489, CA,6.03,215.0
+745,West Palm Beach,1491, FL,6.0,195.0
+746,La Grange,1493, TX,6.0,242.0
+747,Montreal,1495, QC,6.04,275.0
+748,Jasper,1497, TX,5.11,190.0
+749,Pascagoula,1499, MS,5.11,192.0
+750,Edmonton,1501, AB,6.0,210.0
+751,Sault Ste. Marie,1503, MI,6.02,284.0
+752,Newport News,1505, VA,6.01,267.0
+754,Frankfurt,1509, DE,6.06,313.0
+755,Meriden,1511, CT,5.07,180.0
+756,Louisville,1513, KY,6.0,210.0
+758,Flintoft,1517, SK,6.06,257.0
+759,St. Louis,1519, MO,6.05,265.0
+760,Fort Worth,1521, TX,5.1,173.0
+761,Rockingham,1523, NC,6.04,210.0
+762,Dallas,1525, TX,5.07,190.0
+763,Aurora,1527, CO,5.09,170.0
+764,Lee's Summit,1529, MO,5.08,201.0
+765,Metarie,1531, LA,6.01,205.0
+766,Portland,1533, OR,6.01,180.0
+768,Brantford,1537, ON,5.09,175.0
+769,New Orleans,1539, LA,6.02,192.0
+770,Fairfield,1541, AL,6.0,245.0
+771,Florence,1543, SC,5.11,214.0
+772,Irvine,1545, CA,6.0,210.0
+773,Hyattsville,1547, MD,6.02,195.0
+774,Eden,1549, NC,6.02,238.0
+775,St. Anne's,1551, JM,6.0,222.0
+776,Oxford,1553, MI,6.03,206.0
+777,White Rock,1555, BC,6.02,240.0
+778,San Antonio,1557, TX,5.1,215.0
+780,Edmonton,1561, AB,6.04,275.0
+781,Tyler,1563, TX,6.01,225.0
+782,Yosemite,1565, CA,5.1,215.0
+783,Columbus,1567, OH,5.09,185.0
+784,Greenfield Park,1569, QC,6.03,260.0
+785,Sacramento,1571, CA,6.01,195.0
+786,Clinton,1573, MD,6.07,340.0
+787,Gardena,1575, CA,5.07,188.0
+788,Memphis,1577, TN,5.1,194.0
+789,Macon,1579, GA,5.1,190.0
+790,Alvin,1581, SC,5.11,250.0
+791,Silver Spring,1583, MD,6.0,185.0
+792,Pasadena,1585, CA,6.0,199.0
+793,Fairburn,1587, GA,5.09,188.0
+794,Mariette,1589, GA,6.0,227.0
+795,Miami,1591, FL,6.0,225.0
+796,Fayetteville,1593, NC,5.11,185.0
+797,Chattanooga,1595, TN,6.03,217.0
+798,Palmetto,1597, FL,5.07,180.0
+799,Emmetsburg,1599, IA,6.03,242.0
+800,Surrey,1601, BC,6.03,230.0
+801,Detroit,1603, MI,5.09,190.0
+802,Dallas,1605, TX,6.04,222.0
+803,Osaka,1607, JP,6.03,279.0
+805,New Westminster,1611, BC,6.07,307.0
+806,Jacksonville Beach,1613, FL,6.02,227.0
+807,Toronto,1615, ON,6.0,185.0
+808,Salisbury,1617, NC,5.11,203.0
+809,Gainesville,1619, GA,5.1,190.0
+810,Waterloo,1621, IA,6.04,239.0
+811,Kingston,1623, JM,5.11,165.0
+812,Gorlovka,1625, UA,6.3,320.0
+813,Denver,1627, CO,6.3,265.0
+814,Montreal,1629, QC,6.04,224.0
+815,London,1631, ON,6.3,295.0
+816,Hampton,1633, VA,6.1,264.0
+817,Artesia,1635, CA,5.8,165.0
+818,Tampa,1637, FL,6.2,262.0
+819,San Diego,1639, CA,6.1,172.0
+820,Port-au-Prince,1641, HT,6.02,190.0
+822,Vallejo,1645, CA,6.02,251.0
+823,Nashville,1647, TN,6.05,320.0
+825,Chino Hills,1651, Califfornia,5.1,190.0
+826,Muncie,1653, IN,6.01,235.0
+827,San Diego,1655, CA,5.11,218.0
+828,Fort Wayne,1657, IN,5.08,170.0
+829,San Diego,1659, CA,6.03,235.0
+830,New Westminster,1661, BC,6.01,210.0
+831,Chicago,1663, IL,6.02,300.0
+832,Miami,1665, FL,6.02,255.0
+833,Geneva,1667, NY,6.07,290.0
+834,Clark AFB,1669, PH,5.11,180.0
+835,Morris,1671, MN,6.02,230.0
+837,Kinston,1675, NC,5.1,184.0
+839,Winston-Salem,1679, NC,6.03,210.0
+841,Lakewood,1683, NJ,6.04,242.0
+842,Birmingham,1685, AL,6.01,210.0
+843,Miami,1687, FL,6.0,180.0
+844,Dallas,1689, TX,5.1,175.0
+845,Houston,1691, TX,5.11,185.0
+846,Jacksonville,1693, FL,6.01,200.0
+847,Eden Mills,1695, ON,6.02,197.0
+848,Denison,1697, TX,6.03,280.0
+849,Buffalo,1699, NY,6.06,318.0
+850,Beirut,1701, LB,5.11,228.0
+851,Stoneham,1703, MA,5.1,204.0
+852,Montreal,1705, QC,6.0,196.0
+853,Monroe,1707, LA,6.0,198.0
+854,Brooklyn,1709, NY,6.01,240.0
+855,Vancouver,1711, BC,6.01,205.0
+856,New Orleans,1713, LA,6.02,180.0
+857,Brooklyn,1715, NY,6.03,250.0
+860,Brooklyn,1721, NY,6.04,266.0
+863,Atlanta,1727, GA,6.0,195.0
+864,Richmond,1729, CA,5.11,225.0
+865,Oak Harbor,1731, WA,5.09,178.0
+866,Lindsay,1733, CA,6.01,220.0
+867,Los Angeles,1735, CA,6.0,190.0
+871,Chicago,1743, IL,6.02,235.0
+872,Calgary,1745, AB,6.04,188.0
+873,Medford,1747, NY,5.1,235.0
+874,New Orleans,1749, LA,5.09,183.0
+875,Trois-Rivieres,1751, QC,5.11,183.0
+876,Youngstown,1753, OH,5.09,190.0
+877,Belleville,1755, IL,6.02,190.0
+878,Baytown,1757, TX,6.0,183.0
+879,Rockledge,1759, FL,6.01,195.0
+880,Rayville,1761, LA,6.01,180.0
+881,Las Vegas,1763, NV,6.01,211.0
+882,Newark,1765, NJ,6.05,320.0
+883,Romulus,1767, MI,5.08,190.0
+885,Detroit,1771, MI,6.06,325.0
+886,Detroit,1773, MI,6.02,225.0
+887,Pittsburgh,1775, PA,6.05,320.0
+888,East Chicago,1777, IL,6.02,239.0
+890,Beaumont,1781, TX,6.02,235.0
+891,Richmond,1783, MI,6.02,200.0
+892,Dallas,1785, TX,6.05,220.0
+894,Monroe,1789, MI,6.04,300.0
+895,Port Coquitlam,1791, BC,5.11,230.0
+896,Mesquite,1793, TX,5.08,179.0
+897,St. Louis Park,1795, MN,5.11,185.0
+898,Paicoma,1797, CA,5.09,190.0
+899,Libreville,1799, GA,6.02,238.0
+900,Rockland County,1801, NY,5.11,191.0
+901,Cave Spring,1803, GA,6.02,286.0
+902,Dundas,1805, ON,6.01,200.0
+903,Harrodsburg,1807, KY,6.05,215.0
+904,Bridgeport,1809, CT,5.1,205.0
+905,Cheverly,1811, MD,6.0,198.0
+908,Quincy,1817, FL,6.0,209.0
+911,Akwa-Ibom,1823, NG,6.06,282.0
+912,London,1825, ON,5.1,195.0
+914,Edmonton,1829, AB,5.1,202.0
+915,New York,1831, NY,6.03,210.0
+918,Columbus,1837, OH,5.09,178.0
+920,Montr?al,1841, QC,5.1,183.0
+921,Nepean,1843, ON,6.02,225.0
+922,Canton,1845, OH,6.04,290.0
+923,Pomona,1847, CA,6.01,210.0
+924,St. Hubert,1849, QC,6.04,296.0
+925,Hereford,1851, TX,6.02,210.0
+926,Tempe,1853, AZ,6.04,225.0
+927,Dayton,1855, OH,5.1,178.0
+928,Reseda,1857, CA,6.0,190.0
+929,Monroe,1859, MI,6.0,182.0
+930,Youngstown,1861, OH,5.1,199.0
+932,Compton,1865, CA,5.09,185.0
+933,Durham,1867, NC,5.11,194.0
+934,Boynton Beach,1869, FL,5.11,188.0
+935,Mozambique,1871, East CF,6.02,200.0
+936,Miami,1873, FL,5.1,195.0
+937,Montréal,1875, QC,6.04,270.0
+938,El Paso,1877, TX,6.0,235.0
+939,Fountain Valley,1879, CA,5.11,215.0
+940,Cochrane,1881, AB,6.03,200.0
+941,Del Ray Beach,1883, FL,5.1,192.0
+943,Spanish Town,1887, JM,5.11,188.0
+944,Hastings,1889, NE,6.03,220.0
+945,New Orleans,1891, LA,6.0,188.0
+946,Edmonton,1893, AB,5.11,220.0
+947,Ottawa,1895, ON,6.02,214.0
+948,Montreal,1897, QC,6.0,205.0
+949,Mobile,1899, AB,6.02,266.0
+950,Sarnia,1901, ON,6.0,175.0
+953,Memphis,1907, TN,6.04,266.0
+954,Gainesville,1909, FL,6.0,228.0
+955,Philadelphia,1911, PA,5.1,200.0
+956,Keyport,1913, NJ,6.01,235.0
+957,Sumter,1915, SC,6.01,210.0
+958,Columbus,1917, OH,6.01,280.0
+959,Phoenix,1919, AZ,6.0,213.0
+960,Chicago,1921, IL,5.1,208.0
+961,Martinsville,1923, OH,6.03,300.0
+962,Fresno,1925, CA,6.03,300.0
+963,Vancouver,1927, BC,6.02,217.0
+966,Shreveport,1933, LA,5.11,185.0
+967,Los Angeles,1935, CA,6.0,198.0
+968,Los Angeles,1937, CA,5.09,222.0
+969,Tampa Bay,1939, FL,6.0,203.0
+970,Silver Spring,1941, MD,6.04,265.0
+971,Montego Bay,1943, JM,6.03,203.0
+972,Ottawa,1945, ON,5.1,196.0
+973,St. Hubert,1947, QC,5.1,196.0
+974,Mississauga,1949, ON,5.09,174.0
+975,Trois-Rivi?res,1951, QC,5.1,185.0
+976,Toronto,1953, ON,6.0,220.0
+977,Trois-Rivi?res,1955, QC,5.08,176.0
+978,Dartmouth,1957, NS,5.1,206.0
+979,Richmond,1959, BC,5.09,178.0
+980,Roxboro,1961, QC,6.02,195.0
+981,Ottawa,1963, ON,5.1,174.0
+982,Toronto,1965, ON,5.11,188.0
+983,Vancouver,1967, BC,6.0,187.0
+984,Vancouver,1969, BC,6.03,286.0
+985,Granby,1971, QC,6.0,280.0
+986,Fonthill,1973, ON,6.06,310.0
+987,Toronto,1975, ON,6.03,316.0
+988,Laval,1977, QC,6.04,273.0
+989,Hamilton,1979, ON,6.03,260.0
+990,London,1981, ON,6.03,289.0
+991,Pickering,1983, ON,6.01,220.0
+992,St-Georges de Beauce,1985, QC,6.01,235.0
+993,Kitchener,1987, ON,6.03,232.0
+994,Regina,1989, SK,5.11,195.0
+995,Regina,1991, SK,6.07,235.0
+996,Ottawa,1993, ON,5.1,196.0
+997,Mississauga,1995, ON,6.02,200.0
+998,Cleveland,1997, OH,5.09,190.0
+999,Regina,1999, SK,6.01,208.0
+1001,Toronto,2003, ON,6.04,220.0
+1002,Columbus,2005, GA,6.0,185.0
+1003,Ayr,2007, ON,5.09,176.0
+1004,Ottawa,2009, ON,5.1,166.0
+1005,Calgary,2011, AB,6.01,195.0
+1006,London,2013, ON,6.02,228.0
+1007,Kingston,2015, ON,6.0,192.0
+1008,Kenora,2017, ON,6.02,310.0
+1009,Vancouver,2019, BC,6.04,296.0
+1010,Regina,2021, SK,6.04,315.0
+1011,Edmonton,2023, AB,6.03,283.0
+1012,Ottawa,2025, ON,6.01,314.0
+1013,Whitby,2027, ON,6.03,261.0
+1014,Nanaimo,2029, BC,6.03,298.0
+1015,Vancouver,2031, BC,6.0,288.0
+1016,Gatineau,2033, QC,6.02,215.0
+1017,Quebec,2035, QC,5.1,205.0
+1018,Moose Jaw,2037, SK,5.11,199.0
+1019,Saint-Sauveur,2039, QC,6.02,230.0
+1020,Mississauga,2041, ON,5.1,195.0
+1021,Vancouver,2043, BC,6.0,215.0
+1022,Columbia,2045, SC,6.01,228.0
+1023,Berkeley,2047, CA,6.03,247.0
+1024,Charlotte,2049, NC,6.04,295.0
+1025,Madisonville,2051, KY,6.0,220.0
+1026,Mesquite,2053, TX,6.0,212.0
+1027,Waianae,2055, HI,6.03,267.0
+1028,Pittsburgh,2057, PA,6.02,210.0
+1029,Enid,2059, OK,5.1,173.0
+1030,Monroeville,2061, PA,6.01,167.0
+1031,Ft. Lauderdale,2063, FL,6.01,210.0
+1032,Albany,2065, GA,6.03,223.0
+1033,Chicago,2067, IL,6.0,220.0
+1034,Wheeling,2069, WV,5.1,185.0
+1035,Delray Beach,2071, FL,5.09,186.0
+1036,Decatur,2073, GE,6.01,195.0
+1037,Fort Wayne,2075, IN,6.03,212.0
+1038,Allentown,2077, PA,6.04,235.0
+1039,Somerville,2079, MA,6.02,205.0
+1040,Yakima,2081, WA,6.01,182.0
+1041,Vancouver,2083, BC,6.06,282.0
+1042,Beltville,2085, MD,6.03,230.0
+1043,Honolulu,2087, HI,6.02,207.0
+1044,Gainesville,2089, FL,5.08,165.0
+1045,Midland,2091, TX,5.09,169.0
+1046,Seattle,2093, WA,5.11,180.0
+1047,Anniston,2095, AL,6.04,241.0
+1048,Woodbridge,2097, IL,6.04,270.0
+1049,San Francisco,2099, CA,5.1,180.0
+1051,San Antonio,2103, TX,6.03,220.0
+1053,Montreal,2107, QC,6.02,250.0
+1056,Colquitt,2113, GE,6.03,215.0
+1057,Calgary,2115, AB,6.01,230.0
+1058,Windsor,2117, ON,6.05,221.0
+1059,Montreal,2119, QC,5.08,178.0
+1060,Winchester,2121, TN,6.02,309.0
+1061,Scarborough,2123, ON,6.06,247.0
+1062,LaSalle,2125, ON,6.07,307.0
+1063,Wichita Falls,2127, TN,6.04,265.0
+1064,Winnipeg,2129, MB,6.0,182.0
+1065,New Westminster,2131, BC,6.0,216.0
+1066,Muskogee,2133, OK,5.1,215.0
+1067,Accra,2135, GH,6.04,234.0
+1068,Coquitlam,2137, BC,6.05,295.0
+1070,LaSalle,2141, ON,6.01,280.0
+1071,Winnipeg,2143, MB,6.03,312.0
+1072,Oakville,2145, ON,6.02,247.0
+1074,Ajax,2149, ON,6.02,187.0
+1075,Etobicoke,2151, ON,6.05,275.0
+1076,Sault Ste. Marie,2153, ON,6.02,220.0
+1077,Sudbury,2155, ON,6.05,281.0
+1078,Toronto,2157, ON,6.0,245.0
+1079,Nanoose Bay,2159, BC,6.05,205.0
+1080,West Vancouver,2161, BC,6.01,220.0
+1081,Edmonton,2163, AB,6.04,301.0
+1082,Irving,2165, TX,6.04,210.0
+1083,New York,2167, NY,6.04,250.0
+1084,Lyn,2169, ON,6.03,275.0
+1085,Hilliard,2171, AK,6.06,300.0
+1086,Buffalo,2173, NY,6.06,305.0
+1087,Philadelphia,2175, PA,6.02,210.0
+1088,Fayetteville,2177, NC,6.04,277.0
+1089,Pittsburg,2179, CA,5.07,202.0
+1090,Louisville,2181, KY,5.1,220.0
+1091,Accra,2183, GH,6.03,250.0
+1092,Brush,2185, CO,6.06,220.0
+1093,St. Petersburg,2187, FL,5.1,193.0
+1094,New Orleans,2189, LA,5.11,187.0
+1095,Calgary,2191, AB,6.01,225.0
+1096,San Diego,2193, CA,6.03,220.0
+1097,Americus,2195, GA,6.04,255.0
+1098,Pacoima,2197, CA,6.03,210.0
+1099,Ottawa,2199, ON,6.0,235.0
+1100,Durham,2201, NC,6.02,220.0
+1101,Detroit,2203, MI,6.04,235.0
+1102,Ft. Pierce,2205, FL,5.1,200.0
+1103,Dallas,2207, TX,6.03,193.0
+1104,Hackensack,2209, NJ,6.03,250.0
+1105,Bakersfield,2211, CA,6.03,272.0
+1106,Dayton,2213, OH,5.1,177.0
+1107,Baltimore,2215, MD,6.03,193.0
+1108,Ottawa,2217, ON,6.03,236.0
+1109,Lansing,2219, MI,6.03,235.0
+1110,Fort Worth,2221, TX,6.03,295.0
+1111,Boyton Beach,2223, FL,5.09,185.0
+1112,Pontiac,2225, MI,6.02,208.0
+1113,Seoul,2227, KP,5.11,188.0
+1114,Springfield,2229, MO,5.09,170.0
+1115,Birmingham,2231, AL,6.03,213.0
+1116,Rome,2233, GA,6.01,190.0
+1117,Memphis,2235, TN,5.1,180.0
+1118,Hickory,2237, NC,6.0,190.0
+1119,Calgary,2239, AB,6.05,301.0
+1120,Toronto,2241, ON,6.04,266.0
+1121,Long Beach,2243, CA,6.01,200.0
+1122,Colorado Springs,2245, CO,5.11,190.0
+1123,Inverness,2247, FL,6.02,247.0
+1124,New Orleans,2249, LA,6.0,220.0
+1125,Houston,2251, TX,6.01,248.0
+1127,Grimsby,2255, ON,6.06,260.0
+1129,Midhurst,2259, ON,6.01,209.0
+1130,Nottingham,2261, UK,6.01,226.0
+1131,Sault Ste. Marie,2263, ON,6.02,215.0
+1132,Montreal,2265, QC,6.0,195.0
+1133,Los Angeles,2267, CA,5.1,180.0
+1134,Dallas,2269, TX,6.02,215.0
+1135,Long Beach,2271, CA,5.11,171.0
+1136,Seattle,2273, WA,5.09,190.0
+1137,Tampa,2275, FL,5.11,205.0
+1138,Cassatt,2277, SC,6.06,270.0
+1139,Nampa,2279, ID,6.01,185.0
+1140,Temple,2281, TX,6.01,211.0
+1141,Oklahoma City,2283, OK,6.0,180.0
+1142,Hamilton,2285, ON,6.0,230.0
+1143,Birmingham,2287, AL,6.0,225.0
+1144,Atlanta,2289, GA,6.03,325.0
+1145,Moncton,2291, NB,6.02,200.0
+1146,Berkeley,2293, CA,5.11,173.0
+1147,Panorama City,2295, CA,6.0,210.0
+1148,Tucson,2297, AZ,5.11,186.0
+1149,Owensboro,2299, KY,6.0,185.0
+1150,St. Petersburg,2301, FL,6.0,225.0
+1151,Conroe,2303, TX,5.09,188.0
+1152,Tampa,2305, FL,6.02,216.0
+1153,Inglewood,2307, CA,6.0,175.0
+1154,Union,2309, SC,6.02,210.0
+1156,Cochrane,2313, AB,6.0,198.0
+1157,Bennettsville,2315, SC,6.0,210.0
+1158,Edmonton,2317, AB,5.11,195.0
+1159,Omaha,2319, NE,6.04,315.0
+1160,Newark,2321, NJ,6.03,310.0
+1161,Pittsburg,2323, CA,6.0,210.0
+1162,Indianapolis,2325, IN,6.02,284.0
+1163,San Diego,2327, CA,5.1,190.0
+1164,Kumasi,2329, GH,5.1,178.0
+1165,Seattle,2331, WA,6.01,200.0
+1166,Houston,2333, TX,6.06,299.0
+1167,Houston,2335, TX,6.01,200.0
+1168,Los Angeles,2337, CA,5.11,205.0
+1169,Taber,2339, AB,6.06,245.0
+1171,Daytona Beach,2343, FL,6.02,185.0
+1172,Mechanicsville,2345, VA,6.0,195.0
+1173,Southington,2347, CT,5.11,205.0
+1174,Loachapoka,2349, AL,6.01,197.0
+1175,Lakewood,2351, WA,5.09,170.0
+1176,Beltsville,2353, MD,6.03,241.0
+1177,Richmond Hill,2355, ON,6.03,260.0
+1178,Paterson,2357, NJ,5.09,195.0
+1179,Gafney,2359, SC,5.1,168.0
+1180,Winter Park,2361, FL,6.02,210.0
+1182,Syracuse,2365, NY,6.01,190.0
+1183,Buffalo,2367, NY,5.11,198.0
+1184,Lake Oswego,2369, OR,6.0,285.0
+1185,Vancouver,2371, BC,6.05,241.0
+1186,Baytown,2373, TX,6.0,191.0
+1187,Indianapolis,2375, IN,5.08,165.0
+1188,Orange Park,2377, FL,5.11,197.0
+1189,Shavertown,2379, PA,6.04,290.0
+1190,Summit,2381, NJ,6.05,325.0
+1191,Oakville,2383, ON,6.02,265.0
+1192,Roanoke,2385, VA,5.08,180.0
+1193,Portland,2387, OR,5.1,180.0
+1194,Ft. Payne,2389, AL,6.05,290.0
+1195,Jacksonville,2391, FL,6.0,217.0
+1196,East Cleveland,2393, OH,6.05,220.0
+1197,Tampa,2395, FL,6.07,290.0
+1198,Athen,2397, GA,5.09,175.0
+1199,Canada City,2399, Canada,6.0,500.0
+1200,Lansing,2401, MI,5.11,184.0
+1201,Tampa,2403, FL,5.09,190.0
+1203,Kennewick,2407, WA,6.0,222.0
+1204,Saskatoon,2409, SK,5.09,245.0
+1205,New Orleans,2411, LA,6.01,212.0
+1206,Edmonton,2413, AB,5.08,160.0
+1207,Houston,2415, TX,6.04,298.0
+1208,Lacolle,2417, QC,6.0,230.0
+1212,Mobile ,2425, AL,6.05,305.0
+1213,Los Angeles,2427, CA,6.01,205.0
+1214,Campbellville,2429, ON,6.03,195.0
+1215,Regina,2431, SK,6.03,225.0
+1216,Coppers Cove,2433, TX,6.02,258.0
+1217,Halifax,2435, NS,6.07,313.0
+1218,Hamilton,2437, ON,6.0,190.0
+1221,Odenton,2443, MD,6.03,215.0
+1222,Harbor City,2445, CA,6.03,222.0
+1223,Centreville,2447, OH,6.0,187.0
+1224,Schaumburg,2449, IL,5.11,200.0
+1225,Pinehurst,2451, NC,6.02,207.0
+1226,Toronto,2453, ON,6.01,270.0
+1227,Southfield,2455, VA,6.03,232.0
+1228,Fort Thomas,2457, KY,6.03,225.0
+1229,Smitfield,2459, VA,5.09,195.0
+1230,Oklahoma City,2461, OK,6.02,202.0
+1231,Conway,2463, SC,6.05,275.0
+1232,Amory,2465, MS,6.03,280.0
+1233,New Orleans,2467, LA,5.09,185.0
+1234,St. Louis,2469, MO,5.11,210.0
+1236,Nederland,2473, TX,5.9,172.0
+1237,Kansas City,2475, MO,5.11,190.0
+1238,Atlanta,2477, GA,6.01,185.0
+1239,Passaic,2479, NJ,6.05,330.0
+1242,Burlington,2485, ON,6.04,255.0
+1243,Port of Spain,2487, TT,6.02,237.0
+1244,St. Louis,2489, MO,6.03,247.0
+1246,Hereford,2493, MD,6.0,220.0
+1247,Seaside,2495, CA,6.02,192.0
+1248,Houston,2497, TX,6.02,260.0
+1249,San Antonio,2499, TX,6.04,320.0
+1251,Valdosta,2503, GA,6.03,235.0
+1252,North Chicago,2505, IL,6.04,265.0
+1253,Houston,2507, TX,6.02,234.0
+1254,San Diego,2509, CA,6.01,195.0
+1255,San Antonio,2511, TX,6.05,310.0
+1257,Seattle,2515, WA,6.01,190.0
+1258,Euclid,2517, OH,5.1,193.0
+1259,St. Petersburg,2519, FL,5.1,170.0
+1260,Akron,2521, OH,6.05,240.0
+1261,Portland,2523, OR,6.03,208.0
+1262,Plano,2525, TX,6.04,220.0
+1263,Seale,2527, AL,6.01,200.0
+1265,Ennis,2531, TX,5.08,170.0
+1266,Cypress,2533, CA,6.07,294.0
+1267,Tallahassee,2535, FL,6.02,188.0
+1268,West Palm Beach,2537, FL,6.03,210.0
+1269,Jacksonville,2539, FL,6.03,315.0
+1270,Dallas,2541, TX,6.02,280.0
+1271,New York,2543, NY,6.03,210.0
+1272,Daytona Beach,2545, FL,6.02,229.0
+1273,Wilmington,2547, IL,5.11,218.0
+1274,El Dorado,2549, AR,6.0,200.0
+1275,Brackendale,2551, BC,6.08,301.0
+1276,Norman,2553, OK,6.02,210.0
+1277,San Benito,2555, TX,5.09,194.0
+1278,Grenoble,2557, FR,6.01,240.0
+1279,Myrtle Beach,2559, SC,5.1,205.0
+1280,Zachary,2561, LA,6.02,186.0
+1282,Miami,2565, FL,5.08,172.0
+1283,Windsor,2567, ON,6.02,200.0
+1284,Houston,2569, TX,6.0,294.0
+1286,Hammond,2573, LA,6.02,213.0
+1288,Green,2577, OH,5.11,182.0
+1289,Los Angeles,2579, CA,5.08,202.0
+1290,Fenelon Falls,2581, ON,6.0,223.0
+1292,Frankfurt,2585, DE,6.0,205.0
+1295,Portland,2591, OR,6.03,220.0
+1296,LaGrange,2593, GA,5.1,190.0
+1297,Columbus,2595, OH,6.0,215.0
+1299,Washington ,2599, DC,5.1,218.0
+1300,Copperas Cove,2601, TX,6.01,230.0
+1301,Montreal,2603, QC,5.1,218.0
+1302,Moose Jaw,2605, SK,6.03,196.0
+1304,Maple Ridge,2609, BC,5.1,203.0
+1305,Edmonton,2611, AB,6.01,183.0
+1306,Mississauga,2613, ON,6.0,195.0
+1308,Montreal,2617, QC,5.1,192.0
+1309,Regina,2619, SK,6.0,170.0
+1310,Mission,2621, BC,6.03,200.0
+1311,Ottawa,2623, ON,6.01,222.0
+1312,Rockwood,2625, ON,6.05,242.0
+1313,Montreal,2627, QC,6.04,255.0
+1314,Sault Ste. Marie,2629, ON,6.04,288.0
+1315,Victoria,2631, BC,6.04,235.0
+1317,Chatham,2635, ON,6.05,295.0
+1318,Port Colborne,2637, ON,6.07,246.0
+1320,Edmonton,2641, AB,6.02,225.0
+1322,Quebec,2645, QC,6.02,230.0
+1323,Calgary,2647, AB,6.02,223.0
+1324,Edmonton,2649, AB,6.02,226.0
+1325,Kitchener,2651, ON,6.03,221.0
+1326,Hamilton,2653, ON,6.0,235.0
+1327,Toronto,2655, ON,6.02,188.0
+1330,Sherbrooke,2661, QC,6.0,215.0
+1332,Burnaby,2665, BC,6.04,215.0
+1335,Toronto,2671, ON,6.02,205.0
+1336,Oakville,2673, ON,6.0,202.0
+1337,Calgary,2675, AB,5.1,190.0
+1338,Saskatoon,2677, SK,6.03,285.0
+1340,Calgary,2681, AB,6.03,283.0
+1342,Uxbridge,2685, ON,6.06,326.0
+1343,Weyburn,2687, SK,6.04,320.0
+1344,Qu?bec City,2689, QC,6.06,320.0
+1346,Woodville,2693, ON,6.05,310.0
+1347,Edmonton,2695, AB,6.04,315.0
+1348,Quebec City,2697, QC,5.11,230.0
+1350,Uxbridge,2701, ON,6.06,295.0
+1351,Toronto,2703, ON,6.03,245.0
+1352,Regina,2705, SK,6.02,205.0
+1353,Fredericton,2707, NB,6.04,215.0
+1354,Cambridge,2709, ON,6.02,222.0
+1355,Hamilton,2711, ON,5.1,190.0
+1356,Torrance,2713, CA,5.1,210.0
+1357,Goleta,2715, CA,6.0,215.0
+1358,Harlingen,2717, TX,6.03,215.0
+1359,Cerritos,2719, CA,5.1,180.0
+1360,London,2721, ON,6.04,223.0
+1361,San Diego,2723, CA,6.02,215.0
+1362,Downers Grove,2725, IL,6.0,225.0
+1364,Waycross,2729, GA,6.05,202.0
+1365,St. Petersburg,2731, FL,5.11,183.0
+1366,Port Barre,2733, LA,5.11,175.0
+1367,Frankfurt,2735, DE,5.1,185.0
+1368,Erlangen,2737, DE,6.02,295.0
+1369,Lynchburg,2739, VA,6.01,300.0
+1370,Woodridge,2741, VA,6.0,216.0
+1371,Burlington,2743, ON,6.01,195.0
+1372,Bishopville,2745, SC,6.01,212.0
+1373,Edmonton,2747, AB,6.06,300.0
+1374,Monroe,2749, LA,6.01,195.0
+1375,Austin,2751, TX,5.11,190.0
+1376,New Orleans,2753, LA,6.0,245.0
+1377,Honolulu,2755, HI,5.11,242.0
+1378,Seoul,2757, KP,5.11,195.0
+1379,Los Angeles,2759, CA,5.11,190.0
+1380,Texas City,2761, TX,6.03,212.0
+1381,Dallas,2763, TX,6.02,180.0
+1382,Glenelg,2765, NS,6.06,305.0
+1383,Brea,2767, CA,6.01,303.0
+1384,Lithonia,2769, GA,6.03,296.0
+1385,Liberia,2771, CF,6.01,210.0
+1386,Dallas,2773, TX,6.0,182.0
+1387,Oakland,2775, CA,6.03,230.0
+1388,Mesa,2777, AZ,6.02,190.0
+1389,Jackson,2779, MS,6.03,235.0
+1390,Fredericton,2781, NB,6.03,243.0
+1391,Lawton,2783, OK,5.11,194.0
+1392,Kansas City,2785, MS,5.1,190.0
+1393,Toledo,2787, OH,6.05,307.0
+1394,West Haven,2789, CT,6.06,309.0
+1395,Denver,2791, CO,5.1,194.0
+1396,Elgin,2793, IL,5.11,173.0
+1397,Tampa,2795, FL,6.01,200.0
+1398,Miami,2797, FL,6.02,245.0
+1399,Miami,2799, FL,6.01,193.0
+1400,Arlington,2801, TX,6.06,210.0
+1401,Milwaukee,2803, WI,6.01,200.0
+1402,Miami,2805, FL,5.09,190.0
+1403,Mankato,2807, MN,6.04,300.0
+1404,Franklin,2809, WI,6.05,305.0
+1405,Calgary,2811, AB,6.03,326.0
+1406,Burlington,2813, ON,5.09,236.0
+1407,Pickering,2815, ON,6.04,263.0
+1411,Bradenton,2823, FL,6.03,220.0
+1412,Calgary,2825, AB,6.09,334.0
+1413,Bradenton,2827, FL,6.03,220.0
+1414,Mississauga,2829, ON,6.04,281.0
+1417,Richmond,2835, BC,6.0,228.0
+1422,Victoria,2845, BC,6.03,20.0
+1424,Winnipeg,2849, MB,6.04,302.0
+1425,Regina,2851, SK,6.03,300.0
+1426,Coffeeville,2853, MS,6.06,304.0
+1429,Plant City,2859, FL,5.09,175.0
+1430,Capitol Heights,2861, MD,6.03,300.0
+1433,Greensboro,2867, NC,6.08,308.0
+1434,Atlanta,2869, GA,5.11,181.0
+1435,Fort Lauderdale,2871, FL,5.06,181.0
+1436,Hattiesburg,2873, MS,6.01,245.0
+1438,Edmond,2877, OK,5.1,196.0
+1440,Mound Bayou,2881, MS,5.1,173.0
+1441,Tyler,2883, TX,6.02,240.0
+1442,Jamaica,2885, NY,6.04,295.0
+1443,Olathe,2887, KS,5.11,194.0
+1445,Great Falls,2891, MT,6.04,217.0
+1446,Bismarck,2893, ND,5.07,179.0
+1447,Orlando,2895, FL,6.0,203.0
+1449,Burlington,2899, ON,5.11,197.0
+1450,Augusta,2901, GA,5.11,194.0
+1451,Provo,2903, UT,5.09,230.0
+1452,Zephyrhills,2905, FL,6.01,265.0
+1456,Phoenix,2913, AZ,6.0,183.0
+1459,Westbury,2919, NY,6.0,238.0
+1460,Portland,2921, ME,6.05,228.0
+1461,Tallahassee,2923, FL,5.11,185.0
+1462,Moose Jaw,2925, SK,6.03,206.0
+1463,Rochester,2927, NY,6.02,202.0
+1464,Elaine,2929, AR,6.0,205.0
+1465,Edmonton,2931, AB,6.0,220.0
+1466,Kingston,2933, ON,6.0,235.0
+1467,Kankakee,2935, IL,6.01,240.0
+1468,Laurinburg,2937, NC,6.0,180.0
+1469,Stoughton,2939, MA,6.03,245.0
+1470,Goose Creek,2941, SC,6.05,310.0
+1471,Spokane,2943, WA,6.03,300.0
+1472,Toronto,2945, ON,6.04,266.0
+1473,Tulsa,2947, OK,6.0,204.0
+1474,Atlanta,2949, GA,6.0,210.0
+1475,Southfield,2951, MI,6.03,220.0
+1476,Courtice,2953, ON,6.03,243.0
+1477,Laval,2955, QC,6.03,207.0
+1478,Anniston,2957, AL,6.0,180.0
+1479,Harbor City,2959, CA,6.03,222.0
+1480,Killeen,2961, TX,6.03,261.0
+1481,Louisville,2963, KY,6.04,281.0
+1482,Toronto,2965, ON,6.03,197.0
+1483,Tampa,2967, FL,6.01,230.0
+1484,Ottawa,2969, ON,6.04,295.0
+1485,Leon,2971, NI,6.03,215.0
+1486,Garfield Heights,2973, OH,5.1,190.0
+1487,Toronto,2975, ON,6.0,227.0
+1488,Lennoxville,2977, QC,6.04,235.0
+1489,North Bay,2979, ON,6.03,228.0
+1490,White Rock,2981, BC,6.03,260.0
+1491,Burlington,2983, ON,5.11,175.0
+1492,Oakville,2985, ON,6.05,210.0
+1493,Cochrane,2987, AB,6.04,210.0
+1494,New Orleans,2989, LA,6.01,182.0
+1496,Oakland,2993, CA,5.1,186.0
+1497,Valdosta,2995, GA,6.03,238.0
+1498,Boynton Beach,2997, FL,6.03,198.0
+1499,Magnolia,2999, MS,5.11,185.0
+1500,Saginaw,3001, MI,6.01,250.0
+1501,Birmingham,3003, AL,6.02,227.0
+1502,Lexington,3005, SC,6.01,210.0
+1503,Decatur,3007, AL,6.03,234.0
+1504,Québec,3009, QC,5.11,244.0
+1505,Vancouver,3011, BC,6.04,305.0
+1506,Tacoma,3013, WA,6.04,322.0
+1507,Edmonton,3015, AB,6.04,300.0
+1509,Opelika,3019, AL,6.02,218.0
+1511,Indianapolis,3023, IN,6.02,205.0
+1512,Lake Charles,3025, LA,6.03,202.0
+1513,Miami,3027, FL,5.11,219.0
+1515,Shorter,3031, AL,5.09,175.0
+1516,Guantanamo Bay,3033, CU,6.05,315.0
+1517,Sebring,3035, FL,6.02,242.0
+1518,Vallejo,3037, CA,6.02,245.0
+1519,Nassau,3039, BS,6.0,233.0
+1520,Covington,3041, LA,6.01,207.0
+1521,Regina,3043, SK,6.07,305.0
+1522,Mississauga,3045, ON,6.0,205.0
+1523,Camp Pendleton,3047, CA,6.0,210.0
+1524,Hinesville,3049, GA,6.05,224.0
+1525,Los Angeles,3051, CA,6.03,214.0
+1526,Atlanta,3053, GA,6.04,265.0
+1527,Calgary,3055, AB,6.02,210.0
+1528,San Bernardino,3057, CA,6.01,220.0
+1529,Richmond,3059, VA,6.01,214.0
+1530,Fort Erie,3061, ON,6.0,190.0
+1531,St. Augustine,3063, FL,5.07,185.0
+1532,Moss Point,3065, MS,5.1,160.0
+1533,Manchester,3067, JM,6.01,260.0
+1534,Gainesville,3069, FL,5.11,215.0
+1535,Humble,3071, TX,6.01,232.0
+1536,Annapolis,3073, MD,5.1,180.0
+1538,Honolulu,3077, HI,6.02,185.0
+1539,White Rock,3079, BC,5.09,175.0
+1540,Columbus,3081, GA,6.0,190.0
+1541,Ft. Lauderdale,3083, FL,5.08,170.0
+1543,Morganton,3087, NC,5.07,190.0
+1544,Pascagoula,3089, MS,5.1,190.0
+1545,Nashville,3091, TN,6.01,196.0
+1546,Atlanta,3093, GA,5.08,175.0
+1547,Montreal,3095, QC,6.02,205.0
+1548,Mississauga,3097, ON,6.01,212.0
+1550,Carlyle,3101, IL,6.07,318.0
+1551,Chesapeake,3103, VA,6.07,325.0
+1552,Leesville,3105, LA,6.07,285.0
+1553,Montgomery,3107, AL,5.11,180.0
+1554,Roselle,3109, NJ,6.02,213.0
+1555,Lynn Lake,3111, MB,6.03,220.0
+1556,Toronto,3113, ON,6.0,240.0
+1557,Little Rock,3115, AR,6.0,200.0
+1558,Victoria,3117, BC,6.04,235.0
+1559,Denton,3119, TX,6.02,246.0
+1560,Birmingham,3121, AL,6.02,200.0
+1563,Edmonton,3127, AB,6.03,297.0
+1564,Detroit,3129, MI,5.09,190.0
+1565,Laval,3131, QC,6.01,302.0
+1566,Spruce Grove,3133, AB,6.02,290.0
+1567,Mississauga,3135, ON,6.04,285.0
+1568,Kingston,3137, ON,6.0,248.0
+1569,Detroit,3139, MI,6.0,202.0
+1571,Brunswick,3143, GA,6.03,214.0
+1572,Winnipeg,3145, MB,6.02,290.0
+1573,Lincoln,3147, NB,6.03,280.0
+1574,Charleston,3149, SC,6.02,213.0
+1575,Winnipeg,3151, MB,6.03,282.0
+1577,North Vancouver,3155, BC,6.0,180.0
+1581,Waterford,3163, MI,6.04,282.0
+1583,Pittsburgh,3167, PA,5.05,170.0
+1587,Erie,3175, PA,5.09,189.0
+1588,London,3177, ON,6.02,220.0
+1590,Québec City,3181, QC,6.02,230.0
+1592,Weyburn,3185, SK,6.04,304.0
+1593,Ladner,3187, BC,6.04,233.0
+1595,Dallas,3191, TX,5.11,200.0
+1596,Orlando,3193, FL,5.09,177.0
+1597,Sherbrooke,3195, QC,6.04,310.0
+1598,Charlotte,3197, NC,6.0,220.0
+1599,Dollard des Ormeaux,3199, QC,6.03,211.0
+1600,Irvine,3201, CA,6.03,214.0
+1601,Chicago,3203, IL,6.01,205.0
+1602,Regina,3205, SK,6.06,312.0
+1603,Newark,3207, NJ,6.04,235.0
+1604,Royal Palm Beach,3209, FL,6.03,330.0
+1605,Etobicoke,3211, ON,5.1,187.0
+1606,Bay Shore,3213, NY,6.05,249.0
+1607,San Antonio,3215, TX,6.05,255.0
+1609,Strongsville,3219, OH,6.04,315.0
+1610,San Antonio,3221, TX,6.06,274.0
+1612,Southfield,3225, MI,6.02,212.0
+1613,Regina,3227, SK,5.11,195.0
+1614,Boston,3229, MA,6.03,268.0
+1615,White Rock,3231, BC,6.05,260.0
+1616,Ottawa,3233, ON,6.03,232.0
+1617,Camden,3235, NJ,6.03,202.0
+1619,Winnsboro,3239, TX,6.02,211.0
+1620,Lansing,3241, MI,6.05,300.0
+1621,Seffner,3243, FL,5.11,190.0
+1622,Guelph,3245, ON,5.11,194.0
+1623,Miami,3247, FL,5.1,182.0
+1624,St. Louis,3249, MO,5.1,198.0
+1625,Pensacola,3251, FL,6.03,280.0
+1626,Ponoma,3253, CA,6.04,300.0
+1627,Sacramento,3255, CA,6.05,250.0
+1628,Surrey,3257, BC,6.0,185.0
+1629,Gardena,3259, CA,5.1,220.0
+1631,Mississauga,3263, ON,5.11,178.0
+1632,Laval,3265, QC,5.1,181.0
+1633,Baie-Comeau,3267, QC,6.03,297.0
+1634,Fonthill,3269, ON,6.06,312.0
+1635,St. Louis,3271, MO,6.05,274.0
+1636,Kirkwood,3273, MO,6.03,273.0
+1637,Riverside,3275, CA,6.05,270.0
+1638,Meridian,3277, MI,6.05,311.0
+1639,Virginia Beach,3279, VA,6.06,315.0
+1640,Englewood,3281, NJ,6.03,222.0
+1641,St. Louis,3283, MO,6.05,317.0
+1642,Edmonton,3285, AB,6.03,225.0
+1643,Pickering,3287, ON,6.06,223.0
+1644,Bethany,3289, MO,6.07,295.0
+1645,New Iberia,3291, LA,6.2,210.0
+1646,Taft,3293, TX,5.11,205.0
+1647,Las Vegas,3295, NV,6.0,302.0
+1649,San Antonio,3299, TX,6.01,189.0
+1650,Daytona Beach,3301, FL,6.04,234.0
+1651,Jacksonville,3303, FL,5.11,185.0
+1652,Lewiston,3305, ID,6.0,190.0
+1653,San Diego,3307, CA,6.03,210.0
+1654,Chicago,3309, IL,5.1,201.0
+1655,Jonesboro,3311, GA,6.05,245.0
+1657,Westlock,3315, AB,6.06,295.0
+1658,Windsor,3317, ON,6.03,290.0
+1659,New West.,3319, BC,6.0,221.0
+1660,Forsyth,3321, GA,6.03,227.0
+1661,Ottawa,3323, ON,6.02,191.0
+1663,Saskatoon,3327, SK,6.02,217.0
+1664,Saint-Raymond,3329, QC,6.03,258.0
+1665,Quebec,3331, QC,6.04,245.0
+1667,Barrie,3335, ON,6.03,305.0
+1668,Lethbridge,3337, AB,6.04,283.0
+1669,Hamilton,3339, ON,6.02,225.0
+1670,Van Nuys,3341, CA,6.03,267.0
+1671,Long Beach,3343, CA,5.11,200.0
+1672,Orlando,3345, FL,5.1,187.0
+1673,Warren,3347, OH,6.01,255.0
+1674,Lititz,3349, PA,6.05,298.0
+1675,Aboko,3351, NG,6.02,267.0
+1676,Midwest City,3353, OK,6.01,310.0
+1677,Shreveport,3355, LA,5.1,185.0
+1678,Waianee,3357, HI,6.04,250.0
+1679,Compton,3359, CA,6.04,265.0
+1681,Montreal,3363, QC,6.04,223.0
+1682,Akron,3365, OH,6.03,212.0
+1683,Barrie,3367, ON,6.06,315.0
+1684,Vancouver,3369, BC,6.01,212.0
+1686,Tulsa,3373, OK,5.08,193.0
+1687,Madisonville,3375, KY,5.08,170.0
+1688,San Antonio,3377, TX,6.03,270.0
+1689,Waynesboro,3379, MS,6.01,270.0
+1690,Georgetown,3381, GY,5.11,185.0
+1691,Regina,3383, SK,6.01,229.0
+1692,Canyon,3385, TX,6.03,215.0
+1693,Truro,3387, NS,5.11,200.0
+1694,Warner Robins,3389, GA,5.11,188.0
+1696,Roselle,3393, NJ,5.11,199.0
+1697,San Lorenzo,3395, CA,6.02,257.0
+1698,Bradenton,3397, FL,5.1,204.0
+1699,Bozeman,3399, MT,6.06,222.0
+1700,Mount Vernon,3401, NY,5.09,190.0
+1701,Granger,3403, IN,6.02,210.0
+1702,Winnipeg,3405, MB,6.02,280.0
+1703,Blenheim,3407, ON,5.11,187.0
+1704,St. Laurent,3409, QC,5.09,191.0
+1705,Regina,3411, SK,6.02,253.0
+1706,Montreal,3413, QC,6.03,240.0
+1707,Coquitlam,3415, BC,6.03,250.0
+1709,Hamilton,3419, ON,6.02,315.0
+1711,Burnaby,3423, BC,6.01,202.0
+1712,Toronto,3425, ON,6.04,240.0
+1713,Calgary,3427, AB,6.02,212.0
+1714,Toronto,3429, ON,6.05,310.0
+1717,Copperas Cove,3435, TX,5.11,225.0
+1718,Winnipeg,3437, MB,5.11,213.0
+1719,Laval,3439, QC,6.02,245.0
+1720,Scarborough,3441, ON,5.09,187.0
+1721,Mississauga,3443, ON,6.03,220.0
+1722,Billings,3445, MT,6.07,310.0
+1723,Surrey,3447, BC,6.04,305.0
+1724,London,3449, ON,6.02,196.0
+1725,Hamilton,3451, ON,5.11,191.0
+1726,Vernon,3453, BC,6.01,190.0
+1727,Charleston,3455, SC,5.09,201.0
+1728,Surrey,3457, BC,6.0,185.0
+1729,Surrey,3459, BC,6.0,216.0
+1730,Seffner,3461, FL,6.03,298.0
+1731,Toronto,3463, ON,6.01,320.0
+1733,Brampton,3467, ON,6.02,240.0
+1734,Winnipeg,3469, MB,6.05,221.0
+1735,Quebec,3471, QC,6.02,274.0
+1736,St-Jean-sur-Richelieu,3473, QC,6.03,300.0
+1737,Sorel-Tracy,3475, QC,6.02,268.0
+1738,Sherbrooke,3477, QC,6.01,231.0
+1739,Sarnia,3479, ON,6.04,295.0
+1740,Belleville,3481, ON,6.01,220.0
+1741,Mississauga,3483, ON,6.04,251.0
+1742,Belleville,3485, ON,5.11,170.0
+1743,Toronto,3487, ON,6.03,332.0
+1744,Augsburg,3489, DE,6.03,280.0
+1745,Brampton,3491, ON,5.09,244.0
+1746,Kingston,3493, ON,5.11,238.0
+1747,Granby,3495, QC,6.02,194.0
+1748,London,3497, ON,6.04,275.0
+1749,Miami,3499, FL,5.1,187.0
+1750,Hopkins,3501, SC,6.01,232.0
+1751,Bronx,3503, NY,6.02,232.0
+1752,Statesboro,3505, GA,6.0,300.0
+1754,Calgary,3509, AB,5.09,170.0
+1755,Miami,3511, FL,6.01,190.0
+1756,Toronto,3513, ON,6.01,195.0
+1757,Dillon,3515, SC,6.03,207.0
+1758,East Chicago,3517, IN,6.02,240.0
+1760,Nashville,3521, TN,6.0,210.0
+1761,Long Beach,3523, CA,6.0,190.0
+1762,Salem,3525, MA,6.05,291.0
+1763,Hamilton,3527, ON,6.0,206.0
+1764,Burnaby,3529, BC,6.04,237.0
+1765,Fredericton,3531, NB,6.01,275.0
+1766,Galveston,3533, TX,6.03,255.0
+1767,South Lake Tahoe,3535, CA,6.03,270.0
+1768,Madison,3537, GA,6.01,221.0
+1769,Fort Lauderdale,3539, FL,6.02,240.0
+1770,Orlando,3541, FL,6.0,201.0
+1771,Mississauga,3543, ON,6.01,193.0
+1772,Elyria,3545, OH,6.04,215.0
+1773,Medford,3547, NY,5.11,228.0
+1774,Sainte-Foy,3549, PQ,6.02,302.0
+1775,Spring Valley,3551, NY,6.03,322.0
+1776,La Mirada,3553, CA,6.01,215.0
+1777,Vandalia,3555, OH,6.02,217.0
+1778,Seattle,3557, WA,6.01,203.0
+1779,McKees Rocks,3559, PA,6.0,195.0
+1780,Cleburne,3561, TX,6.02,290.0
+1781,Moss Point,3563, MS,6.03,293.0
+1782,West Point,3565, NY,6.03,295.0
+1783,Enterprise,3567, AL,6.04,255.0
+1784,Jacksonville,3569, FL,5.1,186.0
+1785,Regina,3571, SSK,6.02,240.0
+1786,Kelowna,3573, BC,6.02,199.0
+1787,Los Angeles,3575, CA,6.02,260.0
+1788,Timmonsville,3577, SC,6.04,245.0
+1789,Willingboro Township,3579, NJ,6.03,240.0
+1790,Austin,3581, TX,5.11,189.0
+1791,Fort Lauderdale,3583, FL,5.09,245.0
+1792,Jacksonville,3585, FL,6.05,215.0
+1794,Stockton,3589, CA,5.08,190.0
+1795,Toronto,3591, ON,5.09,192.0
+1796,Jacksonville,3593, FL,5.1,189.0
+1797,Gulfport,3595, MS,6.03,278.0
+1798,Knightdale,3597, NC,5.1,205.0
+1799,Los Angeles,3599, CA,5.11,175.0
+1800,Cary Grove,3601, IL,6.05,245.0
+1801,Tonkawa,3603, OK,5.09,183.0
+1803,Waco,3607, TX,6.0,234.0
+1804,New York,3609, NY,5.09,190.0
+1805,Little Rock,3611, AR,5.09,175.0
+1806,Rock Springs,3613, WY,6.0,171.0
+1807,Utica,3615, OH,6.07,300.0
+1808,Washington,3617, DC,5.11,185.0
+1809,Rohnert Park,3619, CA,6.06,270.0
+1810,Pasadena,3621, CA,6.01,200.0
+1811,Flagstaff,3623, AZ,6.06,215.0
+1812,Forest City,3625, AR,6.01,182.0
+1813,Landstuhl,3627, DE,6.03,228.0
+1814,Rochester Hills,3629, MI,6.06,350.0
+1815,New Brunswick,3631, NJ,6.01,178.0
+1816,Winnipeg,3633, MB,6.04,300.0
+1817,Victoria,3635, BC,6.03,320.0
+1818,Goochland,3637, VI,6.03,190.0
+1819,St. Paul,3639, MN,5.11,183.0
+1820,St. Catharines,3641, ON,6.04,310.0
+1821,Calgary,3643, AB,6.01,205.0
+1822,Pensacola,3645, FL,6.03,225.0
+1823,Caldwell,3647, KS,6.04,215.0
+1825,Lakeland,3651, FL,6.02,200.0
+1826,Hutchinson,3653, KS,6.01,195.0
+1827,Rock Hill,3655, SC,5.1,210.0
+1828,Washington,3657, DC,6.08,305.0
+1829,Meridian,3659, MS,6.0,206.0
+1830,Miami,3661, FL,5.08,185.0
+1831,Boynton Beach,3663, FL,5.09,200.0
+1832,Regina,3665, SK,6.0,212.0
+1833,Washington,3667, DC,5.11,180.0
+1834,New Orleans,3669, LA,6.05,315.0
+1835,Mountain Top,3671, PA,6.03,306.0
+1836,Warsaw,3673, PL,6.04,300.0
+1837,Redding,3675, CA,6.02,215.0
+1838,Lethbridge,3677, AB,6.05,297.0
+1839,Burlington,3679, ON,6.02,226.0
+1840,Laval,3681, QC,6.03,239.0
+1841,Lufkin,3683, TX,6.02,199.0
+1842,Oakland,3685, CA,5.1,199.0
+1843,Medicine Hat,3687, AB,6.02,210.0
+1844,Cleveland,3689, OH,6.06,315.0
+1845,Houston,3691, TX,6.01,250.0
+1846,Birmingham,3693, AB,6.02,220.0
+1847,White Rock,3695, BC,6.02,220.0
+1848,Belle Glade,3697, FL,5.11,190.0
+1849,Houston,3699, TX,6.02,215.0
+1850,Québec,3701, QC,6.03,290.0
+1851,Saint-Raymond,3703, QC,6.03,275.0
+1852,Starkville,3705, MS,5.11,230.0
+1853,Edmonton,3707, AB,6.04,307.0
+1854,Walled Lake,3709, MI,6.05,217.0
+1855,Tampa,3711, FL,6.04,225.0
+1857,LaGrange,3715, GA,6.0,220.0
+1858,Kingston,3717, JM,6.02,232.0
+1859,Gulfport,3719, MS,6.02,240.0
+1860,Vicksburg,3721, MS,6.0,240.0
+1861,St. Catharines,3723, ON,5.1,210.0
+1862,Fletcher,3725, OK,6.02,270.0
+1863,Fort Huachuca,3727, AZ,6.01,230.0
+1864,Saginaw,3729, MI,5.11,223.0
+1865,Tallahassee,3731, FL,6.02,271.0
+1866,Atlanta,3733, GA,5.1,180.0
+1867,Queens,3735, NY,6.07,320.0
+1868,Palmdale,3737, CA,5.11,195.0
+1869,Windsor,3739, ON,6.04,281.0
+1870,Bowie,3741, MD,5.11,199.0
+1871,Kinshasa,3743, CG,6.04,228.0
+1872,Laval,3745, QC,6.01,298.0
+1873,Parksville,3747, BC,6.08,311.0
+1874,Lakewood,3749, WA,5.11,185.0
+1875,Union City,3751, CA,5.11,200.0
+1876,Honolulu,3753, HI,5.08,180.0
+1877,Regina,3755, SK,6.02,310.0
+1878,Mobile,3757, AL,5.11,188.0
+1879,Dexter,3759, MO,6.01,253.0
+1880,Dunwoody,3761, GA,6.02,225.0
+1881,Orlando,3763, FL,6.01,206.0
+1882,Pasadena,3765, CA,5.09,185.0
+1883,York,3767, AL,6.01,175.0
+1884,Austintown,3769, OH,5.1,185.0
+1885,Los Angeles,3771, CA,6.0,210.0
+1886,Tupelo,3773, MS,6.0,190.0
+1887,Lucedale,3775, MS,6.0,205.0
+1888,Maria,3777, QC,6.06,326.0
+1889,Detroit,3779, MI,6.04,300.0
+1890,Baton Rouge,3781, LA,6.0,198.0
+1891,Seattle,3783, WA,6.0,235.0
+1892,Toronto,3785, ON,5.09,190.0
+1893,Reddick,3787, FL,6.06,214.0
+1894,Ft.Laud'dale,3789, FL,5.1,175.0
+1895,Sacramento,3791, CA,6.03,187.0
+1896,Regina,3793, SK,6.02,315.0
+1897,Tuscaloosa,3795, AL,6.0,190.0
+1898,Detroit,3797, MI,6.02,208.0
+1899,Kentwood,3799, LA,6.04,185.0
+1900,Tacoma,3801, WA,6.01,209.0
+1901,Alexandria,3803, LA,6.02,211.0
+1902,Beaumont,3805, MS,5.08,185.0
+1903,Denver,3807, CO,5.09,175.0
+1905,Salem,3811, OR,6.02,216.0
+1906,Georgetown,3813, GY,6.01,198.0
+1907,Las Vegas,3815, NV,5.11,195.0
+1908,Victoria,3817, TX,6.01,204.0
+1909,Fairborn,3819, OH,6.0,175.0
+1910,Oakville,3821, ON,6.08,312.0
+1911,Lakewood,3823, CA,6.02,252.0
+1912,Red Deer,3825, AB,6.01,250.0
+1913,Belle Glade,3827, FL,5.1,180.0
+1914,Toronto,3829, ON,6.05,295.0
+1915,Chinquapin,3831, NC,5.1,160.0
+1916,Miami,3833, FL,6.03,280.0
+1917,Camden,3835, NJ,6.01,275.0
+1919,New Orleans,3839, LA,6.03,200.0
+1920,Chesapeake,3841, VA,5.1,210.0
+1921,Belle Glade,3843, FL,5.11,190.0
+1922,Covington,3845, KY,5.11,210.0
+1923,St. Louis,3847, MO,6.03,205.0
+1924,Canton,3849, OH,5.11,204.0
+1925,League City,3851, TX,6.03,247.0
+1926,Pine Bluff,3853, AR,6.02,218.0
+1927,Baldwinsville,3855, NY,6.04,225.0
+1928,Tallahassee,3857, FL,6.02,220.0
+1929,Montreal,3859, QC,5.09,196.0
+1930,Norfolk,3861, VA,5.1,174.0
+1931,Granby,3863, QC,6.04,276.0
+1932,Winter Garden,3865, FL,5.09,210.0
+1933,St. Louis,3867, MO,6.03,260.0
+1934,Laval,3869, QC,6.0,215.0
+1935,Bastrop,3871, LA,6.03,293.0
+1936,Sherbrooke,3873, QC,6.03,270.0
+1937,Atlanta,3875, GA,6.0,235.0
+1938,Columbus,3877, OH,5.11,220.0
+1939,Virginia Beach,3879, VA,6.0,206.0
+1940,Kennewick,3881, WA,6.03,230.0
+1941,Harvey,3883, IL,6.03,245.0
+1942,Riverdale,3885, GA,5.08,163.0
+1943,Montréal,3887, QC,5.1,210.0
+1944,Hartford,3889, WI,6.02,216.0
+1945,Middletown,3891, OH,6.0,207.0
+1946,Abbotsford,3893, BC,6.02,213.0
+1947,Santa Monica,3895, CA,6.01,194.0
+1948,Chattanooga,3897, TN,6.05,285.0
+1949,Stone Mountain,3899, GA,6.0,205.0
+1950,El Paso,3901, TX,6.02,265.0
+1951,Fairfax,3903, VA,6.04,280.0
+1952,Searle,3905, AL,5.11,181.0
+1953,Spring,3907, TX,6.03,235.0
+1954,Baton Rouge,3909, LA,5.1,235.0
+1955,Independence,3911, LA,6.01,211.0
+1956,Miami,3913, FL,5.11,180.0
+1957,Littleton,3915, CO,6.02,220.0
+1958,Temple,3917, TX,5.11,195.0
+1960,Regina,3921, SK,6.01,185.0
+1961,Merritt Island,3923, FL,5.1,160.0
+1962,Tampa,3925, FL,6.05,215.0
+1963,Sherwood Park,3927, AB,6.03,238.0
+1965,Hamilton,3931, ON,6.02,310.0
+1966,Laie,3933, HI,6.04,323.0
+1967,Fort Lauderdale,3935, FL,6.01,195.0
+1968,Bartow,3937, FL,6.02,230.0
+1969,St. Louis,3939, MO,6.01,195.0
+1970,Columbia,3941, SC,6.0,185.0
+1971,Indianapolis,3943, IN,5.11,235.0
+1972,Berkeley,3945, CA,5.11,181.0
+1973,Winnipeg,3947, MB,6.0,215.0
+1974,Fresno,3949, CA,6.01,193.0
+1975,Miami,3951, FL,6.05,311.0
+1976,Bessemer,3953, AL,6.01,230.0
+1977,Roanoke,3955, VA,6.05,305.0
+1979,Anderson,3959, SC,6.0,223.0
+1980,Atlanta,3961, GA,5.1,190.0
+1981,Verdun,3963, QC,6.05,320.0
+1982,London,3965, ON,6.0,201.0
+1983,New Iberia,3967, LA,6.0,215.0
+1984,Houston,3969, TX,5.1,170.0
+1985,Elizabethton,3971, TN,6.06,260.0
+1986,Kelowna,3973, BC,6.04,310.0
+1987,LaGrange,3975, IL,6.0,180.0
+1988,Vernon,3977, BC,5.11,217.0
+1989,Angeles City,3979, PH,6.01,240.0
+1990,Hinton,3981, AB,6.05,328.0
+1991,Peterborough,3983, ON,6.04,215.0
+1992,Cedar Hill,3985, TX,6.0,252.0
+1993,Montreal,3987, QC,5.1,198.0
+1995,Pensacola,3991, FL,6.05,315.0
+1997,New Orleans,3995, LA,6.0,200.0
+1998,Miami,3997, FL,5.07,152.0
+1999,Three Hills,3999, AB,6.08,325.0
+2000,Montreal,4001, QC,5.11,221.0
+2001,Boca Raton,4003, FL,5.09,196.0
+2002,Regina,4005, SK,5.1,195.0
+2003,Carson,4007, CA,6.01,190.0
+2004,Glenarden,4009, MD,5.11,196.0
+2005,Scarborough,4011, ON,5.09,190.0
+2006,Vancouver,4013, BC,5.1,185.0
+2007,Long Beach,4015, CA,5.09,180.0
+2008,Grenada,4017, MS,6.05,280.0
+2009,Kigali,4019, RW,5.11,192.0
+2010,Rock Hill,4021, SC,5.09,189.0
+2011,Toronto,4023, ON,6.01,232.0
+2013,Delta,4027, BC,5.09,188.0
+2014,Kandahar,4029, AF,6.04,283.0
+2015,Fredericton,4031, NB,6.03,260.0
+2016,Spring Valley,4033, NY,5.11,200.0
+2017,Toronto,4035, ON,6.03,281.0
+2018,Lachine,4037, QC,6.01,207.0
+2019,Saskatoon,4039, SK,6.01,195.0
+2020,Daytona Beach,4041, FL,5.09,250.0
+2021,Adamsville,4043, AL,5.09,185.0
+2022,Jacksonville,4045, FL,6.04,285.0
+2023,Waldorf,4047, MD,6.02,251.0
+2024,Monroe,4049, LA,5.09,185.0
+2025,Ville Ste-Catherine,4051, QC,6.03,231.0
+2026,Kinshasa,4053, CG,5.11,195.0
+2027,Windsor,4055, ON,5.11,185.0
+2029,Mississauga,4059, ON,6.0,210.0
+2030,Hamilton,4061, ON,5.11,189.0
+2031,Toronto,4063, ON,6.0,198.0
+2032,Brampton,4065, ON,5.08,175.0
+2033,Daytona Beach,4067, FL,5.09,180.0
+2034,Decatur ,4069, GA,6.02,265.0
+2035,Avondale,4071, AZ,5.1,195.0
+2036,Pleasantville,4073, NJ,6.0,240.0
+2037,Orange,4075, NJ,6.01,209.0
+2038,Calgary,4077, AB,6.03,296.0
+2039,Lemberg,4079, SK,5.1,225.0
+2040,Regina,4081, SK,6.0,200.0
+2041,Ajax,4083, ON,6.02,192.0
+2042,Macon,4085, GA,5.09,201.0
+2043,Vancouver,4087, BC,5.1,217.0
+2044,Berlin,4089, DE,6.03,242.0
+2045,Buff Bay,4091, JM,6.04,288.0
+2046,Richmond,4093, VA,6.04,210.0
+2047,Washington,4095, DC,5.09,216.0
+2048,San Fransico,4097, CA,6.04,205.0
+2049,Houston,4099, TX,6.04,291.0
+2050,San Diego,4101, CA,6.02,213.0
+2051,Montreal,4103, QC,5.11,190.0
+2052,Winnipeg,4105, MB,6.03,223.0
+2053,McBride,4107, BC,6.04,310.0
+2054,Ft. Lauderdale,4109, FL,6.03,213.0
+2055,Seattle,4111, WA,6.03,246.0
+2056,Mobile,4113, AL,6.01,235.0
+2057,Atlanta,4115, GA,6.03,243.0
+2058,Chicago,4117, IL,6.0,215.0
+2059,Ottawa,4119, ON,6.04,299.0
+2060,Paris,4121, FR,6.0,190.0
+2061,Jacksonville,4123, FL,5.08,170.0
+2062,Anderson,4125, SC,5.11,205.0
+2063,Brampton,4127, ON,6.05,303.0
+2064,Cambrdige,4129, ON,6.06,289.0
+2065,Akron,4131, OH,5.11,196.0
+2066,Fort Lauderdale,4133, FL,6.0,205.0
+2067,Youngstown,4135, OH,6.02,233.0
+2068,Oklahoma City,4137, OK,6.02,195.0
+2070,Ottawa,4141, ON,6.07,300.0
+2071,Kingston,4143, ON,6.06,290.0
+2072,St. Francis Xavier,4145, MB,6.03,270.0
+2073,Edmonton,4147, AB,5.1,200.0
+2074,Norwood,4149, MA,6.02,205.0
+2075,Tucson,4151, AZ,5.09,205.0
+2076,Windsor,4153, ON,5.1,181.0
+2078,Calgary,4157, AB,6.03,196.0
+2079,Battlesville,4159, OK,5.11,230.0
+2080,Eugene,4161, OR,6.03,222.0
+2081,Santa Rosa,4163, CA,5.11,219.0
+2082,Niagara Falls,4165, ON,5.11,180.0
+2083,Universal City,4167, TX,6.02,277.0
+2084,Grand Rapids,4169, MI,6.08,330.0
+2085,Montréal,4171, QC,6.01,222.0
+2086,Niagara Falls,4173, NY,6.0,200.0
+2087,Baton Rouge,4175, LA,5.1,197.0
+2088,Oshawa,4177, ON,6.04,300.0
+2089,Burlington,4179, ON,6.02,205.0
+2090,Godfrey,4181, IL,6.03,244.0
+2091,Chicago,4183, IL,6.05,225.0
+2092,Oklahoma City,4185, OK,5.1,191.0
+2093,New Rochelle,4187, NY,6.05,300.0
+2094,Houston,4189, TX,6.05,300.0
+2095,Westerville,4191, OH,6.02,201.0
+2096,Columbus,4193, OH,6.05,220.0
+2097,El Dorado,4195, AR,5.1,197.0
+2098,St. Louis,4197, MO,5.1,172.0
+2099,Timmins,4199, ON,6.04,230.0
+2100,Indianapolis,4201, IN,5.11,194.0
+2101,Calabar,4203, NG,6.0,225.0
+2102,Detroit,4205, MI,6.02,227.0
+2103,Montreal,4207, QC,5.11,205.0
+2104,Edmonton,4209, AB,5.1,214.0
+2105,Niagara Falls,4211, ON,5.09,190.0
+2106,Lakeland,4213, FL,6.02,200.0
+2108,Mobile,4217, AL,6.04,283.0
+2109,Buffalo,4219, NY,5.1,185.0
+2110,Sault Ste. Marie,4221, ON,6.04,218.0
+2111,Homerville,4223, GA,6.03,300.0
+2112,Columbus,4225, GA,5.08,190.0
+2113,New Orleans,4227, LA,6.0,187.0
+2114,Vancouver,4229, BC,6.02,235.0
+2115,St. Catharines,4231, ON,6.0,225.0
+2116,Meridian,4233, MS,6.06,256.0
+2117,Comox,4235, BC,6.11,350.0
+2118,Ahoskie,4237, NC,6.01,195.0
+2119,Little Rock,4239, AR,6.04,265.0
+2120,Willow Run,4241, MI,5.11,230.0
+2121,Burlington,4243, ON,6.07,300.0
+2122,Caldwell,4245, ID,6.04,228.0
+2123,Pensacola,4247, FL,6.0,224.0
+2124,Scarborough,4249, ON,6.01,210.0
+2125,Inglewood,4251, CA,6.0,212.0
+2126,Windsor,4253, ON,6.01,198.0
+2127,Stillwater,4255, OK,6.03,285.0
+2128,Springdale,4257, AR,6.02,221.0
+2129,Tampa Bay,4259, FL,5.07,173.0
+2130,Calgary,4261, AB,6.03,290.0
+2131,Beaufort,4263, NC,5.1,175.0
+2132,Stone Mountain,4265, GA,6.02,185.0
+2133,Greenfield Park,4267, QC,6.04,262.0
+2134,Kinshasa,4269, CG,6.0,230.0
+2135,St-Anselme,4271, QC,6.05,300.0
+2136,Portland,4273, OR,5.1,208.0
+2137,Atlanta,4275, GA,6.02,220.0
+2138,Woodstock,4277, GA,6.0,198.0
+2139,Framingham,4279, MA,6.04,325.0
+2140,St-Eustache,4281, QC,6.0,200.0
+2141,Marianna,4283, FL,6.0,185.0
+2142,Toronto,4285, ON,6.05,309.0
+2143,Girard,4287, OH,6.03,228.0
+2144,Kingston,4289, ON,6.02,210.0
+2145,Vancouver,4291, BC,5.1,207.0
+2146,Blackville,4293, SC,6.03,203.0
+2147,Brandon,4295, MB,6.04,212.0
+2148,Kingston,4297, ON,6.05,300.0
+2149,Edison,4299, NJ,6.02,287.0
+2150,Montreal,4301, QC,6.02,277.0
+2151,Owasso,4303, OK,6.01,210.0
+2152,Forth Wayne,4305, IN,5.11,195.0
+2153,Grande Prairie,4307, AB,6.03,210.0
+2154,Chester,4309, PA,6.03,215.0
+2155,Jacksonville,4311, FL,5.11,200.0
+2156,Simi Valley,4313, CA,5.08,206.0
+2157,West Point,4315, NY,6.05,300.0
+2158,Orem,4317, UT,5.09,184.0
+2159,Edmond,4319, OK,5.1,200.0
+2160,Toronto,4321, ON,6.03,300.0
+2161,Atlanta,4323, GA,5.11,202.0
+2162,Regina,4325, SK,6.02,213.0
+2163,Montreal,4327, QC,6.0,185.0
+2164,Reading,4329, PA,6.03,257.0
+2165,Houston,4331, TX,5.11,200.0
+2166,Brunswick,4333, GA,5.1,193.0
+2167,Wilmington,4335, NC,6.0,240.0
+2168,Las Vegas,4337, NV,5.1,196.0
+2169,Kingston,4339, JM,6.0,190.0
+2172,Fremont,4345, CA,6.0,208.0
+2173,San Jose,4347, CA,5.09,175.0
+2174,Saskatoon,4349, SK,5.11,190.0
+2175,College Park,4351, GA,5.11,195.0
+2176,Edmonton,4353, AB,6.02,185.0
+2177,Regina,4355, SK,5.11,229.0
+2178,Brockton,4357, MA,6.04,257.0
+2179,Ft. Laud'dale,4359, FL,6.04,208.0
+2180,Lutcher,4361, LA,5.11,185.0
+2181,Kentwood,4363, LA,6.04,200.0
+2182,Rio Rancho,4365, NM,5.09,155.0
+2183,Raleigh,4367, NC,6.05,310.0
+2184,Renton,4369, WA,6.0,220.0
+2185,Marietta,4371, GA,6.04,193.0
+2186,Matthews,4373, LA,6.0,290.0
+2187,Toronto,4375, ON,6.06,303.0
+2188,Miami,4377, FL,6.0,195.0
+2189,Staten Island,4379, NY,6.03,280.0
+2190,Fayette,4381, MS,6.03,217.0
+2191,Los Angeles,4383, CA,6.01,190.0
+2192,Washington,4385, DC,6.07,320.0
+2193,Batesville,4387, MI,5.09,190.0
+2195,Houston,4391, TX,6.02,225.0
+2196,Silver Springs,4393, MD,6.02,170.0
+2197,Belle Glade,4395, FL,6.0,195.0
+2198,New Britain,4397, CT,6.0,175.0
+2199,Jackson,4399, MS,6.0,190.0
+2200,Chester,4401, PA,6.05,245.0
+2201,Fort Worth,4403, TX,6.04,285.0
+2202,Toronto,4405, ON,6.0,254.0
+2203,Winnipeg,4407, MB,6.03,246.0
+2204,Antioch,4409, TN,6.0,190.0
+2205,Houston,4411, TX,5.05,163.0
+2206,Marshall,4413, TX,5.07,165.0
+2207,La Marque,4415, TX,6.01,180.0
+2208,Portland,4417, OR,6.03,215.0
+2209,Washington,4419, DC,6.0,224.0
+2210,Tampa,4421, FL,6.03,217.0
+2211,Tampa,4423, FL,6.0,191.0
+2212,Dallas,4425, TX,5.1,229.0
+2213,McCalla,4427, AL,6.02,199.0
+2214,Tacoma,4429, WA,6.0,199.0
+2215,Saint James,4431, JM,6.03,215.0
+2216,Miami,4433, FL,6.01,195.0
+2217,Montréal,4435, QC,6.02,209.0
+2218,Uniondale,4437, NY,5.1,200.0
+2219,Mobile,4439, AB,6.02,205.0
+2220,Tucker,4441, GA,6.0,180.0
+2221,Oakland,4443, CA,6.04,195.0
+2222,Lumberton,4445, MS,5.09,190.0
+2223,Pensacola,4447, FL,6.02,190.0
+2224,El Dorado,4449, AR,6.02,236.0
+2225,Orangeburg,4451, SC,6.02,285.0
+2226,Montesano,4453, WA,5.1,230.0
+2227,Moreno Valley,4455, CA,6.08,310.0
+2228,Lafayette,4457, LA,5.1,180.0
+2229,Waldorf,4459, MD,6.03,247.0
+2230,Galveston,4461, TX,6.03,248.0
+2231,South Upland,4463, CA,5.11,170.0
+2232,Shakopee,4465, MN,6.02,220.0
+2233,Laurel,4467, MS,6.04,196.0
+2234,Scarborough,4469, ON,6.02,215.0
+2235,Raymond,4471, AB,6.06,295.0
+2237,Montreal,4475, PQ,6.01,182.0
+2239,Calgary,4479, AB,6.03,290.0
+2240,Toronto,4481, ON,6.03,300.0
+2241,Hamilton,4483, ON,6.01,345.0
+2242,Toronto,4485, ON,6.01,180.0
+2243,Niagara Falls,4487, ON,6.03,185.0
+2244,Philadelphia,4489, PA,6.0,183.0
+2245,Vancouver,4491, BC,6.0,225.0
+2246,Toronto,4493, ON,6.04,275.0
+2247,London,4495, ON,6.04,250.0
+2248,Arden,4497, NC,6.0,203.0
+2249,Riverdale,4499, GA,6.04,309.0
+2250,Caracas,4501, VE,5.11,197.0
+2251,Montreal,4503, QC,6.01,303.0
+2253,Pacoima,4507, CA,5.11,195.0
+2254,New Orleans,4509, LA,6.07,318.0
+2255,St. James,4511, JM,6.03,270.0
+2256,Toronto,4513, ON,6.02,220.0
+2257,Ponchatoula,4515, LA,6.03,283.0
+2258,Humboldt,4517, SK,6.03,310.0
+2259,Laval,4519, QC,6.0,200.0
+2260,Kitchener,4521, ON,6.01,220.0
+2261,Fremont,4523, CA,5.06,185.0
+2262,Trenton,4525, NJ,5.1,185.0
+2264,Jasper,4529, FL,6.02,210.0
+2266,Kansas City,4533, MO,6.01,260.0
+2268,West Seneca,4537, NY,6.06,225.0
+2269,Rialto,4539, CA,5.11,180.0
+2270,Auckland,4541, New Zealand,6.04,288.0
+2271,Ashley ,4543, MI,6.05,303.0
+2272,LaGrange,4545, GA,5.09,169.0
+2274,Bristol,4549, CT,6.02,237.0
+2275,Fostoria,4551, OH,5.09,185.0
+2276,Puslinch,4553, ON,5.1,205.0
+2277,Utica,4555, NY,5.07,195.0
+2278,Huger,4557, SC,6.01,245.0
+2279,Dallas,4559, TX,5.09,190.0
+2280,Dallas,4561, TX,6.02,205.0
+2281,Gastonia,4563, NC,5.08,168.0
+2282,New Orleans,4565, LA,6.02,187.0
+2283,Hampton,4567, VA,6.0,206.0
+2284,Dodge City,4569, KS,6.05,290.0
+2285,Crow Agency,4571, MT,6.0,198.0
+2286,Moss Point,4573, MS,5.1,188.0
+2287,Houston,4575, TX,5.11,180.0
+2288,Gainesville,4577, GA,6.06,285.0
+2289,Chatham,4579, ON,6.04,220.0
+2290,Milford,4581, MI,6.01,227.0
+2291,Toronto,4583, ON,6.0,210.0
+2292,Thomas,4585, GA,6.05,216.0
+2293,Brandenton,4587, FL,5.11,175.0
+2294,St. Petersburg,4589, FL,5.07,191.0
+2295,Dallas,4591, TX,5.1,180.0
+2297,Liberty,4595, MO,5.11,198.0
+2298,Folston,4597, GA,6.06,272.0
+2299,Fort Lauderdale,4599, Fla,6.01,182.0
+2300,St. Louis,4601, MO,6.04,265.0
+2301,Santa Rosa,4603, CA,6.04,220.0
+2302,Tampa,4605, FL,5.1,162.0
+2303,New Carrolton,4607, MD,5.08,197.0
+2304,Pasadena,4609, CA,6.0,189.0
+2305,Searcy,4611, AR,6.05,191.0
+2307,St. Louis,4615, MO,6.04,240.0
+2308,La Marque,4617, TX,6.03,223.0
+2309,Memphis,4619, TN,6.0,234.0
+2311,Long Beach,4623, CA,6.02,244.0
+2313,Kansas City,4627, MO,6.0,205.0
+2314,Tustin,4629, CA,6.0,186.0
+2315,Pensacola,4631, FL,6.01,223.0
+2316,Mayo,4633, MA,6.06,315.0
+2317,Chantilly,4635, VA,5.1,185.0
+2318,Highlands Ranch,4637, CO,6.06,324.0
+2319,Greensburg,4639, PA,6.01,185.0
+2320,Macclenny,4641, FL,6.0,245.0
+2321,Phenix City,4643, AL,6.04,210.0
+2322,Gloster,4645, MI,6.02,253.0
+2323,New Orleans,4647, LA,6.05,230.0
+2324,Vancouver,4649, BC,6.01,198.0
+2325,Snelville,4651, GA,5.1,173.0
+2326,Texas City,4653, TX,6.01,189.0
+2327,Hugo,4655, OK,6.05,292.0
+2328,Cleveland,4657, OH,6.05,285.0
+2329,Cleveland,4659, OH,6.04,245.0
+2330,Long Beach,4661, CA,6.02,209.0
+2331,Euclid,4663, OH,5.09,192.0
+2332,Marrero,4665, LA,5.11,205.0
+2333,Garden City,4667, NY,6.05,302.0
+2334,Regina,4669, SK,6.0,182.0
+2335,Jacksonville,4671, FL,5.09,194.0
+2336,Daytona Beach,4673, FL,5.11,235.0
+2337,Langley,4675, BC,6.0,220.0
+2338,Carrollton,4677, AL,6.01,205.0
+2339,Macon,4679, GA,6.05,278.0
+2340,Shreveport,4681, LA,5.09,191.0
+2341,Eustis,4683, FL,5.1,192.0
+2342,Gainesville,4685, FL,6.02,205.0
+2343,Verdun,4687, QC,6.05,320.0
+2344,Billings,4689, MT,6.06,263.0
+2345,Edmonton,4691, AB,5.11,186.0
+2346,Moose Jaw,4693, SK,6.03,196.0
+2347,Burnaby,4695, BC,5.1,200.0
+2348,Lake Park,4697, FL,6.04,250.0
+2349,Anchorage,4699, AK,6.03,270.0
+2350,Waco,4701, TX,6.0,229.0
+2351,Macclenny,4703, FL,6.0,245.0
+2352,Macon,4705, GA,6.05,278.0
+2353,Folkston,4707, GA,5.1,202.0
+2354,Los Angeles,4709, CA,6.03,215.0
+2355,Waynesfield,4711, OH,5.11,191.0
+2356,Villa Rica,4713, GA,6.03,261.0
+2357,Toombs County,4715, GA,6.03,254.0
+2358,Antelope,4717, CA,6.02,290.0
+2359,Galena Park,4719, TX,6.02,285.0
+2360,Aurora,4721, CO,6.03,250.0
+2361,Farmington Hills,4723, MI,6.01,190.0
+2362,Tallahassee,4725, FL,6.03,200.0
+2363,Laurinburg,4727, NC,6.01,200.0
+2364,Moose Jaw,4729, SK,6.05,300.0
+2365,Long Beach,4731, CA,5.09,170.0
+2366,Cleveland,4733, OH,6.05,254.0
+2367,Langley,4735, BC,6.01,214.0
+2368,Regina,4737, SK,5.11,190.0
+2369,Saskatoon,4739, SK,5.11,190.0
+2370,San Jose,4741, Costa Rica,6.0,211.0
+2371,Aiken,4743, SC,6.0,197.0
+2372,Montreal,4745, PQ,6.02,257.0
+2373,Miami,4747, FL,5.09,205.0
+2374,Monroe,4749, LA,6.01,310.0
+2375,Gilette,4751, WY,6.06,305.0
+2376,Montreal,4753, PQ,6.02,258.0
+2377,Spring Lake Park,4755, MN,6.03,232.0
+2378,Hutchinson,4757, MN,6.06,290.0
+2379,Melbourne,4759, FL,6.03,240.0
+2380,Upper Darby,4761, PA,6.01,228.0
+2381,Courtland,4763, AL,6.02,203.0
+2382,Charlotte,4765, NC,6.06,320.0
+2383,Dade Co.,4767, FL,5.09,175.0
+2384,Pine Bluff,4769, AR,6.0,208.0
+2385,Delray Beach,4771, FL,5.11,188.0
+2386,Newark,4773, NJ,6.01,198.0
+2387,Oakland,4775, CA,5.08,195.0
+2388,Hartford,4777, CT,5.11,208.0
+2389,Stockton,4779, CA,6.01,216.0
+2390,Norfolk,4781, VA,6.01,209.0
+2391,Columbus,4783, GA,6.03,225.0
+2392,Georgetown,4785, ON,6.06,310.0
+2393,Charleston,4787, SC,6.03,204.0
+2394,Daly City,4789, CA,6.01,210.0
+2395,Hampton,4791, VA,6.0,196.0
+2396,Laguna Beach,4793, CA,6.03,207.0
+2397,Randolph,4795, NJ,6.04,221.0
+2398,Athens,4797, GA,6.01,235.0
+2399,Staten Island,4799, NY,6.0,227.0
+2400,New York,4801, NY,6.01,235.0
+2401,East Orange,4803, NJ,6.02,225.0
+2402,Cincinnati,4805, OH,5.11,232.0
+2403,Catawba,4807, NC,6.04,213.0
+2404,Lakewood,4809, CO,6.02,252.0
+2405,Mount Juliet,4811, TN,6.04,225.0
+2406,Compton,4813, CA,6.02,235.0
+2407,Hampton,4815, VA,6.05,260.0
+2408,St. Anselme,4817, QC,6.05,300.0
+2409,Kelowna,4819, BC,6.03,250.0
+2410,Laval,4821, QC,6.02,230.0
+2411,Whittier,4823, CA,5.1,193.0
+2412,Long Beach,4825, CA,5.1,184.0
+2413,Waldo,4827, OH,6.03,212.0
+2414,Monrovia,4829, Liberia,6.01,293.0
+2415,Flossmoor,4831, IL,6.04,300.0
+2416,Sumter,4833, SC,5.11,194.0
+2417,College Park,4835, GA,6.02,265.0
+2418,Chesapeake,4837, VA,6.02,270.0
+2419,Washington,4839, DC,6.03,270.0
+2420,Massillon,4841, OH,6.05,250.0
+2421,Cleveland,4843, OH,6.01,261.0
+2422,Traverse City,4845, MI,6.0,225.0
+2423,Chesterfield ,4847, VA,5.1,190.0
+2424,Shreveport,4849, LA,5.11,190.0
+2425,Stanford,4851, CT,6.02,240.0
+2426,Cincinnati,4853, OH,6.01,240.0
+2427,San Francisco,4855, CA,5.11,214.0
+2428,San Francisco,4857, CA,5.1,221.0
+2429,Medicine Hat,4859, AB,6.03,292.0
+2430,San Jose,4861, CA,6.04,253.0
+2431,Richmond,4863, VA,6.02,292.0
+2432,St. Petersburg,4865, FL,5.1,181.0
+2434,Fort Myers,4869, FL,5.08,180.0
+2435,Westlake Village,4871, CA,6.03,253.0
+2437,Carthage,4875, TX,6.05,282.0
+2438,West Palm Beach,4877, FL,6.0,203.0
+2439,Atlanta,4879, GA,5.08,195.0
+2440,Ottawa,4881, ON,6.0,195.0
+2441,Charlotte,4883, NC,5.09,170.0
+2442,Marietta,4885, GA,6.0,183.0
+2443,Atlanta,4887, GA,6.02,193.0
+2444,Waco,4889, TX,5.11,191.0
+2445,Orlando,4891, FL,6.04,300.0
+2447,Bryan,4895, TX,5.09,200.0
+2448,Lakeland,4897, FL,5.11,175.0
+2449,Clarksville,4899, TN,6.0,202.0
+2450,Montego Bay,4901, JM  ,5.1,201.0
+2451,Fort Pierce,4903, FL,5.11,179.0
+2452,Toronto,4905, ON,6.03,220.0
+2454,Surrey,4909, BC,6.01,220.0
+2455,Barrie,4911, ON,6.03,220.0
+2456,South Woodslee,4913, ON,6.03,205.0
+2457,Kelowna,4915, BC,6.02,205.0
+2458,Grimsby,4917, ON,6.02,202.0
+2459,Moncton,4919, NB,5.1,183.0
+2460,Edmonton,4921, AB,6.0,180.0
+2461,Saskatoon,4923, SK,6.02,216.0
+2462,Thurso,4925, QC,6.02,205.0
+2463,Regina,4927, SK,6.0,200.0
+2464,Mississauga,4929, ON,5.1,189.0
+2465,Edmonton,4931, AB,5.11,189.0
+2466,Regina,4933, SK,5.11,181.0
+2467,Toronto,4935, ON,5.09,189.0
+2468,Delta,4937, BC,6.04,220.0
+2469,Sherwood Park,4939, AB,6.0,185.0
+2470,Midhurst,4941, ON,6.01,246.0
+2471,Saint-Flavie,4943, QC,6.02,240.0
+2472,Brossard,4945, QC,5.1,205.0
+2473,LaSalle,4947, ON,5.11,195.0
+2474,Trois-Riviere,4949, QC,6.01,215.0
+2475,Langley,4951, BC,6.01,215.0
+2476,Ipatinga,4953, BR,5.11,221.0
+2477,Edmonton,4955, AB,6.01,215.0
+2478,Calgary,4957, AB,6.01,231.0
+2479,Montreal,4959, QC,6.01,235.0
+2480,Laval,4961, QC,6.01,240.0
+2481,Rouyn-Noranda,4963, QC,6.01,225.0
+2482,Calgary,4965, AB,6.06,295.0
+2483,Regina,4967, SK,6.04,310.0
+2484,Oro Station,4969, ON,6.0,275.0
+2485,Hamilton,4971, ON,6.04,315.0
+2486,Napanee,4973, ON,6.04,300.0
+2487,Chateauguay,4975, QC,6.03,317.0
+2488,North Delta,4977, BC,6.07,300.0
+2489,Parksville,4979, BC,6.06,284.0
+2490,Tecumseh,4981, ON,6.04,185.0
+2491,Toronto,4983, ON,6.03,219.0
+2492,St-Jean-sur-Richelieu,4985, QC,6.04,211.0
+2493,Mississauga,4987, ON,6.01,200.0
+2494,LaSalle,4989, ON,6.02,205.0
+2495,Belgrade,4991, RS,6.02,218.0
+2496,Mississauga,4993, ON,5.09,170.0
+2497,Thunder Bay,4995, ON,6.02,270.0
+2498,Toronto,4997, ON,6.03,235.0
+2499,Montreal,4999, QC,6.03,250.0
+2500,Oshawa,5001, ON,6.02,246.0
+2501,London,5003, ON,6.04,259.0
+2502,Thunder Bay,5005, ON,6.03,230.0
+2503,Thunder Bay,5007, ON,6.01,300.0
+2504,Douglas,5009, NB,6.02,274.0
+2505,London,5011, ON,6.01,303.0
+2507,San Diego,5015, CA,5.1,188.0
+2510,Highland Springs,5021, VA,6.0,200.0
+2512,Pauls Valley,5025, OK,5.09,186.0
+2513,Burbank,5027, CA,6.02,232.0
+2514,Santa Ana,5029, CA,6.07,325.0
+2515,Oakville,5031, ON,5.1,190.0
+2516,Las Vegas,5033, NV,5.1,195.0
+2517,Bellflower,5035, CA,5.09,173.0
+2518,Ballarat,5037, AU,6.04,220.0
+2519,Glenarden,5039, MD,6.05,260.0
+2520,Baltimore,5041, MD,5.11,223.0
+2521,Carrolton,5043, GA,6.0,205.0
+2522,Tallassee,5045, AL,5.09,180.0
+2523,Miami,5047, FL,5.08,185.0
+2524,Christchurch,5049, NZ,6.04,300.0
+2525,Ashburn,5051, GA,6.04,210.0
+2526,Los Angeles,5053, CA,6.02,242.0
+2527,Accar,5055, GH,6.02,250.0
+2528,Coral Springs,5057, FL,6.03,252.0
+2529,Miami,5059, FL,6.05,280.0
+2530,Los Angeles,5061, CA,6.03,230.0
+2531,Harrisburg,5063, PA,6.01,248.0
+2532,Avon,5065, IN,6.05,254.0
+2533,Halifax,5067, NS,6.04,215.0
+2534,Aurora,5069, CO,6.02,242.0
+2535,Cranbrook,5071, BC,6.04,245.0
+2536,Long Beach,5073, CA,6.07,215.0
+2537,Port Barre,5075, LA,6.01,199.0
+2538,Long Beach,5077, CA,6.05,227.0
+2539,Bakersfield,5079, CA,6.06,335.0
+2540,Sammamish,5081, WA,6.06,308.0
+2541,Katy,5083, TX,6.02,196.0
+2542,Brooklyn,5085, NY,6.02,265.0
+2543,New Orleans,5087, LA,6.03,245.0
+2544,Fort Lauderdale,5089, FL,6.02,285.0
+2545,London,5091, ON,6.07,305.0
+2546,Montréal,5093, QC,6.0,245.0
+2547,Brampton,5095, ON,6.0,194.0
+2548,Edmonton,5097, AB,6.03,280.0
+2549,Edmonton,5099, AB,6.04,268.0
+2550,St. John's,5101, NL,6.04,295.0
+2551,Windsor,5103, ON,6.0,312.0
+2553,St. Catharine's,5107, ON,6.02,221.0
+2554,Yaounde,5109, CM,5.11,234.0
+2555,Calgary,5111, AB,5.11,175.0
+2556,Lethbridge,5113, AB,6.03,299.0
+2557,Vancouver,5115, BC,5.08,152.0
+2558,Vancouver,5117, BC,6.0,207.0
+2559,Brantford,5119, ON,6.02,300.0
+2560,Windsor,5121, ON,6.05,250.0
+2562,Dalemead,5125, AB,6.01,225.0
+2563,Pickering,5127, ON,6.05,260.0
+2564,Echo Bay,5129, ON,5.11,235.0
+2565,Edmonton,5131, AB,5.11,218.0
+2566,Medicine Hat,5133, AB,6.04,250.0
+2567,Vancouver,5135, BC,5.11,168.0
+2568,Surrey,5137, BC,6.04,290.0
+2569,Montreal,5139, QC,6.04,290.0
+2570,Mississauga,5141, ON,5.11,227.0
+2571,Jacksonville,5143, FL,6.0,176.0
+2572,Tampa,5145, FL,5.08,158.0
+2573,Fayetteville,5147, NC,6.02,250.0
+2574,Orlando,5149, FL,6.05,238.0
+2575,Winston-Salem,5151, NC,5.11,195.0
+2576,Melbourne,5153, FL,6.01,202.0
+2577,Charlotte,5155, NC,5.1,180.0
+2578,Lancaster,5157, PA,6.03,282.0
+2579,Hampton,5159, VA,5.11,225.0
+2580,Winnipeg,5161, MB,6.02,304.0
+2581,West Palm Beach,5163, FL,5.1,180.0
+2582,Brilliant,5165, AL,6.04,312.0
+2583,Franklin,5167, LA,6.02,219.0
+2584,Jacksonville,5169, FL,5.1,198.0
+2585,Lauderhill,5171, FL,6.02,250.0
+2586,Compton,5173, CA,6.0,180.0
+2587,Carthage,5175, TX,6.02,197.0
+2588,Dallas,5177, TX,6.02,193.0
+2589,Stamford,5179, CT,6.04,215.0
+2590,Moultrie,5181, GA,5.11,177.0
+2591,Ajax,5183, ON,6.02,205.0
+2592,New Brunswick,5185, NJ,6.04,219.0
+2593,Sorel,5187, QC,5.1,175.0
+2594,Leland,5189, MS,5.1,182.0
+2595,Caldwell,5191, TX,5.09,195.0
+2596,Dayton,5193, OH,6.05,319.0
+2597,Palm Desert,5195, CA,5.11,200.0
+2598,Palm Desert,5197, CA,5.11,200.0
+2599,Ramseur,5199, NC,6.0,210.0
+2600,Chicago,5201, IL,5.07,185.0
+2601,Columbia,5203, SC,6.04,290.0
+2602,Toledo,5205, OH,6.01,205.0
+2603,Baltimore,5207, MD,5.1,200.0
+2604,Tallahassee,5209, FL,6.03,229.0
+2605,West Covina,5211, CA,6.02,210.0
+2606,Chattanooga,5213, TN,5.11,216.0
+2607,Kelowna,5215, BC,6.04,241.0
+2608,San Diego,5217, CA,6.01,190.0
+2609,Fort Worth,5219, TX,6.0,185.0
+2610,Tustin,5221, CA,6.01,250.0
+2611,Champaign,5223, IL,6.04,225.0
+2612,Columbia,5225, SC,6.0,242.0
+2613,Denver,5227, CO,5.06,220.0
+2614,Valleyfield,5229, QC,6.04,316.0
+2615,Monessen,5231, PA,6.01,282.0
+2616,Waldorf,5233, MD,5.11,199.0
+2617,St. Helena Island,5235, SC,6.0,191.0
+2618,Los Angeles,5237, CA,6.0,174.0
+2619,Youngstown,5239, OH,6.06,315.0
+2620,Seaside,5241, CA,6.03,195.0
+2621,Slidell,5243, LA,5.08,175.0
+2622,Manning,5245, SC,6.01,192.0
+2623,Berkeley,5247, CA,5.11,193.0
+2624,Memphis,5249, TN,6.03,255.0
+2625,Waldorf,5251, MD,6.04,250.0
+2626,Carlisle,5253, PA,6.0,190.0
+2627,Vancouver,5255, BC,6.04,236.0
+2628,Riviera Beach,5257, FL,5.1,178.0
+2629,Davie,5259, FL,5.07,190.0
+2630,Los Angeles,5261, CA,5.11,195.0
+2631,Plainfield,5263, IL,5.08,190.0
+2632,El Paso,5265, TX,6.04,214.0
+2633,Honolulu,5267, HI,6.02,300.0
+2634,Newmarket,5269, ON,6.0,195.0
+2635,Pelham,5271, AL,6.01,181.0
+2636,Roseau,5273, MN,6.0,250.0
+2637,Arp,5275, TX,6.05,211.0
+2638,Southfield,5277, MI,6.0,262.0
+2639,Macon,5279, GA,6.0,196.0
+2640,Ajax,5281, ON,6.0,190.0
+2641,Miami,5283, FL,5.1,200.0
+2642,Fort Lauderdale,5285, FL,6.02,202.0
+2643,Miami,5287, FL,6.01,180.0
+2645,San Antonio,5291, TX,6.04,220.0
+2646,West Hills,5293, CA ,5.1,200.0
+2647,Flagstaff,5295, AZ,6.07,280.0
+2648,Houston,5297, TX,6.05,255.0
+2649,Fresno,5299, CA,6.04,300.0
+2650,Minneapolis,5301, MN,5.1,173.0
+2651,Aurora,5303, CO,6.01,219.0
+2652,Hialeah,5305, FL,5.11,190.0
+2653,Auburn,5307, AL,6.01,240.0
+2654,Plainfield,5309, IN,6.01,205.0
+2655,Quebec City,5311, QC,5.11,270.0
+2656,Wheaton,5313, IL,5.1,191.0
+2657,Hamilton,5315, ON,5.11,185.0
+2658,Sacramento,5317, CA,6.05,298.0
+2659,Guelph,5319, ON,6.06,320.0
+2660,St. Petersburg,5321, FL,6.03,199.0
+2661,Memphis,5323, TN,5.11,225.0
+2662,Los Angeles,5325, CA,6.03,215.0
+2663,Ypsilanti,5327, MI,6.0,191.0
+2664,Paris,5329, TX,6.05,304.0
+2665,Atlanta,5331, GE,6.02,247.0
+2666,Brookhaven,5333, MS,6.02,275.0
+2667,London,5335, ON,6.01,330.0
+2668,Tallahassee,5337, FL,6.05,205.0
+2669,Reserve,5339, LA,6.0,184.0
+2670,St. Louis,5341, MO,6.03,206.0
+2671,Regina,5343, SK,6.03,215.0
+2672,Moose Jaw,5345, SK,6.0,198.0
+2673,Round Rock,5347, TX,5.08,170.0
+2674,Reading,5349, PA,6.05,305.0
+2675,Boston,5351, MA,6.0,195.0
+2676,Cedar Hill,5353, TX,6.01,242.0
+2677,New Orleans,5355, LA,5.1,185.0
+2678,St. Petersburg,5357, FL,6.05,255.0
+2679,Fraser,5359, MI,5.11,210.0
+2680,Lubbock,5361, TX,5.11,194.0
+2681,Coppell,5363, TX,6.02,225.0
+2682,Rochester,5365, NY,6.02,215.0
+2683,Mont-Tremblant,5367, QC,5.11,189.0
+2684,Rochester,5369, NY,6.02,220.0
+2685,Cleveland,5371, OH,6.07,315.0
+2686,Steubenville,5373, OH,6.0,216.0
+2687,Fort Hood,5375, TX,5.11,175.0
+2688,Downers Grove ,5377, IL,6.03,230.0
+2689,Cleveland,5379, OH,6.05,296.0
+2690,Cincinnati,5381, OH,5.11,200.0
+2691,Campell,5383, OH,6.01,200.0
+2692,Renton,5385, WA,5.11,204.0
+2693,Louisville,5387, KY,5.09,188.0
+2694,Charlottte,5389, NC,5.11,215.0
+2695,Winston-Salem,5391, NC,5.08,160.0
+2696,Miami,5393, FL,5.11,180.0
+2697,Jeannette,5395, PA,6.0,200.0
+2698,Miami,5397, FL,6.02,296.0
+2699,Van Nuys,5399, CA,6.04,220.0
+2700,Richmond,5401, VA,6.02,292.0
+2701,Orlando,5403, FL,6.02,250.0
+2702,Columbia,5405, SC,5.1,195.0
+2703,Topeka,5407, KS,5.11,185.0
+2704,Lubbock,5409, TX,5.1,196.0
+2705,Tallahassee,5411, FL,6.03,184.0
+2706,Louisville,5413, KY,6.02,306.0
+2707,Riverdale,5415, GA,6.03,278.0
+2708,Winnipeg,5417, MB,5.1,238.0
+2710,Miami,5421, FL,6.05,210.0
+2711,Minneapolis,5423, MN,6.04,280.0
+2712,Edmonton,5425, AB,5.1,172.0
+2713,Greensboro,5427, NC,6.01,250.0
+2714,Beaumont,5429, TX,6.06,325.0
+2715,Orange,5431, NJ,6.03,304.0
+2716,Washington,5433, DC,6.0,230.0
+2717,Houston,5435, TX,6.04,248.0
+2718,Oklahoma,5437, City,5.09,190.0
+2719,Jackson ,5439, MS,6.0,185.0
+2720,Lutz,5441, FL,6.02,220.0
+2721,Burlington,5443, ON,5.11,175.0
+2722,Travelers Rest,5445, SC,5.11,195.0
+2723,Euless,5447, TX,6.01,231.0
+2724,Kelowna,5449, BC,6.03,258.0
+2725,San Diego,5451, CA,6.03,215.0
+2726,Vancouver,5453, BC,6.0,204.0
+2727,Sacramento,5455, CA,6.04,254.0
+2728,Piscataway,5457, NJ,5.1,180.0
+2729,West Covina,5459, CA,6.03,276.0
+2730,Columbus,5461, GA,5.1,195.0
+2731,Diego Martin,5463, TT,6.08,335.0
+2732,Boiling Springs,5465, SC,6.01,201.0
+2733,Canton,5467, GA,5.07,175.0
+2734,Los Angeles,5469, CA,6.03,250.0
+2735,Jackson,5471, MS,6.02,320.0
+2736,Tuscaloosa,5473, AL,5.11,192.0
+2737,Laurinburg,5475, NC,6.02,250.0
+2738,Cherokee,5477, IA,6.02,218.0
+2739,Covington,5479, LA,6.04,223.0
+2740,York,5481, PA,6.07,300.0
+2741,Munford,5483, AL,5.11,197.0
+2742,Dallas,5485, TX,6.0,218.0
+2743,Milwaukee,5487, WI,6.03,250.0
+2744,Chicago,5489, IL,6.04,258.0
+2745,Yuma,5491, AZ,5.1,218.0
+2746,North Babylon,5493, NY,6.02,285.0
+2747,West Chester,5495, OH,6.08,240.0
+2748,Monroe,5497, LA,6.01,245.0
+2749,Arcadia,5499, IN,6.05,220.0
+2750,Tucker,5501, GA,6.04,257.0
+2751,Lorain,5503, OH,6.03,265.0
+2752,Clearwater,5505, FL,5.09,215.0
+2753,Columbus,5507, OH,5.11,185.0
+2754,New Orleans,5509, LA,6.03,290.0
+2755,Dallas,5511, TX,6.04,255.0
+2756,Whitfield,5513, AL,6.02,262.0
+2757,Scottsdale,5515, AZ,6.02,324.0
+2758,Arima,5517, TT,6.05,320.0
+2759,Abbeville,5519, AL,6.03,241.0
+2760,Irving,5521, TX,6.01,242.0
+2761,West Palm Beach,5523, FL,6.04,224.0
+2762,Pleasant Hill,5525, OR,6.06,280.0
+2763,Wyoming Park,5527, MI,6.03,205.0
+2764,Brampton,5529, ON,5.1,170.0
+2765,San Diego,5531, CA,6.03,252.0
+2766,Fort Myers,5533, FL,6.03,200.0
+2767,Huntsville,5535, AL,5.1,190.0
+2768,Houma,5537, LA,5.07,180.0
+2769,San  Rafael,5539, CA,5.11,220.0
+2770,Staten Island,5541, NY,6.01,300.0
+2771,Alameda County,5543, CA,5.11,180.0
+2772,Woodinville,5545, WA,6.03,250.0
+2773,Houston,5547, TX,5.08,170.0
+2774,Nashua,5549, NH,6.07,308.0
+2775,Dallas,5551, TX,6.0,228.0
+2776,Atlanta,5553, GA,6.01,195.0
+2777,Erie,5555, PA,6.06,304.0
+2778,Charlotte,5557, NC,6.05,254.0
+2779,Memphis,5559, TN,5.11,171.0
+2780,Jacksonville,5561, NC,6.04,280.0
+2781,Hanover,5563, MD,6.03,220.0
+2782,Houston,5565, TX,6.03,215.0
+2783,Lackawanna,5567, NY,6.05,218.0
+2784,Chattanooga,5569, TN,5.1,180.0
+2785,Grand Rapids,5571, MI,5.1,195.0
+2786,Dallas,5573, TX,6.0,220.0
+2787,Sacramento,5575, CA,5.1,186.0
+2788,Minneapolis,5577, MN,6.04,280.0
+2789,Charlottesville,5579, VA,6.02,220.0
+2790,Baltimore,5581, MD,6.07,320.0
+2791,Strongsville,5583, OH,6.0,180.0
+2792,Columbus,5585, OH,5.11,197.0
+2793,Akron,5587, OH,5.11,198.0
+2794,Los Angeles,5589, CA,6.03,215.0
+2795,Washington,5591, DC,6.02,213.0
+2796,Pickerington,5593, OH,6.03,218.0
+2797,Regina,5595, SK,6.02,200.0
+2798,Warner Robins,5597, GA,5.1,196.0
+2799,Toronto,5599, ON,6.05,289.0
+2800,Waldorf,5601, MD,6.03,260.0
+2801,Tatum,5603, TX,6.01,215.0
+2802,Chicago,5605, IL,6.03,225.0
+2803,Montreal,5607, QC,6.02,221.0
+2804,Dallas,5609, TX,6.02,237.0
+2805,Navasota,5611, TX,6.04,220.0
+2806,Norfolk,5613, VA,5.1,175.0
+2807,Washington,5615, DC,6.02,220.0
+2808,Bronx,5617, NY,5.09,200.0
+2809,Virginia Beach,5619, VA,6.03,213.0
+2810,Topeka,5621, KS,6.03,315.0
+2811,Amityville,5623, NY,6.0,188.0
+2812,Georgetown,5625, SC,6.0,220.0
+2813,Fort Myers,5627, FL,6.04,236.0
+2814,Oshawa,5629, ON,6.05,310.0
+2815,Peace River,5631, AB,6.04,305.0
+2816,Kinslasa,5633, CG,6.02,233.0
+2817,Milton,5635, ON,6.07,322.0
+2818,Calgary,5637, AB,5.11,220.0
+2819,Queensville,5639, ON,6.02,294.0
+2820,Laval,5641, QC,6.03,259.0
+2821,Brampton,5643, ON,6.04,259.0
+2822,Weyburn,5645, SK,6.02,318.0
+2823,Hamilton,5647, ON,6.02,236.0
+2824,Toronto,5649, ON,6.06,221.0
+2825,Sherbrooke,5651, QC,6.02,270.0
+2826,Belleville,5653, ON,6.07,300.0
+2827,Arnprior,5655, ON,6.06,294.0
+2828,Drummondville,5657, QC,6.0,200.0
+2829,Fort Wayne,5659, IN,5.1,180.0
+2830,Montreal,5661, QC,6.04,263.0
+2831,Mississauga,5663, ON,6.07,280.0
+2833,Ronks,5667, PA,6.0,196.0
+2834,Chatsworth,5669, CA,6.01,215.0
+2835,Regina,5671, SK,6.06,235.0
+2836,Newark,5673, NJ,5.1,185.0
+2837,Drummondville,5675, QC ,5.11,210.0
+2838,Canton,5677, MS,6.02,185.0
+2839,San Jose,5679, CA,6.0,245.0
+2840,St. Petersburg,5681, FL,6.02,212.0
+2841,Trelawny,5683, JM,6.03,255.0
+2843,Goldsbro,5687, NC,6.02,221.0
+2844,Miami,5689, FL,6.04,205.0
+2846,Miami,5693, FL,6.02,240.0
+2847,Miami,5695, FL,5.11,205.0
+2848,Houston,5697, TX,6.01,198.0
+2849,Youngstown,5699, OH,6.03,208.0
+2850,Long Beach,5701, CA,5.06,196.0
+2851,Naples,5703, FL,6.0,240.0
+2852,Jasper,5705, TX,6.04,319.0
+2853,Newport News,5707, VA,6.06,295.0
+2854,Lake Charles,5709, LA,6.0,187.0
+2855,Dallas,5711, TX,6.04,255.0
+2856,Killeen,5713, TX,6.01,212.0
+2857,Abilene,5715, TX,6.01,185.0
+2858,Jacksonville,5717, NC,5.09,190.0
+2859,Snellville,5719, GA,5.11,230.0
+2860,Fayetteville,5721, NC,6.01,201.0
+2861,Winnipeg,5723, MB,6.01,197.0
+2862,Woodland Hills,5725, CA,6.04,205.0
+2863,Elk Grove,5727, CA,5.1,188.0
+2864,Stockton,5729, CA,5.09,194.0
+2865,Brownsville,5731, TN,6.03,234.0
+2866,Hartford,5733, CT,6.02,290.0
+2867,Baltimore,5735, MD,6.06,280.0
+2868,Bartlesville,5737, OK,6.04,245.0
+2869,Hamilton,5739, ON,5.11,190.0
+2870,Quebec,5741, QC,6.01,215.0
+2871,Drummondville,5743, QC,6.0,193.0
+2872,Washington,5745, DC,5.11,197.0
+2873,Paris,5747, FR,5.09,180.0
+2874,Guelph,5749, ON,5.1,175.0
+2875,Victoria,5751, BC,6.02,205.0
+2876,Abbotsford,5753, BC,6.0,189.0
+2877,St. Albert,5755, AB,6.0,200.0
+2878,Gatineau,5757, QC,6.01,199.0
+2879,Dartmouth,5759, NS,6.05,295.0
+2880,London,5761, ON,6.04,308.0
+2881,Saskatoon,5763, SK,6.07,305.0
+2882,Napanee,5765, ON,6.07,290.0
+2883,Montreal,5767, QC,6.04,295.0
+2884,Montreal,5769, QC,6.04,295.0
+2885,Cornwall,5771, ON,6.04,300.0
+2886,Burlington,5773, ON,6.04,285.0
+2887,Timberlea,5775, NS,6.01,245.0
+2888,Niagara Falls,5777, ON,6.01,218.0
+2889,Orleans,5779, ON,5.11,211.0
+2890,Toronto,5781, ON,5.11,223.0
+2891,Montréal,5783, QC,5.11,220.0
+2892,Montreal,5785, QC,5.09,215.0
+2893,Montreal,5787, QC,6.02,205.0
+2894,Regina,5789, SK,6.01,185.0
+2895,Montreal,5791, QC,6.0,193.0
+2896,Kitchener,5793, ON,6.01,182.0
+2897,Edmonton,5795, AB,6.0,195.0
+2898,Surrey,5797, BC,5.11,199.0
+2899,Long Beach,5799, CA,5.1,184.0
+2900,Bellevue,5801, WA,6.0,195.0
+2901,Washington,5803, GA,5.11,197.0
+2902,St. Louis,5805, MO,6.03,220.0
+2903,Camden,5807, SC,6.04,271.0
+2904,Laurinburg,5809, NC,6.02,250.0
+2905,Greenbelt,5811, MD,6.02,248.0
+2907,Brampton,5815, ON,6.01,200.0
+2908,Burlington,5817, ON,5.1,180.0
+2909,Moncton,5819, NB,6.02,220.0
+2910,White Rock,5821, BC,6.03,220.0
+2911,Toronto,5823, ON,6.01,278.0
+2912,Toronto,5825, ON,6.01,278.0
+2914,Midhurst,5829, ON,6.05,290.0
+2915,Magog,5831, QC,6.0,220.0
+2916,Lagos,5833, NG,6.01,200.0
+2917,Peterborough,5835, ON,6.0,230.0
+2918,Tecumseh,5837, ON,5.11,210.0
+2919,Stittsville,5839, ON,6.03,235.0
+2920,Laval,5841, QC,6.01,255.0
+2921,Calgary,5843, AB,6.02,205.0
+2922,St. Catharines,5845, ON,5.11,205.0
+2923,Truro,5847, NS,6.01,195.0
+2924,Congo,5849, CF,6.01,190.0
+2925,Echo Bay,5851, ON,5.11,235.0
+2926,Baton Rouge,5853, LA,6.0,242.0
+2927,Brandon,5855, MB,6.06,315.0
+2928,Calgary,5857, AB,6.05,275.0
+2929, Scarborough,5859, ON,5.1,199.0
+2930,Pickering,5861, ON,5.09,185.0
+2931,Brampton,5863, ON,6.04,200.0
+2932,Spokane,5865, WA,6.07,315.0
+2933,Portsmouth,5867, NH,6.05,322.0
+2934,Waco,5869, TX,5.09,205.0
+2935,Miami,5871, FL,5.08,193.0
+2936,Sylmar,5873, CA,6.01,215.0
+2937,North Vancouver,5875, BC,5.09,190.0
+2938,Newbury Park,5877, CA,6.02,220.0
+2939,North Miami,5879, FL,6.06,320.0
+2940,Fresno,5881, CA,6.06,295.0
+2941,Mint Hill,5883, NC,6.05,305.0
+2942,San Antonio,5885, TX,6.01,222.0
+2943,Mesa,5887, AZ,6.01,200.0
+2944,Portland,5889, OR,6.01,191.0
+2945,Garland,5891, TX,6.04,276.0
+2946,Monroe,5893, NC,5.07,168.0
+2947,New Oxford,5895, PA,6.03,225.0
+2948,San Diego,5897, CA,5.1,195.0
+2949,Virginia Beach,5899, VA,5.1,185.0
+2950,San Diego,5901, CA,6.02,207.0
+2951,Miami,5903, FL,5.09,175.0
+2952,Fort Walton Beach,5905, FL,6.04,290.0
+2953,Louisville,5907, KY,6.03,232.0
+2954,Venice,5909, FL,6.01,208.0
+2955,Savannah,5911, GA,6.03,205.0
+2956,Decatur,5913, GA,5.11,180.0
+2957,Pacoima,5915, CA,6.0,180.0
+2958,Hamilton,5917, ON,5.1,185.0
+2959,Nanoose Bay,5919, BC,6.03,242.0
+2960,Detroit,5921, MI,5.11,222.0
+2961,Carrollton,5923, TX,6.02,233.0
+2962,Akron,5925, OH,6.0,202.0
+2963,Broken Arrow,5927, OK,5.11,210.0
+2964,Mobile,5929, AL,6.01,254.0
+2965,Medina,5931, OH,6.02,270.0
+2966,Bradenton,5933, FL,6.02,220.0
+2967,Cleveland,5935, OH,5.11,188.0
+2968,Oxnard,5937, CA,5.1,188.0
+2969,Murietta,5939, CA,6.03,214.0
+2970,Brandywine,5941, MD,6.01,253.0
+2971,Franklin,5943, TN,5.11,189.0
+2972,Pittsburgh,5945, PA,6.0,208.0
+2973,Los Angeles,5947, CA,5.11,298.0
+2974,Wichita,5949, KS,6.03,215.0
+2976,Kelowna,5953, BC,6.02,214.0
+2977,Vancouver,5955, BC,6.04,210.0
+2978,Mission,5957, BC,6.07,320.0
+2979,Mill Bay,5959, BC,6.01,190.0
+2980,Kelowna,5961, BC,5.1,203.0
+2981,Woodstock,5963, ON,6.03,225.0
+2982,Oshawa,5965, ON,5.11,170.0
+2983,Calgary,5967, AB,6.02,220.0
+2984,Georgetown,5969, ON,6.02,210.0
+2985,Burlington,5971, ON,6.05,305.0
+2986,Teeterville,5973, ON,6.07,330.0
+2987,Montreal,5975, QC,6.04,275.0
+2988,Hamilton,5977, ON,6.04,230.0
+2989,Shanty Bay,5979, ON,6.04,293.0
+2990,Moose Jaw,5981, SK,6.03,235.0
+2991,New Westminster,5983, BC,6.03,250.0
+2992,Saskatoon,5985, SK,6.01,230.0
+2993,Chamblee,5987, GA,6.03,239.0
+2994,Toronto,5989, ON,5.1,193.0
+2995,Peterborough,5991, ON,6.05,253.0
+2996,North Vancouver,5993, BC,6.03,278.0
+2997,Richmond,5995, BC,6.03,290.0
+2998,Calgary,5997, AB,6.06,315.0
+2999,St. Laurent,5999, QC,6.02,302.0
+3000,Toronto,6001, ON,6.02,311.0
+3001,Kingston,6003, JM,6.04,297.0
+3002,Bowmanville,6005, ON,6.06,378.0
+3003,Calgary,6007, AB,6.02,327.0
+3004,Hamilton,6009, ON,6.02,222.0
+3005,Surrey,6011, BC,6.04,245.0
+3006,Gaspe,6013, QC,6.02,220.0
+3007,Amsterdam,6015, AN,6.02,229.0
+3008,Windsor,6017, ON,6.01,207.0
+3009,Montreal,6019, QC,6.0,215.0
+3010,Dartmouth,6021, NS,6.04,280.0
+3011,Nanaimo,6023, BC,6.0,230.0
+3012,Moose Jaw,6025, SK,6.05,280.0
+3013,Ottawa,6027, ON,6.03,280.0
+3014,Regina,6029, SK,6.05,244.0
+3015,North Bay,6031, ON,6.04,219.0
+3016,Mississauga,6033, ON,6.02,205.0
+3017,Caronport,6035, SK,6.06,320.0
+3018,Montreal,6037, QC,5.08,178.0
+3019,Beamsville,6039, ON,5.11,219.0
+3020,Mississauga,6041, ON,6.04,255.0
+3021,Montreal,6043, QC,6.01,235.0
+3022,Winnipeg,6045, MB,6.04,250.0
+3023,Brandywine,6047, MD,6.01,195.0
+3024,Toronto,6049, ON,6.0,210.0
+3025,Naracoorte,6051, AU,6.05,204.0
+3026,Delta,6053, BC,6.04,270.0
+3027,Cranbrook,6055, BC,6.03,245.0
+3028,Montreal,6057, QC,6.04,215.0
+3029,Stoney Creek,6059, ON,5.11,190.0
+3030,Val d'Or,6061, QC,6.04,278.0
+3031,Milton,6063, ON,6.05,285.0
+3033,Brantford,6067, ON,6.04,315.0
+3034,Ottawa,6069, ON,6.04,220.0
+3036,Montreal,6073, QC,6.04,275.0
+3037,Torrance,6075, CA,5.08,186.0
+3038,Prince Albert,6077, SK,6.04,299.0
+3039,Cap-Rouge,6079, QC,6.06,247.0
+3040,Charlesbourg,6081, QC,6.03,243.0
+3041,S.S. Marie,6083, ON,6.01,185.0
+3042,Hamilton,6085, ON,6.0,200.0
+3043,Toronto,6087, ON,6.0,199.0
+3044,Ottawa,6089, ON,6.02,250.0
+3045,Oceanside,6091, CA,6.02,245.0
+3046,Cornwall,6093, ON,6.02,290.0
+3047,Windsor,6095, ON,5.11,205.0
+3048,Montreal,6097, QC,6.0,230.0
+3049,Montreal,6099, QC,6.0,196.0
+3050,Harbor City,6101, CA,5.11,208.0
+3051,Dallas,6103, TX,6.01,209.0
+3052,Dallas,6105, TX,6.0,185.0
+3053,New Orleans,6107, LA,6.0,185.0
+3054,Daytona Beach,6109, FL,5.09,176.0
+3055,Edmond,6111, OK,6.0,188.0
+3056,Coral Springs,6113, FL,6.03,252.0
+3057,Beaumont,6115, TX,6.0,194.0
+3058,Echo Bay,6117, ON,5.11,235.0
+3059,Jacksonville,6119, NC,6.01,196.0
+3060,Asheville,6121, NC,6.04,225.0
+3061,Gary,6123, IN,6.0,180.0
+3062,Little Rock,6125, AR,6.02,258.0
+3063,Coquitlam,6127, BC,6.0,183.0
+3064,Saskatoon,6129, SK,6.03,205.0
+3065,Regina,6131, SK,5.09,185.0
+3066,Zenon Park,6133, SK,5.09,230.0
+3067,Saskatoon,6135, SK,6.02,215.0
+3068,Alva,6137, OK,6.02,240.0
+3069,Madison,6139, AL,6.01,213.0
+3070,Chester,6141, PA,6.01,225.0
+3071,Miami,6143, FL,5.08,208.0
+3072,Baltimore,6145, MD,6.03,190.0
+3073,Hollywood,6147, FL,6.03,208.0
+3074,Birmingham,6149, AL,6.03,218.0
+3075,Tampa,6151, FL,6.05,196.0
+3076,Waynesboro,6153, MS,5.08,173.0
+3077,Dallas,6155, TX,6.01,195.0
+3078,Detroit,6157, MI,6.02,290.0
+3079,Long Branch,6159, NJ,6.0,193.0
+3080,New Orleans,6161, LA,6.01,196.0
+3081,Plano,6163, TX,6.01,206.0
+3082,Hagerstown,6165, MD,5.11,182.0
+3084,Manchester,6169, UK,6.03,240.0
+3085,Debary,6171, FL,6.01,212.0
+3086,New Brunswick,6173, NJ,6.01,205.0
+3087,Dallas,6175, TX,6.01,195.0
+3088,Bridgeport,6177, CN,5.11,240.0
+3089,Memphis,6179, TN,6.04,340.0
+3090,Rocky Mount,6181, NC,6.0,192.0
+3091,Coward,6183, SC,6.06,280.0
+3092,Lynwood,6185, CA,5.09,175.0
+3093,Walnut Creek,6187, CA,6.02,230.0
+3094,Lagos,6189, NG,5.1,182.0
+3095,San Diego,6191, CA,6.0,190.0
+3096,LaPlace,6193, LA,6.03,204.0
+3097,Smithfield,6195, NC,6.01,210.0
+3098,Boca Raton,6197, FL,6.01,226.0
+3099,Columbus,6199, GA,6.02,276.0
+3100,Whitby,6201, ON,6.05,318.0
+3101,Orlando,6203, FL,6.05,294.0
+3102,St. Francis,6205, WI,6.05,315.0
+3103,Indianapolis,6207, IN,5.1,174.0
+3105,Ottawa,6211, ON,6.03,243.0
+3106,Jacksonville,6213, FL,5.09,180.0
+3107,Brampton,6215, ON,6.0,200.0
+3109,New Orleans,6219, LA,6.05,315.0
+3110,Piscataway,6221, NJ,6.02,239.0
+3111,Bellingham,6223, WA,6.01,195.0
+3112,Charleston,6225, SC,6.06,298.0
+3113,Jacksonville,6227, FL,6.01,199.0
+3114,Angleton,6229, TX,5.09,175.0
+3115,Atlanta,6231, GA,6.05,277.0
+3116,Landstuhl,6233, DE,6.04,233.0
+3117,Sault Ste. Marie,6235, MI,6.03,297.0
+3118,Manassas,6237, VA,6.03,248.0
+3119,York,6239, SC,5.09,173.0
+3120,Augusta,6241, GA,6.02,282.0
+3121,Natchez,6243, MS,5.11,175.0
+3122,Rock Hill,6245, SC,6.02,192.0
+3123,Tampa Bay,6247, FL,6.03,197.0
+3124,Hinghan,6249, MA,6.03,221.0
+3125,Calgary,6251, AB,6.01,290.0
+3126,Kansas City,6253, MO,6.03,224.0
+3127,Gainesville,6255, FL,6.04,310.0
+3128,Seattle,6257, WA,5.11,186.0
+3129,Leland,6259, NC,6.03,185.0
+3130,Fort Myers,6261, FL,5.08,162.0
+3131,Pittsburgh,6263, PA,6.02,215.0
+3132,Queensville,6265, ON,6.02,294.0
+3133,Burlington,6267, ON,6.04,305.0
+3135,Moose Jaw,6271, SK,6.03,235.0
+3136,Hamilton,6273, ON,6.04,230.0
+3137,Calgary,6275, AB,6.02,205.0
+3138,London,6277, ON,6.04,308.0
+3139,Meridan,6279, MS,6.02,186.0
+3140,Fort Pierce,6281, FL,5.11,179.0
+3141,Manteo,6283, NC,5.11,182.0
+3142,Ernie,6285, PA,5.11,189.0
+3143,Montréal,6287, QC,6.02,250.0
+3144,Kent,6289, WA,6.04,308.0
+3145,Montréal,6291, QC,5.09,196.0
+3146,Vancouver,6293, BC,5.1,185.0
+3147,Carrolton,6295, TX,6.04,218.0
+3148,Fort Lauderdale,6297, FL,6.0,185.0
+3149,Westerville,6299, OH,5.06,175.0
+3150,Columbus,6301, OH,6.03,204.0
+3151,Gainesville,6303, FL,6.02,207.0
+3152,Bowling Green,6305, KY,6.05,198.0
+3153,Fort Lauderdale,6307, FL,6.05,205.0
+3154,Edison,6309, NJ,6.02,205.0
+3155,Miami,6311, FL,6.03,225.0
+3156,Park Ridge,6313, IL,6.0,210.0
+3157,New Orleans,6315, LA,6.06,313.0
+3158,West Linn,6317, OR,6.02,200.0
+3160,Monroe,6321, GA,6.05,322.0
+3161,Hollywood,6323, FL,6.06,320.0
+3164,Brooklyn,6329, NY,6.08,315.0
+3165,Eustis,6331, FL,6.01,200.0
+3167,Torrance,6335, CA,6.01,204.0
+3168,Gillette,6337, WY,6.04,250.0
+3169,Winnipeg,6339, MB,6.02,200.0
+3171,West Chester,6343, OH,6.02,205.0
+3172,Granada Hills,6345, CA,6.02,180.0
+3173,Guelph,6347, ON,6.0,228.0
+3174,Waukegan,6349, IL,6.08,320.0
+3175,Cranford,6351, NJ,6.0,190.0
+3176,Homestead,6353, FL,6.02,265.0
+3177,Karencro,6355, LA,6.0,184.0
+3178,Kileen,6357, TX,6.02,182.0
+3179,Salt Lake City,6359, UT,5.08,200.0
+3181,Rialto,6363, CA,6.03,260.0
+3182,Mississauga,6365, ON,6.03,210.0
+3183,Baltimore,6367, MD,5.11,202.0
+3184,Miami,6369, FL,6.02,291.0
+3185,Missouri City,6371, TX,5.1,180.0
+3186,Los Angeles,6373, CA,6.01,272.0
+3187,Philadelphia,6375, PA,6.04,292.0
+3188,Decatur,6377, GA,6.03,215.0
+3190,Greer,6381, SC,5.09,207.0
+3191,Winnipeg,6383, MB,6.0,200.0
+3192,Jacksonville,6385, FL,6.01,210.0
+3193,Canton,6387, OH,6.0,190.0
+3194,Prichard,6389, AL,5.11,198.0
+3195,Mount Pleasant,6391, TX,6.05,292.0
+3196,San Diego,6393, CA,6.07,292.0
+3197,Pearland,6395, TX,6.04,250.0
+3198,Akron,6397, OH,5.08,213.0
+3199,Brush Prairie,6399, WA,6.05,310.0
+3200,La Ceiba,6401, HN,6.0,198.0
+3201,Surrey,6403, BC,5.1,190.0
+3202,Las Vegas,6405, NV,6.04,300.0
+3203,Katy,6407, TX,6.01,227.0
+3204,Acworth,6409, GA,6.01,252.0
+3205,Nanoose Bay,6411, BC,6.03,240.0
+3206,Portland,6413, OR,5.06,181.0
+3207,Winnipeg,6415, MB,6.03,279.0
+3208,Monroeville,6417, PA,6.01,239.0
+3209,Aliquippa,6419, PA,6.02,254.0
+3210,Inkster,6421, MI,6.04,265.0
+3211,Corona,6423, CA,6.02,225.0
+3212,New Rochelle,6425, NY,6.0,215.0
+3213,Canadian,6427, TX,6.03,250.0
+3214,Philadelphia,6429, PA,6.04,292.0
+3215,Baltimore,6431, MD,5.05,165.0
+3216,Decatur,6433, GA,5.1,182.0
+3217,Oakland,6435, CA,5.1,203.0
+3218,Washington,6437, DC,5.1,190.0
+3220,Cincinnati,6441, OH,6.04,215.0
+3221,Los Angeles,6443, CA,6.03,315.0
+3222,Jackson,6445, MS,5.11,205.0
+3223,Curlew,6447, WA,6.07,318.0
+3224,Columbus,6449, OH,6.0,224.0
+3225,Laurel,6451, MS,6.01,200.0
+3226,Houston,6453, TX,5.09,205.0
+3227,Millville,6455, NJ,6.04,246.0
+3228,Richmond,6457, CA,5.11,185.0
+3229,Orlando,6459, FL,6.02,214.0
+3230,Belle Glade,6461, FL,6.02,188.0
+3231,Eureka,6463, CA,6.04,230.0
+3232,Peoria,6465, AZ,5.09,188.0
+3233,Southfield,6467, MI,6.02,185.0
+3234,Detroit,6469, MI,6.0,188.0
+3235,Norfolk,6471, VA,6.04,227.0
+3236,Bagnell,6473, MO,6.06,296.0
+3237,Fayetteville,6475, N.C,6.0,187.0
+3238,Rockwall,6477, TX,5.09,195.0
+3239,Dewar,6479, OK,6.03,260.0
+3240,Panama City,6481, PA,6.04,222.0
+3241,Fresno,6483, CA,5.08,190.0
+3242,Palo Alto,6485, CA,6.04,217.0
+3243,East Aurora,6487, NY,5.11,191.0
+3245,Fort Collins,6491, CO,6.02,233.0
+3246,Reno,6493, NV,6.04,285.0
+3247,Richmond,6495, TX,6.07,302.0
+3248,North Platte,6497, NE,6.04,240.0
+3249,Round Rock,6499, TX,6.03,218.0
+3250,Los Angeles,6501, CA,6.01,185.0
+3251,Garner,6503, NC,5.07,153.0
+3252,Bamberg,6505, SC,5.11,226.0
+3253,Newark,6507, NJ,6.05,262.0
+3254,Colorado Springs,6509, CO,6.05,310.0
+3255,San Francisco,6511, CA,5.09,187.0
+3256,Oklahoma City,6513, OK ,5.09,186.0
+3257,Augusta,6515, GA,6.02,260.0
+3258,Belville,6517, CO,6.02,200.0
+3259,Beaumont,6519, TX,6.0,235.0
+3260,Bamberg,6521, SC,5.09,193.0
+3261,Newark,6523, NJ,6.03,265.0
+3262,Jacksonville,6525, FL,6.03,206.0
+3263,Plantation,6527, FL,6.01,189.0
+3264,Hanford,6529, CA,5.11,210.0
+3265,Darby,6531, PA,6.03,205.0
+3266,New Haven,6533, CT,6.02,303.0
+3267,San Diego,6535, CA,5.06,190.0
+3268,Daytona Beach,6537, FL,6.0,194.0
+3269,Baltimore,6539, MD,6.05,334.0
+3270,Los Angeles,6541, CA,5.1,185.0
+3271,Ecorse,6543, MI,5.11,185.0
+3272,Santa Monica,6545, CA,6.01,210.0
+3273,Santa Monica,6547, CA,6.01,210.0
+3274,Oakland,6549, CA,6.02,204.0
+3275,Reston,6551, VA,6.02,205.0
+3276,Belle Glade,6553, FL,6.03,305.0
+3277,Dallas,6555, TX,5.1,199.0
+3278,Batesville,6557, MS,6.02,172.0
+3279,Charleston,6559, SC,6.0,219.0
+3280,Santa Maria,6561, CA,6.01,229.0
+3281,Antioch,6563, TN,6.07,245.0
+3282,Phenix City,6565, AL,6.04,315.0
+3283,Miami,6567, FL ,6.05,245.0
+3284,Nashville,6569, TN,6.04,260.0
+3285,Gadsden,6571, AL,6.03,242.0
+3286,Memphis,6573, Tenn.,6.02,252.0
+3287,Lithia Springs,6575, GE,6.0,183.0
+3288,Augusta,6577, GA. ,6.02,285.0
+3289,St. Petersburg,6579, FL,6.03,210.0
+3290,Pahokee,6581, FL,6.03,305.0
+3291,Auckland,6583, NZ,6.06,305.0
+3292,Gainesville,6585, FL,6.06,286.0
+3293,Gainesville,6587, FL,6.04,212.0
+3294,Tampa,6589, FL,5.06,180.0
+3295,Portland,6591, OR,6.01,300.0
+3296,Camden,6593, NJ,6.04,300.0
+3297,Yokosuka,6595, JP,6.03,316.0
+3298,St. Louis,6597, MO,6.03,220.0
+3299,Livonia,6599, MI,5.11,185.0
+3300,Asheville,6601, NC,5.1,202.0
+3301,Atlanta,6603, GA,5.1,166.0
+3302,Lompoc,6605, CA,6.02,225.0
+3303,Baltimore,6607, MA,6.04,237.0
+3304,Grapevine,6609, TX,6.01,205.0
+3305,Teaneck,6611, NJ,6.03,294.0
+3308,St. Albert,6617, AB,6.0,205.0
+3309,Edmonton,6619, AB,6.01,215.0
+3318,Cape Town,6637, South CF,6.02,248.0
+3319,East Point,6639, GA,5.1,212.0
+3320,Laguna Niguel,6641, CA,6.02,280.0
+3321,Los Angeles,6643, CA,5.09,210.0
+3322,Cincinnnati,6645, OH,6.02,187.0
+3323,Santa Monica,6647, CA,6.03,228.0
+3324,Orléans,6649, ON,6.02,190.0
+3325,Forestville,6651, MD,6.04,220.0
+3326,Yonkers,6653, NY,6.02,245.0
+3327,Demascus,6655, MD,6.0,228.0
+3328,Temple,6657, TX,6.0,195.0
+3329,McKinney,6659, TX,6.03,210.0
+3330,Lansing,6661, MI,6.05,298.0
+3331,Texas City,6663, TX,6.01,191.0
+3332,Tacoma,6665, WA,6.03,204.0
+3333,Mississauga,6667, ON,5.1,225.0
+3334,Markham,6669, ON,6.03,197.0
+3337,Erie,6675, PA,6.06,310.0
+3338,Marksville,6677, LA,6.04,314.0
+3339,Fort Wayne,6679, IN,6.05,213.0
+3340,Honolulu,6681, HI,6.03,245.0
+3341,Orangeburg,6683, SC,6.03,225.0
+3342,Fort Lauderdale,6685, FL,6.0,190.0
+3343,Toronto,6687, ON,5.09,190.0
+3344,Cincinnati,6689, OH,6.03,202.0
+3345,Miami,6691, FL,6.03,195.0
+3346,Glendora,6693, CA ,6.03,210.0
+3347,Strongsville,6695, OH,6.0,180.0
+3348,Natchez,6697, MS,5.09,175.0
+3349,Warner Robins,6699, GA,5.09,184.0
+3350,Homestead,6701, FL,5.11,198.0
+3351,Regina,6703, SK,6.0,190.0
+3352,Brooklyn,6705, NY,6.03,205.0
+3353,Vernon,6707, TX,6.02,234.0
+3354,Okotoks,6709, AB,6.02,236.0
+3355,Philadelphia,6711, PA,6.03,280.0
+3356,Brighton,6713, Ala.,6.02,229.0
+3357,Houston,6715, TX,5.09,194.0
+3358,Folsom,6717, CA,6.01,230.0
+3359,Cleveland,6719, OH,5.09,186.0
+3360,Brenham,6721, TX,5.11,185.0
+3361,Norman,6723, OK,6.0,197.0
+3362,San Angelo,6725, TX,6.01,197.0
+3363,Ashville,6727, NC,6.0,200.0
+3364,Belton,6729, TX,5.11,235.0
+3365,Cleveland,6731, OH,5.11,194.0
+3366,Hayward,6733, CA,6.02,215.0
+3367,San Angelo,6735, TX,6.02,206.0
+3368,Lancaster,6737, CA,6.04,220.0
+3369,Jacksonville,6739, FL,5.11,196.0
+3370,Danville,6741, VA,5.9,190.0
+3371,McKeesport,6743, PA,5.11,193.0
+3372,Export,6745, PA,6.01,240.0
+3373,Orrick,6747, MO,6.01,230.0
+3374,Burlington,6749, NC,6.04,249.0
+3375,Ajax,6751, ON,6.0,190.0
+3376,Louisville,6753, KY,6.06,238.0
+3377,Tampa,6755, FL,6.02,210.0
+3378,Demopolis,6757, Ala,6.06,300.0
+3379,Louisville,6759, KY,6.05,305.0
+3381,San Antonio,6763, TX,5.1,180.0
+3382,Nocatee,6765, FL,5.09,175.0
+3383,Portland,6767, OR,6.01,300.0
+3384,Minnetonka,6769, MN,6.0,200.0
+3385,New Orleans,6771, LA,6.05,308.0
+3387,Dallas,6775, TX,5.09,187.0
+3388,St. Helena Island,6777, SC,6.0,211.0
+3389,Palm Springs,6779, CA,6.06,290.0
+3390,Wichita Falls,6781, TX,6.01,207.0
+3391,Cincinnati,6783, OH,6.0,238.0
+3392,Dallas,6785, TX,5.11,191.0
+3393,Long Beach,6787, CA,6.02,195.0
+3394,Charleston,6789, NC,5.11,190.0
+3395,Birmingham,6791, AL,6.05,245.0
+3396,Memphis,6793, TN,6.02,200.0
+3397,Angie,6795, LA,6.02,204.0
+3398,Daphne,6797, AL,6.0,205.0
+3399,Montclair,6799, NJ,5.11,212.0
+3400,New Orleans,6801, LA.,6.0,246.0
+3401,Columbia,6803, SC,6.03,240.0
+3402,Fort Wayne,6805, IN,5.08,180.0
+3403,Powder Springs,6807, GA,6.03,228.0
+3404,Orlando,6809, FL,6.02,203.0
+3405,Norfolk,6811, VA,5.1,186.0
+3406,Upper Saddle River,6813, NJ,5.08,198.0
+3407,Royal Palm Beach,6815, FL,6.03,303.0
+3408,Tucker,6817, GE,6.03,212.0
+3409,Angleton,6819, TX,5.11,214.0
+3410,Norman,6821, OK,6.0,207.0
+3412,Kathleen,6825, GA,6.06,280.0
+3413,Beaumont,6827, TX,6.06,245.0
+3414,Fresno,6829, CA,6.01,236.0
+3415,Tulare,6831, CA,6.02,235.0
+3416,Brooklyn,6833, NY,6.03,248.0
+3417,Manassas,6835, VA,5.1,190.0
+3418,Metterl,6837, GA,6.02,250.0
+3419,Scarborough,6839, ON,6.03,205.0
+3420,Memphis,6841, TN,6.02,304.0
+3421,Scarborough,6843, Ont.,5.09,180.0
+3422,Tallahassee,6845, FL,5.11,200.0
+3423,Wahpeton,6847, ND,5.07,175.0
+3424,Wahpeton,6849, ND,5.07,175.0
+3425,Los Angeles,6851, CA,6.01,188.0
+3426,Lago Vista,6853, TX,6.05,300.0
+3427,Charlotte,6855, NC,6.04,215.0
+3428,Washington,6857, DC,5.08,185.0
+3429,Gary,6859, IN,6.0,180.0
+3430,Medford,6861, OR,6.04,305.0
+3431,Levittown,6863, PA,5.09,199.0
+3432,Sacramento,6865, CA,6.06,308.0
+3433,Lawrenceville,6867, GA,6.06,320.0
+3434,Albany,6869, NY,5.08,160.0
+3435,Live Oak,6871, FL,5.1,176.0
+3436,Ocean Springs,6873, MS,6.0,160.0
+3437,Cleveland,6875, OH,6.03,320.0
+3438,Seguin,6877, TX,5.09,190.0
+3439,Norman,6879, OK,5.09,178.0
+3440,Pittsburgh,6881, PA,6.03,205.0
+3441,Maplewood,6883, MN,6.03,210.0
+3442,Cleveland,6885, OH,5.11,182.0
+3443,Little Rock,6887, AR,5.11,190.0
+3444,Detroit,6889, MI,6.02,195.0
+3445,Boston,6891, MA,6.04,205.0
+3446,New Orleans,6893, LA,6.02,200.0
+3447,Carol City,6895, FL,6.04,212.0
+3448,Baltimore,6897, MD,6.04,339.0
+3449,London,6899, UK,5.1,185.0
+3450,Boca Raton,6901, FL,5.09,190.0
+3451,Fort Worth,6903, TX,6.03,270.0
+3452,Dallas,6905, TX,6.06,205.0
+3453,Kearney,6907, NE,6.0,186.0
+3454,New Orleans,6909, LA,5.1,195.0
+3455,Fort Lauderdale,6911, FL,6.03,258.0
+3456,Dallas,6913, TX,6.01,200.0
+3457,Jackson,6915, MI,5.09,205.0
+3458,Missouri City,6917, TX,5.1,180.0
+3459,Claremore,6919, OK,6.06,320.0
+3460,Claremore,6921, OK,6.06,320.0
+3461,Claremore,6923, OK,6.06,320.0
+3463,Euclid,6927, OH,6.02,237.0
+3464,Indianapolis,6929, IN,6.0,198.0
+3465,Memphis,6931, TN,6.06,312.0
+3466,Memphis,6933, TN,6.04,189.0
+3467,Raymond,6935, MS,6.0,204.0
+3468,Zephyrhills,6937, FL,5.11,199.0
+3469,Fort Worth,6939, TX,6.02,248.0
+3471, Amite County,6943, MS,6.03,230.0
+3472,Pineville,6945, LA,6.02,215.0
+3473,Arlington,6947, TX,6.01,212.0
+3474,Barrie,6949, ON,6.03,300.0
+3475,Quebec City,6951, QC,6.03,298.0
+3476,Burlington,6953, ON,6.03,202.0
+3477,Scarborough,6955, ON,6.05,295.0
+3478,Regina,6957, SK,6.05,218.0
+3479,Weyburn,6959, SK,6.03,275.0
+3480,Whitby,6961, ON,6.03,215.0
+3481,Mississauga,6963, ON,6.05,202.0
+3483,Mont-Tremblant,6967, QC,5.11,180.0
+3484,St-Lambert,6969, QC,6.03,210.0
+3485,Montreal,6971, QC,5.08,185.0
+3486,Saskatoon,6973, SK,5.09,175.0
+3487,Ajax,6975, ON,6.0,240.0
+3488,London,6977, ON,6.0,210.0
+3489,Brampton,6979, ON,6.03,238.0
+3490,La Tuque,6981, QC,5.11,200.0
+3491,London,6983, ON,6.05,220.0
+3492,Toronto,6985, ON,6.01,180.0
+3493,Amherstburg,6987, ON,6.0,185.0
+3494,Edmonton,6989, AB,6.01,192.0
+3495,Markham,6991, ON,6.02,210.0
+3496,Vancouver,6993, BC,6.0,175.0
+3497,Montreal,6995, QC,6.05,220.0
+3498,Delta,6997, BC,6.03,242.0
+3499,Grimshaw,6999, AB,6.03,300.0
+3500,Winnipeg,7001, MB,6.03,275.0
+3501,Montreal,7003, QC,6.0,200.0
+3502,Aurora,7005, ON,6.01,220.0
+3503,Chicoutimi,7007, QC,6.01,265.0
+3504,Toronto,7009, ON,6.03,250.0
+3505,Quebec City,7011, QC,6.0,202.0
+3506,Scarborough,7013, ON,6.02,300.0
+3507,Toronto,7015, ON,6.01,250.0
+3508,Prince George,7017, BC,6.02,188.0
+3509,North Vancouver,7019, BC,6.02,235.0
+3510,Thunder Bay,7021, ON,6.05,248.0
+3511,Prince George,7023, BC,5.1,200.0
+3512,Winnipeg,7025, MB,5.09,199.0
+3513,Niagara Falls,7027, ON,5.09,210.0
+3514,Montreal,7029, QC,6.0,215.0
+3515,Calgary,7031, AB,6.04,245.0
+3516,Montreal,7033, QC,6.03,243.0
+3517,Kelowna,7035, BC,6.01,210.0
+3518,Kingston,7037, ON,6.02,236.0
+3519,Richmond,7039, BC,6.04,304.0
+3520,Kitchener,7041, ON,5.11,201.0
+3521,Port Moody,7043, BC,5.1,215.0
+3522,Winnipeg,7045, MB,6.01,232.0
+3523,Surrey,7047, BC,6.03,309.0
+3524,La Salle,7049, QC,6.08,320.0
+3526,West Palm Beach,7053, FL,6.03,312.0
+3527,Collins,7055, MS,5.1,185.0
+3528,Watts,7057, CA,6.01,205.0
+3529,Livingston,7059, TX,5.11,175.0
+3530,Leland,7061, MS,5.11,175.0
+3531,Winnipeg,7063, MB,6.06,275.0
+3532,Brownwood,7065, TX,6.05,230.0
+3533,Richmond,7067, VA,6.05,250.0
+3534,Hamilton,7069, ON,5.11,205.0
+3536,Bainbridge,7073, GA,6.02,217.0
+3537,Richmond Hill,7075, ON,6.03,298.0
+3538,Smithfield,7077, UT,5.08,175.0
+3540,Peterborough,7081, ON,6.0,185.0
+3542,London,7085, ON,6.02,289.0
+3543,Hamilton,7087, ON,6.0,195.0
+3546,Suitland,7093, MD,6.02,230.0
+3547,Suitland,7095, MD,6.02,230.0
+3548,Cleveland,7097, OH,6.01,195.0
+3549,Calgary,7099, AB,5.11,195.0
+3551,Toronto,7103, ON,5.11,220.0
+3553,Glen Haven,7107, NS,6.03,292.0
+3555,Laval,7111, QC,6.03,295.0
+3556, Port Coquitlam,7113, BC,6.04,275.0
+3558,Miami,7119, FL,6.01,217.0
+3559,Coral Springs,7121, FL,6.05,267.0
+3560,Los Angeles,7123, CA,6.0,230.0
+3561,Cincinnati,7125, OH,5.11,221.0
+3562,Bastrop,7127, LA,5.1,183.0
+3563,Platteville,7129, WI,6.04,260.0
+3564,Stillwater,7131, OK,6.02,242.0
+3565,Silver Spring,7133, MD,6.01,228.0
+3566,Phoenixville,7135, PA,6.04,290.0
+3567,Flower Mound,7137, TX,6.04,240.0
+3568,Hemmingway,7139, SC,6.04,300.0
+3569,Toronto,7141, ON,5.08,175.0
+3570,Loveland,7143, CO,6.05,226.0
+3571,Hinesville,7145, GA,6.02,245.0
+3572,Bradenton,7147, FL,5.1,195.0
+3573,Tallahassee,7149, FL,6.0,309.0
+3574,Moorestown,7151, NJ,6.02,195.0
+3575,Greenville,7153, SC,6.2,205.0
+3576,Oceanside,7155, CA,5.11,175.0
+3577,Berkeley,7157, CA,5.1,190.0
+3578,SouthField,7159, MI,6.0,207.0
+3579,Philadelphia,7161, PA,6.03,220.0
+3580,Wahiawa,7163, HI,6.0,200.0
+3581,Hamilton,7165, ON,6.01,210.0
+3582,Van Wyck,7167, SC,5.1,175.0
+3583,Dallas,7169, TX,6.02,208.0
+3584,Seattle,7171, WA,5.09,190.0
+3585,Dade City,7173, FL,5.1,200.0
+3586,Cincinnati,7175, OH,6.01,226.0
+3589,Memphis,7181, TN,6.01,190.0
+3590,Ocilla,7183, GA,6.05,342.0
+3591,Baton Rouge,7185, LA,5.08,194.0
+3592,Orlando,7187, FL,5.1,178.0
+3593,Marietta,7189, GA,6.02,231.0
+3594,Baltimore,7191, MD,6.05,283.0
+3595,Sarasota,7193, FL,5.09,172.0
+3596,St. Joseph,7195, MO,6.04,230.0
+3597,Parkersburg,7197, WV,6.03,310.0
+3598,Birmingham,7199, AL,6.03,192.0
+3599,Newport News,7201, VA,6.02,180.0
+3600,Miami,7203, FL,6.03,213.0
+3601,Long Beach,7205, CA,6.03,264.0
+3602,Virginia Beach,7207, VA,6.0,208.0
+3603,St. Petersburg,7209, FL,5.11,184.0
+3604,Washington,7211, DC,6.01,252.0
+3605,Warren,7213, OH,6.01,198.0
+3606,Edmonton,7215, AB,6.03,304.0
+3607,Boise,7217, ID,6.03,275.0
+3608,Whittier,7219, CA,6.0,185.0
+3609,Missouri City,7221, TX,5.09,170.0
+3610,West Palm Beach,7223, FL,6.04,264.0
+3611,Detroit,7225, MI,6.03,246.0
+3612,Miami,7227, FL,6.02,201.0
+3613,Laguna Niguel,7229, CA,6.01,178.0
+3614,Grand Rapids,7231, MI,6.01,286.0
+3615,Freeport,7233, BS,6.06,300.0
+3616,Atlanta,7235, GA,6.03,295.0
+3617,St,7237, Petersburg,6.04,315.0
+3618,Oxnard,7239, CA,6.01,235.0
+3619,St. Thomas,7241, ON,5.11,205.0
+3620,Carbondale,7243, IL,6.01,295.0
+3621,East St Louis,7245, IL,6.0,195.0
+3622,Los Angeles,7247, CA,6.01,184.0
+3623,Metairie,7249, LA,6.04,222.0
+3624,Paducah,7251, KY,6.01,205.0
+3625,Carol City,7253, FL,6.04,212.0
+3626,DeSoto,7255, TX,6.07,333.0
+3627,Burien,7257, WA,6.01,217.0
+3628,New Westminster,7259, BC,6.07,307.0
+3629,Norfolk,7261, VA,6.03,312.0
+3630,Centerville,7263, VA,6.05,289.0
+3631,Chester,7265, PA,6.04,271.0
+3632,Minneapolis,7267, MN,6.03,220.0
+3634,Denver,7271, CO,6.05,235.0
+3635,Stockton,7273, CA,6.03,293.0
+3636,Starkville,7275, MS,6.05,290.0
+3637,Del City,7277, OK,6.02,200.0
+3638,St. Catharines,7279, ON,6.3,260.0
+3639,Markham,7281, ON,6.02,210.0
+3640,Aurora,7283, ON,6.0,230.0
+3641,Nanaimo,7285, BC,6.01,200.0
+3642,Vancouver,7287, BC,5.1,205.0
+3643,Trois-Rivières,7289, QC,6.03,220.0
+3644,Calgary,7291, AB,6.4,245.0
+3645,Acworth,7293, GA,5.07,190.0
+3646,Union,7295, GA,5.11,195.0
+3647,Delray Beach,7297, FL,5.08,170.0
+3648,San Antonio,7299, TX,6.0,183.0
+3649,Baltimore,7301, MD,6.0,185.0
+3650,Dayton,7303, OH,5.09,213.0
+3651,Clovis,7305, CA,6.01,214.0
+3652,Mead,7307, CO,6.03,263.0
+3653,San Antonio,7309, TX,6.06,308.0
+3654,Lafayette,7311, LA,6.08,308.0
+3655,Shelby,7313, NC,6.02,250.0
+3656,Freehold Township,7315, NJ,6.04,265.0
+3657,Athens,7317, TX,6.04,275.0
+3658,Orlando,7319, FL,6.03,245.0
+3659,Addison,7321, IL,6.02,236.0
+3660,Frederick,7323, MD,6.05,310.0
+3661,Linden,7325, MI,5.1,180.0
+3662,Jacksonville,7327, FL,6.05,226.0
+3663,Gretna,7329, LA,5.11,223.0
+3664,Cypress,7331, TX,5.09,211.0
+3665,Muncie,7333, IN,5.06,155.0
+3666,San Antonio,7335, TX,6.06,240.0
+3667,Nashville,7337, TN,6.05,270.0
+3668,Greensboro,7339, NC,6.01,244.0
+3669,Portsmouth,7341, VA,6.03,210.0
+3670,Vancouver,7343, WA,6.04,300.0
+3671,Wheat Ridge,7345, CO,5.1,190.0
+3672,Killeen,7347, TX,6.01,212.0
+3673,Panama City,7349, FL,5.1,186.0
+3674,Athens,7351, GA,6.06,316.0
+3675,Tampa,7353, FL,6.01,220.0
+3676,Wauseaon,7355, OH,6.05,308.0
+3677,Honolulu,7357, HI,5.07,196.0
+3678,Alexandria,7359, VA,5.11,228.0
+3679,Springfield,7361, MO,6.02,215.0
+3681,Albany,7365, NY,6.02,193.0
+3682,Swissvale,7367, PA,6.03,248.0
+3683,Las Vegas,7369, NV,6.0,190.0
+3684,Montreal,7371, QC,6.03,220.0
+3685,West Hartford,7373, CT,6.03,300.0
+3686,York,7375, PA,6.03,329.0
+3687,Beaufort,7377, SC,6.05,335.0
+3688,Gastonia,7379, NC,6.01,187.0
+3689,Los Angeles,7381, CA,5.11,190.0
+3690,Pensacola,7383, FL,6.05,300.0
+3692,Oceanside,7387, CA,5.1,195.0
+3693,Carrolton,7389, TX,6.03,280.0
+3694,Mesquite,7391, TX,6.01,219.0
+3695,Clinton,7393, MD,5.08,219.0
+3696,Livermore,7395, CA,6.05,258.0
+3698,Rockwall,7399, TX,5.09,195.0
+3699,Kelso,7401, WA,6.05,298.0
+3700,Dallas,7403, TX,5.1,189.0
+3701,Newport News,7405, VA,6.05,230.0
+3702,Henrico,7407, VA,6.03,225.0
+3703,Hollywood,7409, FL,6.04,295.0
+3704,La Marque,7411, TX,6.03,220.0
+3705,Corona,7413, CA,6.01,195.0
+3706,Belle Glade,7415, FL,6.05,321.0
+3708,Arlington,7419, TX,5.11,190.0
+3709,Coronado,7421, CA,6.0,195.0
+3710,Lancaster,7423, CA,5.11,195.0
+3711,Hartford,7425, WI,6.08,315.0
+3712,Barrington,7427, IL,6.0,202.0
+3713,Courtland,7429, MS,6.07,320.0
+3714,Goodrich,7431, MI,6.01,225.0
+3715,Cypress,7433, TX,5.1,200.0
+3716,Salem,7435, OR,6.03,206.0
+3717,Garland,7437, TX,6.04,265.0
+3718,New Orleans,7439, LA,6.0,185.0
+3719,Warren,7441, OH,6.02,200.0
+3720,El Paso,7443, TX,6.02,215.0
+3721,Memphis,7445, TN,6.04,189.0
+3722,Baton Rouge,7447, LA,6.02,236.0
+3724,Richmond,7451, TX,5.07,185.0
+3725,Palmetto,7453, FL,6.04,210.0
+3726,Palmetto,7455, FL,6.04,210.0
+3727,Palmetto,7457, FL,6.04,210.0
+3728,Palmetto,7459, FL,6.04,210.0
+3729,Palmetto,7461, FL,6.04,210.0
+3730,Leesburg,7463, FL,6.01,196.0
+3731,Sault Ste. Marie,7465, MI,6.03,316.0
+3732,Seattle,7467, WA,5.1,220.0
+3733,Augusta,7469, GA,6.04,292.0
+3734,Pahokee,7471, FL,6.4,195.0
+3735,Lake Worth,7473, FL,5.11,191.0
+3736,Corsicana,7475, TX,6.07,325.0
+3737,Montclair,7477, NJ,6.03,200.0
+3738,Piscataway,7479, NJ,6.02,244.0
+3739,Sacramento,7481, CA,6.02,208.0
+3740,Warren,7483, AR,6.03,217.0
+3741,Azua,7485, DR,6.02,240.0
+3742,Los Angeles,7487, CA,6.01,202.0
+3743,Miami,7489, FL,5.07,165.0
+3744,San Francisco,7491, CA.,5.11,187.0
+3745,Houston,7493, TX,6.05,250.0
+3746,Opa Locka,7495, FL,6.05,270.0
+3747,Collins,7497, MS,5.11,185.0
+3748,Miami,7499, FL,6.02,234.0
+3750,St. Louis,7503, MO,5.1,170.0
+3751,Tampa,7505, FL,6.02,290.0
+3752,Lauderdale Lakes,7507, FL,5.1,195.0
+3753,Roswell,7509, GE,6.04,205.0
+3754,Baton Rouge,7511, LA,6.02,236.0
+3755,Anaheim,7513, CA,5.07,190.0
+3756,Atco,7515, NJ,6.01,187.0
+3757,Texarkana,7517, TX.,6.01,195.0
+3758,Windsor,7519, CT,5.11,180.0
+3759,Orlando,7521, FL,6.02,190.0
+3760,Fairfax,7523, VA ,6.03,248.0
+3761,Hyattsville,7525, MA,6.02,226.0
+3762,Alexandria,7527, LA,6.0,195.0
+3763,Sulphur Springs,7529, TX,6.01,230.0
+3764,Copley,7531, OH,5.09,232.0
+3765,Atlanta,7533, GA,6.03,281.0
+3766,Corona,7535, CA,6.03,212.0
+3767,La Grange,7537, GA,6.02,316.0
+3768,Coral Spings,7539, FL,6.04,254.0
+3769,Arlington,7541, TX,6.08,325.0
+3770,Lakeland,7543, FL,5.08,190.0
+3771,Knoxville,7545, TN,6.01,250.0
+3772,Olathe,7547, KS,5.1,180.0
+3773,Escanaba,7549, MI,6.04,312.0
+3774,Allen,7551, TX,6.04,215.0
+3775,Niceville,7553, FL,5.07,167.0
+3776,Monte Nido,7555, CA,5.11,227.0
+3777,Keizer,7557, OR,6.01,212.0
+3778,Connell,7559, WA,6.04,303.0
+3779,Sacramento,7561, CA,6.05,303.0
+3780,Pasadena,7563, CA,6.03,242.0
+3781,McComb,7565, MS,5.11,214.0
+3782,McComb,7567, MS,5.11,214.0
+3783,Jacksonville,7569, FL,6.05,213.0
+3784,Tupelo,7571, MS,5.1,202.0
+3785,Tallahassee,7573, FL,6.03,205.0
+3786,Savannah,7575, GA,6.03,245.0
+3787,Riverside,7577, CA,6.03,220.0
+3788,Valdosta,7579, GA,5.08,190.0
+3789,Gibson,7581, LA,6.03,284.0
+3790,Augusta,7583, GA,6.02,295.0
+3791,Tahlequah,7585, OK,6.04,225.0
+3792,Montgomery,7587, TX,6.04,230.0
+3793,Houston,7589, TX,5.09,185.0
+3794,Los Angeles,7591, CA,5.09,185.0
+3795,Los Angeles,7593, CA,5.09,194.0
+3796,North Royalton,7595, OH,6.0,238.0
+3797,Stratford,7597, CT,6.03,235.0
+3798,Burlington,7599, NJ,5.09,183.0
+3799,Houston,7601, TX,6.0,190.0
+3800,Houston,7603, TX,6.0,190.0
+3801,Chico,7605, CA,6.01,212.0
+3802,Baton Rouge,7607, LA,6.04,310.0
+3803,Hattiesburg,7609, MS,6.02,242.0
+3804,Rome,7611, GA,6.03,295.0
+3805,Oakland,7613, CA,6.01,190.0
+3806,Little Rock,7615, AR,5.1,180.0
+3807,Roswell,7617, GA,6.03,215.0
+3808,Centerville,7619, TN,6.0,200.0
+3809,Hilo,7621, Hawai‘i,5.11,200.0
+3810,San Jose,7623, CA,5.11,211.0
+3811,Everman,7625, TX,6.04,288.0
+3812,Plainfield,7627, NJ,5.07,172.0
+3813,Wilmington,7629, DE,6.05,260.0
+3814,Durham,7631, NC,5.07,182.0
+3816,Louisville,7635, KY,6.04,256.0
+3817,Gainesville,7637, FL,5.1,210.0
+3818,New Iberia,7639, LA,5.08,163.0
+3819,Coppell,7641, TX,5.1,193.0
+3820,Rockville,7643, MD,5.09,191.0
+3821,Hamilton,7645, ON,5.11,230.0
+3822,Chicago,7647, IL,6.0,216.0
+3823,Detroit,7649, MI,5.11,231.0
+3824,Corona,7651, CA,6.04,195.0
+3826,Camarillo,7655, CA,6.04,224.0
+3827,Opa Locka,7657, FL,6.03,238.0
+3828,Upper Marlboro,7659, MD,6.04,215.0
+3829,Lakewood,7661, CA,6.01,224.0
+3830,Hamilton,7663, ON,6.0,204.0
+3831,Dallas,7665, TX,5.11,205.0
+3832,Tallahassee,7667, FL,6.04,235.0
+3833,Tallahassee,7669, FL,5.11,190.0
+3834,Jeannette,7671, PA,5.09,191.0
+3835,Corona,7673, CA,6.01,199.0
+3836,Pittsburgh,7675, PA,6.02,210.0
+3837,Yucaipa,7677, CA,6.03,305.0
+3838,Houston,7679, TX,6.04,317.0
+3839,Charlotte,7681, NC,6.08,350.0
+3840,Akron,7683, OH,5.11,190.0
+3841,El Paso,7685, TX,6.05,258.0
+3842,Indianapolis,7687, IN,6.0,177.0
+3843,Fresno,7689, CA,5.11,202.0
+3844,Raytown,7691, MO,5.11,195.0
+3845,Sherwood Park,7693, AB,6.05,295.0
+3846,Regina,7695, SK,6.01,220.0
+3847,Toledo,7697, OH,5.1,180.0
+3848,Waupaca,7699, WI,6.03,225.0
+3849,Bakersfield,7701, CA,5.09,175.0
+3850,Washington,7703, DC,6.02,240.0
+3851,Winnipeg,7705, MB,6.01,190.0
+3852,Toulon,7707, FR,6.04,225.0
+3853,Pittsburgh,7709, PA,6.03,208.0
+3854,Mableton,7711, GA,6.04,274.0
+3855,Charleston,7713, VA,6.04,195.0
+3856,Pompano Beach,7715, FL,6.01,225.0
+3857,Encino,7717, CA,6.02,221.0
+3858,Dallas,7719, TX,6.02,195.0
+3859,Lakeland,7721, FL,6.03,210.0
+3860,Crescent City,7723, CA,6.04,210.0
+3861,Tulsa,7725, OK,5.08,168.0
+3862,Marrero,7727, LA,6.03,238.0
+3863,Eugene,7729, OR,6.01,195.0
+3864,Glendale,7731, AZ,6.01,307.0
+3865,Wichita Falls,7733, TX,5.1,196.0
+3866,Missouri City,7735, TX,6.01,240.0
+3868,Texarkana,7739, TX,5.11,203.0
+3869,Lauderdale Lakes,7741, FL,6.01,200.0
+3870,Frankfort,7743, IL,6.04,260.0
+3872,Lawrenceville,7747, GA,6.03,225.0
+3873,Bellevue,7749, OR,5.11,175.0
+3874,Bellevue,7751, OR,6.01,195.0
+3875,New York,7753, NY,6.03,212.0
+3876,Dallas,7755, TX,6.03,255.0
+3877,Oklahoma City,7757, OK,5.09,210.0
+3878,Aschaffenburg,7759, DE,6.03,255.0
+3879,Santa Cruz,7761, CA,5.11,194.0
+3880,Selma,7763, AL,6.04,235.0
+3881,Lake Charles,7765, LA,6.02,278.0
+3882,Houston,7767, TX,6.02,215.0
+3883,Stockton,7769, CA,5.11,195.0
+3884,New Haven,7771, CT ,6.07,317.0
+3885,Fresno,7773, CA ,5.1,180.0
+3886,Mobile,7775, AL,6.03,220.0
+3887,Sumter,7777, SC,6.03,255.0
+3888,Columbia,7779, SC,6.06,320.0
+3889,Columbus,7781, OH,5.11,176.0
+3890,Central Falls,7783, RI,6.02,200.0
+3891,Tulsa,7785, OK,6.0,205.0
+3892,Rocklin,7787, CA,6.02,300.0
+3893,Pomona,7789, CA,6.03,250.0
+3894,New Brunswick,7791, NJ,6.02,185.0
+3895,Hempstead,7793, TX,6.05,203.0
+3896,Chesapeake,7795, VA,5.11,200.0
+3897,Chesapeake,7797, VA,5.11,200.0
+3898,Fayetteville,7799, NC,6.03,213.0
+3899,Muskegon,7801, MI,6.0,178.0
+3900,Conshohocken,7803, PA,5.11,211.0
+3901,Baltimore,7805, MD,6.02,255.0
+3902,Winnipeg,7807, MB,6.05,220.0
+3903,Columbus,7809, OH,6.0,195.0
+3904,White Plains,7811, NY,6.02,294.0
+3905,Miami,7813, FL,6.0,185.0
+3906,Palatka,7815, FL,6.02,252.0
+3907,Clarkston,7817, GA,5.1,190.0
+3908,Birmingham,7819, AL,6.0,189.0
+3909,Powder Springs,7821, GA,5.09,189.0
+3910,Miramar,7823, FL,6.01,195.0
+3911,Toronto,7825, ON,6.06,285.0
+3912,Slidell,7827, LA,6.06,323.0
+3913,Avon Park,7829, FL,6.01,190.0
+3914,Palm Bay,7831, FL,6.01,195.0
+3915,Chicago,7833, IL,6.02,205.0
+3916,Blue Springs,7835, MO,5.08,180.0
+3917,Houston,7837, TX,5.11,208.0
+3918,Jonesboro,7839, GE,6.01,187.0
+3919,Houston,7841, TX,6.03,190.0
+3920,Wauconda,7843, IL,6.02,190.0
+3921,Lee`s Summit,7845, MO,5.1,190.0
+3922,San Francisco,7847, CA.,6.0,187.0
+3923,Conway,7849, SC.,6.01,225.0
+3924,South Bend,7851, IN.,6.01,210.0
+3925,New Iberia,7853, La,5.11,214.0
+3926,San Diego,7855, CA,6.06,320.0
+3928,Harrisburg,7859, PA,6.01,250.0
+3929,Oklahoma City,7861, OK,6.02,225.0
+3930,Cresco,7863, PA,6.05,310.0
+3931,San Antonio,7865, TX,5.09,185.0
+3932,Indianapolis,7867, IN,5.08,185.0
+3933,San Diego,7869, CA,6.02,182.0
+3934,Hillsboro,7871, TX,6.02,185.0
+3935,Springfield,7873, VA,6.04,220.0
+3937,Toronto,7877, ON,6.0,220.0
+3938,Regina,7879, SK,5.09,165.0
+3939,Scottsdale,7881, AZ,6.05,265.0
+3940,Rancho Cordova,7883, CA,6.04,240.0
+3941,Durham,7885, NC,6.03,275.0
+3942,Concord,7887, CA,5.1,186.0
+3943,Kennewick,7889, WA,6.04,300.0
+3944,Norcross,7891, GA,6.05,305.0
+3947,Opelika,7897, AL,6.02,188.0
+3948,Opelika,7899, AL,5.11,193.0
+3949,Greenwood,7901, SC,6.0,200.0
+3950,Brooklyn,7903, NY,6.03,249.0
+3951,Philadelphia,7905, PA,5.11,210.0
+3952,Greensboro,7907, NC,6.01,235.0
+3953,Pittsburgh,7909, PA,6.02,225.0
+3957,Ottawa,7917, ON,6.04,309.0
+3958,Kemptville,7919, ON,6.06,320.0
+3959,Mississauga,7921, ON,6.02,250.0
+3960,Mississauga,7923, ON,6.03,235.0
+3961,Scarborough,7925, ON,5.08,193.0
+3962,Elk Grove,7927, CA,6.01,205.0
+3963,Seattle,7929, WA,6.05,272.0
+3964,New Orleans,7931, LA,6.05,272.0
+3965,Port Coquitlam,7933, BC,6.04,300.0
+3966,Kissimmee,7935, FL,5.07,189.0
+3967,Staten Island,7937, NY,5.08,175.0
+3968,St. Petersburg,7939, FL,5.1,171.0
+3969,Chicago,7941, IL,6.04,242.0
+3970,Forestville,7943, MD,5.11,195.0
+3971,Hattiesburg,7945, MS,6.02,240.0
+3972,Vicksburg,7947, MI,5.11,212.0
+3973,Columbus,7949, OH,5.1,241.0
+3974,Germantown,7951, MD,5.11,210.0
+3975,Landover ,7953, MD,6.01,220.0
+3976,Houston,7955, TX,6.02,195.0
+3977,Washington,7957, DC,5.08,145.0
+3978,Shawnee,7959, KS,6.03,295.0
+3979,Stone Mountain,7961, GE,5.11,197.0
+3980,Owasso,7963, OK,6.01,220.0
+3981,Moberly,7965, MO,6.01,205.0
+3982,Nashville,7967, TN,6.02,205.0
+3983,Shreveport,7969, LA,6.01,225.0
+3984,West Memphis,7971, AK,6.0,207.0
+3985,Memphis,7973, TN,6.0,206.0
+3986,Hamilton,7975, OH,5.11,220.0
+3987,Houston,7977, TX,5.1,190.0
+3988,Regina,7979, SK,6.01,213.0
+3989,Miami,7981, FL,5.11,210.0
+3990,Lake Oswego,7983, OR,6.01,181.0
+3991,Oakland,7985, CA,5.08,175.0
+3992,St. Petersburg,7987, FL,6.04,290.0
+3993,Washington,7989, DC,5.11,285.0
+3994,Pickering,7991, ON,6.0,192.0
+3995,Ottawa,7993, ON,6.02,200.0
+3996,Lufkin,7995, TX,6.02,305.0
+3997,East Pittsford,7997, VT,6.03,300.0
+3998,Garland,7999, TX,6.02,225.0
+3999,Orlando,8001, FL,6.0,171.0
+4000,Gainsville,8003, FL,6.01,209.0
+4001,Bromont,8005, QC,6.02,239.0
+4002,Ottawa,8007, ON,6.0,252.0
+4003,Puyallup,8009, WA,5.11,178.0
+4004,Bogalusa,8011, LA,6.02,210.0
+4008,Burlington,8019, ON,5.09,215.0
+4009,West Monroe,8021, LA,6.01,305.0
+4010,Toronto,8023, ON,6.01,190.0
+4011,Rockville Centre,8025, NY,6.03,299.0
+4012,Galveston,8027, TX,6.02,260.0
+4013,Beaumont,8029, TX,6.05,310.0
+4014,Whitby,8031, ON,5.08,207.0
+4015,New Orleans,8033, LA,5.11,200.0
+4016,Montreal,8035, QC,6.01,186.0
+4017,Calgary,8037, AB,6.02,210.0
+4018,St. Albert,8039, AB,6.0,221.0
+4019,Sandy,8041, Utah,6.03,238.0
+4020,Tracy,8043, CA,6.04,275.0
+4021,Danville,8045, CA,6.02,205.0
+4022,Mamou,8047, LA,6.02,205.0
+4023,Greenlawn,8049, NY,5.1,210.0
+4024,Cleveland,8051, OH,6.0,190.0
+4025,Toronto,8053, ON,6.0,185.0
+4026,Tuscumbia,8055, AL,6.01,210.0
+4027,Calgary,8057, AB,6.0,201.0
+4028,Edmonton,8059, AB,6.0,220.0
+4029,Winnipeg,8061, MB,5.1,210.0
+4030,Quebec,8063, QC,6.04,305.0
+4031,Toronto,8065, ON,6.0,230.0
+4032,St. Hubert,8067, QC,6.05,290.0
+4033,Independence,8069, OR,6.0,200.0
+4034,Winnipeg,8071, MB,6.0,215.0
+4035,Lincoln,8073, NE,6.06,305.0
+4036,Lively,8075, ON,6.02,305.0
+4037,Bakersfield,8077, CA,6.0,190.0
+4038,Angleton,8079, TX,5.09,186.0
+4039,London,8081, ON,6.04,237.0
+4040,Philadelphia,8083, PA,6.02,207.0
+4041,Miami,8085, FL,6.03,246.0
+4042,Gatineau,8087, QC,6.06,325.0
+4043,Sherwood Park,8089, AB,6.05,297.0
+4044,Vancouver,8091, BC,6.02,225.0
+4045,Edmonton,8093, AB,6.05,282.0
+4046,Edmonton,8095, AB,6.01,205.0
+4047,Mississauga,8097, ON,6.02,230.0
+4048,London,8099, ON,6.01,242.0
+4049,Brampton,8101, ON,6.01,205.0
+4050,Brampton,8103, ON,6.01,205.0
+4051,Griffin,8105, GA,5.07,155.0
+4052,Dryden,8107, ON,6.02,270.0
+4053,Montvale,8109, NJ,6.02,226.0
+4054,Baltimore,8111, MD,6.03,248.0
+4055,Etobicoke,8113, ON,5.09,190.0
+4056,Mesquite,8115, TX,5.09,180.0
+4057,Lachine,8117, QC,6.02,305.0
+4058,Tallahassee,8119, FL,6.05,300.0
+4059,Edmonton,8121, AB,6.04,290.0
+4060,Coqutlam,8123, BC,5.11,205.0
+4061,Coqutlam,8125, BC,5.11,205.0
+4062,Regina,8127, SK,6.04,212.0
+4063,Sarasota,8129, FL,6.0,220.0
+4064,Tulsa,8131, OK,6.0,200.0
+4065,Cherry Point,8133, NC,6.03,220.0
+4066,Carson,8135, CA,6.01,190.0
+4067,London,8137, ON,6.07,315.0
+4068,Laval,8139, QC,6.03,262.0
+4069,Nobleton,8141, ON,6.02,223.0
+4070,Mississauga,8143, ON,6.05,235.0
+4072,Montréal,8147, QC,5.1,190.0
+4073,Toronto,8149, ON,6.03,297.0
+4074,Saint-Catherines,8151, ON,6.01,200.0
+4075,Calgary,8153, AB,6.04,302.0
+4076,Hamilton,8155, ON,6.05,290.0
+4077,Gainesville,8157, GE,6.0,208.0
+4078,Regina,8159, SK,6.03,235.0
+4079,Quebec City,8161, QC,6.04,285.0
+4080,Atlanta,8163, GA,6.03,315.0
+4081,Vancouver,8165, BC,6.02,231.0
+4082,Arlington,8167, TX,5.11,190.0
+4083,Salt Lake City,8169, UT,6.0,234.0
+4084,Monroe,8171, LA,5.09,190.0
+4085,Cheraw,8173, SC,6.02,291.0
+4086,Montreal,8175, QC,6.0,200.0
+4087,Belleville,8177, ON,6.01,200.0
+4088,Bellflower,8179, CA,5.11,195.0
+4089,Cincinnati,8181, OH,5.11,200.0
+4090,Dayton,8183, OH,6.06,260.0
+4091,Montréal,8185, QC,6.01,245.0
+4092,Lauderdale Lakes,8187, FL,5.11,205.0
+4093,Frederick,8189, MD,5.1,205.0
+4094,Markham,8191, ON,6.01,184.0
+4095,Ottawa,8193, ON,6.04,225.0
+4096,Alpharetta,8195, GE,6.05,212.0
+4097,San Bernardino,8197, CA,6.04,315.0
+4098,Knoxville,8199, TN,5.11,220.0
+4099,Kingston,8201, JM,6.03,303.0
+4100,Miami,8203, FL,5.08,170.0
+4101,Compton,8205, CA,6.02,220.0
+4102,Phoenix,8207, AZ,6.03,236.0
+4103,Greenville,8209, MS,6.03,251.0
+4104,St. Petersburg,8211, FL,6.04,305.0
+4105,Walton Beach,8213, FL,6.03,232.0
+4106,Tuscombia,8215, AL,5.11,183.0
+4107,Los Angeles,8217, CA,5.08,180.0
+4108,Atlanta,8219, GA,6.0,185.0
+4109,Cairo,8221, GA,5.09,177.0
+4110,Pickering,8223, ON,6.05,225.0
+4111,Birmingham,8225, AL,6.03,185.0
+4112,Darlington,8227, SC,5.11,220.0
+4113,Hull,8229, QC,6.03,235.0
+4114,Oxnard,8231, CA,6.0,185.0
+4115,Cambridge,8233, ON,6.02,205.0
+4116,Gainsville,8235, VA,5.08,180.0
+4117,Roseville,8237,CA,5.05,150.0
+4118,Alexandria,8239, VA,6.04,320.0
+4119,Fresno,8241, CA,6.05,220.0
+4120,Chula Vista,8243, CA,5.1,165.0
+4121,Miami,8245, FL,6.0,178.0
+4122,Moorpark,8247, CA,5.1,185.0
+4123,Southlake,8249, TX,6.02,208.0
+4124,Hazelwood,8251, MO,6.03,240.0
+4125,Birmingham,8253, AL,6.04,230.0
+4126,Indianapolis,8255, IN,5.09,210.0
+4128,Homestead,8259, FL,6.02,229.0
+4129,Tallahassee,8261, FL,6.0,183.0
+4130,Sarasota,8263, FL,6.02,185.0
+4131,Centereach,8265, NY,6.06,295.0
+4132,Cenereach,8267, NY,6.06,295.0
+4133,Chillicothe,8269, OH,6.01,212.0
+4134,Memphis,8271, TN,6.0,202.0
+4135,Philadelphia,8273, PA,6.01,235.0
+4136,Lubbock,8275, TX,5.09,184.0
+4137,New Castle,8277, DE,5.1,190.0
+4138,Portland,8279, MI,6.07,315.0
+4141,Mt. Juliet,8285, TN,6.06,305.0
+4142,Copperas Cove,8287, TX,5.09,186.0
+4144,Toronto,8291, ON,6.01,293.0
+4145,Newark,8293, DE,5.09,180.0
+4146,Mesquite,8295, TX,6.06,325.0
+4148,Miami,8299, FL,6.01,195.0
+4150,Orange,8303, CA ,5.09,200.0
+4151,Etobicoke,8305, ON ,5.11,214.0
+4154,McComb,8311, MS ,6.0,200.0
+4156,Montreal,8315, QC,6.0,245.0
+4158,Madisonville,8319, LA ,6.03,233.0
+4160,Winnipeg,8323, MB ,6.03,280.0
+4161,Marrero,8325, LA ,6.02,285.0
+4162,Leesville,8327, LA ,5.1,216.0
+4163,Geneva,8329, NY,5.1,185.0
+4164,Aylmer,8331, QC ,6.02,240.0
+4165,Kitchener,8333, ON,5.11,185.0
+4167,Napa,8337, CA,5.1,203.0
+4168,Weddington,8339, NC,6.0,225.0
+4169,Westerville,8341, OH,6.02,211.0
