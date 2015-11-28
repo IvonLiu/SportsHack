@@ -7,6 +7,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style-setup.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <!-- Import Parse -->
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
 </head>
 
 <body>
@@ -98,6 +101,8 @@
 </div>
 
 <script>
+    Parse.initialize("A9o1bVMJ29KeXuOgFo9paozMJBfAjAyx8yJke3d8", "hIxa3h9x7V1PWDa8seTQQBdVxHzYcAPGmarJ4WPN");
+
     function signUp(){
         var firstName = document.getElementById("first_name");
         var lastName = document.getElementById("last_name");
