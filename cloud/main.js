@@ -45,6 +45,11 @@
 
 var Fans = require('cloud/fans.js');
 
+/** Static */
+// nothing here yet
+
+/** Instance*/
+
 /**
  * Initializes points to zero
  */
@@ -79,6 +84,10 @@ Parse.Cloud.define("Fans_getFeed", Fans.getFeed_cloud);
 /*****************************/
 
 var Players = require('cloud/players.js');
+
+/** Static */
+
+/** Instance */
 
 /**
  * Initialize players.
