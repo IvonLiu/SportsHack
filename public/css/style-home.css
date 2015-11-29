@@ -1,0 +1,43 @@
+
+#main {
+
+    background-color: purple;
+    width: 100%;
+
+}
+
+#videos {
+    display: inline;
+    width: 80%;
+
+}
+
+#video-frames {
+
+    background-color: red !important;
+    width: 100%;
+
+
+
+}
+#video-frames-1 {
+
+    background-color: blue!important;
+    width: 100%;
+
+
+
+}
+
+
+
+#football {
+    z-index: 3 !important;
+    height:30px;
+    width: 50px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 20px;
+}
+
+

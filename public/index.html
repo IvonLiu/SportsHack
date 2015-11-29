@@ -1,156 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>My Player</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>My Player</title>
 
 
-  <!-- Theatre.js -->
-  <script src='http://gabinaureche.com/TheaterJS/theater.min.js'></script>
+    <!-- Theatre.js -->
+    <script src='http://gabinaureche.com/TheaterJS/theater.min.js'></script>
 
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- BOOTSTRAP -->
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+
 </head>
 
-
- <!-- BOOTSTRAP -->
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-      integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
-      integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-        integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
 
 <!-- NAV BAR -->
 
 <body>
-  <nav class="red lighten-1" role="navigation">
+<nav class="red lighten-1" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo">myCFL</a>
-      <img id="football" src="images/football_white.png">
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#" onclick="logout()">Logout</a></li>
-      </ul>
+        <a id="logo-container" href="index.html" class="brand-logo">myCFL</a>
+        <img id="football" src="images/football_white.png">
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <!-- SETTINGS ??? -web <li><a href="#">Settings</a></li>-->
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="side-nav">
+            <!-- SETTINGS ??? -web <li><a href="#">Settings</a></li>-->
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-  </nav>
-  <div class="section no-pad-bot" id="index-banner">
+</nav>
+<div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <br><br>
+        <br><br>
 
-      <!-- Typing -->
-
-
-
-      <div id="theater-js" class="center">
-        <main class="scene">
-          <div class="actor">
-            <div id="text" class="actor__content"></div>
-          </div>
-
-
-          </main>
-
-      </div>
-
-      <!-- Main Content -->
-      <div class="center">
-      <img  id="logo" src=" http://i.cbc.ca/1.3339889.1448639716!/fileImage/httpImage/image.png_gen/derivatives/original_300/cfl-logo.png">
-      </div>
-
-      <h1 class="header center red-text">Step into the game...</h1>
-
-      <div class="row center">
-        <h5 class="header col s12 light">Your Player is waiting!</h5>
-      </div>
-
-      <!-- INPUT FIELDS -->
-
-      <div class="row">
-        <form class="col s12">
-
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label class="active" for="email">Email</label>
-            </div>
-          </div>
-
-
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label class="active" for="password">Password</label>
-            </div>
-          </div>
-
-        </form>
-      </div>
-
-
-      <!-- LOGIN BUTTONS -->
-
-
-      <div class="row center-align " id="butons">
-        <a href="home.html" id="login-button" class="btn-large waves-effect waves-light red center-align">LOGIN</a>
-        <a href="setup.html" id= "sign-in-button" class="btn-large waves-effect waves-light red center-align">SIGN UP</a>
-      </div>
+        <!-- Typing -->
 
 
 
-      <br><br>
+        <div id="theater-js" class="center">
+            <main class="scene">
+                <div class="actor">
+                    <div id="text" class="actor__content"></div>
+                </div>
+
+
+            </main>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="center">
+            <img  id="logo" src=" http://i.cbc.ca/1.3339889.1448639716!/fileImage/httpImage/image.png_gen/derivatives/original_300/cfl-logo.png">
+        </div>
+
+        <h1 class="header center red-text">Step into the game...</h1>
+
+        <div class="row center">
+            <h5 class="header col s12 light">Your Player is waiting!</h5>
+        </div>
+
+        <!-- INPUT FIELDS -->
+
+        <div class="row">
+            <form class="col s12">
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label class="active" for="email">Email</label>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label class="active" for="password">Password</label>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+
+        <!-- LOGIN BUTTONS -->
+
+
+        <div class="row center-align " id="butons">
+            <a href="home.html" id="login-button" class="btn-large waves-effect waves-light red center-align">LOGIN</a>
+            <a href="setup.html" id= "sign-in-button" class="btn-large waves-effect waves-light red center-align">SIGN UP</a>
+        </div>
+
+
+
+        <br><br>
 
     </div>
-  </div>
+</div>
 
 
-  <div class="container">
+<div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">trending_up</i></h2>
-            <h5 class="center">Create new trends</h5>
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center light-blue-text"><i class="material-icons">trending_up</i></h2>
+                    <h5 class="center">Create new trends</h5>
 
-            <p class="light"> By sharing your favorite players personal content on social media and showing love, you can get them trending on social media! </p>
-          </div>
+                    <p class="light"> By sharing your favorite players personal content on social media and showing love, you can get them trending on social media! </p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+                    <h5 class="center">Connect with your favorite players</h5>
+
+                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center light-blue-text"><i class="material-icons">loyalty</i></h2>
+                    <h5 class="center">Loyalty = Fun</h5>
+
+                    <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">Connect with your favorite players</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">loyalty</i></h2>
-            <h5 class="center">Loyalty = Fun</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
 
     </div>
     <br><br>
@@ -158,38 +160,51 @@
     <div class="section">
 
     </div>
-  </div>
+</div>
 
-    <footer class="page-footer red lighten-1">
-      <div class="container">
+<footer class="page-footer red lighten-1">
+    <div class="container">
         <div class="row">
-          <div class="col l6 s12">
-            <h6 class="white-text"> © 2015 Ivon Liu, Jason Peng, Jason Wong, Alex Jordache</h6>
+            <div class="col l6 s12">
+                <h6 class="white-text"> © 2015 Ivon Liu, Jason Peng, Jason Wong, Alex Jordache</h6>
 
-          <div class="col l4 offset-l2 s12">
+                <div class="col l4 offset-l2 s12">
 
 
-          </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!--<div class="footer-copyright">-->
+    </div>
+
+        <!--<div class="footer-copyright">-->
         <!--<div class="container">-->
-          <!--© 2015 Ivon Liu, Jason Peng, Jason Wong, Alex Jordache-->
-          <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+        <!--© 2015 Ivon Liu, Jason Peng, Jason Wong, Alex Jordache-->
+        <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
         <!--</div>-->
-      <!--</div>-->
-    </footer>
+        <!--</div>-->
 
 
+<<<<<<< HEAD
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script>
+=======
+
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+<script>
+>>>>>>> 647a254b5361a56b62771721cbd52a5c959dfe5d
     function logout() {
-      Parse.User.logOut();
-      currentUser = Parse.User.current();
+        Parse.User.logOut();
+        currentUser = Parse.User.current();
     }
-  </script>
-  </body>
+</script>
+</body>
 </html>

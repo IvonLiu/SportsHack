@@ -2,9 +2,180 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>My Player</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style-home.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <!--  Scripts-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+
+
+
 </head>
+
+
+
+
 <body>
+
+<nav class="red lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo">myCFL</a>
+        <img id="football" src="images/football_white.png">
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <!-- SETTINGS ??? -web <li><a href="#">Settings</a></li>-->
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<br> </br>
+<br> </br>
+<br> </br>
+<br> </br>
+<br> </br>
+
+<div class="row">
+    <div class="col s10">
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <div class="col s12 m6">
+                        <div id="video-frames" class="container">
+                            <div class="row">
+                                <div  class="col-sm-6 video-container">
+
+                                    <h6>Lots of</h6>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="col s12 m6">
+                        <div id="video-frames" class="container">
+                            <div class="row">
+                                <div  class="col-sm-6 video-container">
+
+                                    <h6>Lots of</h6>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="col s12 m6">
+                        <div>
+                            <div class="row">
+                                <div  class="video-container">
+
+                                    <h6>Lots of</h6>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="col s12 m6">
+                        <div>
+                            <div class="row">
+                                <div  class="video-container">
+
+                                    <h6>Lots of</h6>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col s12 m6"></div>
+                    <div class="col s12 m6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col s2">
+
+            <p> hello </p>
+
+        </div>
+        <!-- sidebar -->
+
+        <!--<div id="main" class="container">-->
+
+        <!--&lt;!&ndash; VIDEO FRAMES &ndash;&gt;-->
+
+        <!--<div id="videos" class="container">-->
+
+
+        <!--<div id="video-frames" class="container">-->
+        <!--<div class="row">-->
+        <!--<div  class="col-sm-6 video-container">-->
+
+        <!--<h6>Lots of</h6>-->
+        <!--<div class="embed-responsive embed-responsive-16by9">-->
+        <!--<iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div id="video-frames-1" class="container right-align">-->
+        <!--<div class="row">-->
+        <!--<div  class="col-sm-6 video-container">-->
+
+        <!--<h6>Lots of</h6>-->
+        <!--<div class="embed-responsive embed-responsive-16by9">-->
+        <!--<iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <!--</div>-->
+
+        <!--<div id="side-bar" class="container">-->
+        <!--<p> hello</p>-->
+
+        <!--</div>-->
+
+
+<!--</div>-->
+
+
+
+
+
+
 
 </body>
 </html>
