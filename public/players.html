@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Players</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <meta charset="UTF-8">
+    <title>Players</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-  <!-- Import Parse -->
-  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+    <!-- Import Parse -->
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
 
 </head>
 <body>
-	<!-- NAV BAR -->
-	<nav class="red lighten-1" role="navigation">
+<!-- NAV BAR -->
+<nav class="red lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">myCFL</a>
-      <ul class="right hide-on-med-and-down">
-        <!--<li><a href="#">Settings</a></li>-->
-      </ul>
+        <ul class="right hide-on-med-and-down">
+            <!--<li><a href="#">Settings</a></li>-->
+        </ul>
 
         <!-- Settings??? -->
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#"></a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#"></a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-  </nav>
+</nav>
 
 
-  <div class="section no-pad-bot" id="index-banner">
+<div class="section no-pad-bot" id="index-banner">
     <div class="container">
 
 
-      <br><br>
-     <!-- Players -->
+        <br><br>
+        <!-- Players -->
 
-       <ul class="collapsible" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header active"><i class="material-icons">favorite_border</i>Player 1</div>
-      <div class="collapsible-body">
-      		<div class="playerimg"> 
-      			<img src="https://cdn.photographylife.com/wp-content/uploads/2014/06/Nikon-D810-Image-Sample-6.jpg" width = 300 height = 500>
-      		</div>
-      </div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">favorite_border</i>Player 2</div>
-      <div class="collapsible-body"><p>Player 2</p></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons ">favorite_border</i>Player 3</div>
-      <div class="collapsible-body"><p>Player 3</p></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">favorite_border</i>Player 4</div>
-      <div class="collapsible-body"><p>Player 4</p></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">favorite_border</i>Player 5</div>
-      <div class="collapsible-body"><p>Player 5</p></div>
-    </li>
-  </ul>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header active"><i class="material-icons">favorite_border</i>Player 1</div>
+                <div class="collapsible-body">
+                    <div class="playerimg">
+                        <img src="https://cdn.photographylife.com/wp-content/uploads/2014/06/Nikon-D810-Image-Sample-6.jpg" width = 300 height = 500>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">favorite_border</i>Player 2</div>
+                <div class="collapsible-body"><p>Player 2</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons ">favorite_border</i>Player 3</div>
+                <div class="collapsible-body"><p>Player 3</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">favorite_border</i>Player 4</div>
+                <div class="collapsible-body"><p>Player 4</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">favorite_border</i>Player 5</div>
+                <div class="collapsible-body"><p>Player 5</p></div>
+            </li>
+        </ul>
 
 
 
-  <!-- Choose Button/Modal Trigger -->
-  <div class="row center"><a href="#modal1" id="download-button" class="btn-large waves-effect waves-light modal-trigger red">OR CHOOSE YOUR OWN PLAYER...</a>
-  </div>
-
-  <!-- Modal Display -->
-
-<div id="modal1" class="modal">
-	<div class="modal-content">
-		<h4>Choose your own Player!</h4>
-		<nav>
-    <div class="nav-wrapper">
-      <form>
-        <div class="input-field">
-          <input id="search" type="search" required>
-          <label for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons">close</i>
+        <!-- Choose Button/Modal Trigger -->
+        <div class="row center"><a href="#modal1" id="download-button" class="btn-large waves-effect waves-light modal-trigger red">OR CHOOSE YOUR OWN PLAYER...</a>
         </div>
-      </form>
+
+        <!-- Modal Display -->
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Choose your own Player!</h4>
+                <nav>
+                    <div class="nav-wrapper">
+                        <form>
+                            <div class="input-field">
+                                <input id="search" type="search" required>
+                                <label for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+
+
+            </div>
+            <div class="modal-footer">
+                <a href="home.html" class=" modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+        <script>
+            Parse.initialize("A9o1bVMJ29KeXuOgFo9paozMJBfAjAyx8yJke3d8", "hIxa3h9x7V1PWDa8seTQQBdVxHzYcAPGmarJ4WPN");
+            $(document).ready(function(){
+                var params = {}
+                Parse.Cloud.run('Fans_findPlayerMatches', params, {
+                    success: function(response) {
+                        var feed = response.data;
+                        console.log(JSON.stringify(feed));
+                    },
+                    error: function(error) {
+                        console.log(JSON.stringify(error));
+                    }
+                });
+                $('.modal-trigger').leanModal();
+
+                if ( $('div').hasClass("active") == true) {
+                    $("li.active").find(".material-icons").text('favorite');
+                } else {
+                    $("li").find(".material-icons").text('favorite_border');
+                }
+
+                $("div").click(function(){
+                    $("li").find(".material-icons").text('favorite_border');
+                    $("li.active").find(".material-icons").text('favorite');
+                });
+            });
+            function logout() {
+                Parse.User.logOut();
+                currentUser = Parse.User.current();
+            }
+        </script>
+
     </div>
-  </nav>
-
-
-	</div>
-	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
-    </div>
-
 </div>
-
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-<script>
-  Parse.initialize("A9o1bVMJ29KeXuOgFo9paozMJBfAjAyx8yJke3d8", "hIxa3h9x7V1PWDa8seTQQBdVxHzYcAPGmarJ4WPN");
-  $(document).ready(function(){
-    var params = {}
-    Parse.Cloud.run('Fans_findPlayerMatches', params, {
-      success: function(response) {
-        var feed = response.data;
-        console.log(JSON.stringify(feed));
-      },
-      error: function(error) {
-        console.log(JSON.stringify(error));
-      }
-    });
-    $('.modal-trigger').leanModal();
-
-    if ( $('div').hasClass("active") == true) {
-      $("li.active").find(".material-icons").text('favorite');
-    } else {
-      $("li").find(".material-icons").text('favorite_border');
-    }
-
-    $("div").click(function(){
-      $("li").find(".material-icons").text('favorite_border');
-      $("li.active").find(".material-icons").text('favorite');
-    });
-  });
-  function logout() {
-    Parse.User.logOut();
-    currentUser = Parse.User.current();
-  }
-</script>
 
 
 
