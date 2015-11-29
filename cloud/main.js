@@ -63,6 +63,7 @@ Parse.Cloud.define("Fans_shareMedia", Fans.shareMedia_cloud);
 
 /**
  * Gets a list of top matches
+ * @params {String[]} ids
  * @return {Player[]} players
  */
 Parse.Cloud.define("Fans_findPlayerMatches", Fans.findPlayerMatches_cloud);
@@ -85,7 +86,12 @@ Parse.Cloud.define("Fans_getFeed", Fans.getFeed_cloud);
 
 var Players = require('cloud/players.js');
 
-/** Static */
+/**
+ * Get list of seasons
+ * @param {Player} player
+ * @return {Season[]} seasons
+ */
+ Parse.Cloud.define("Players_getSeasons", Players.getSeasons_cloud);
 
 /**
  * Search player by name
@@ -100,14 +106,6 @@ Parse.Cloud.define("Players_searchByName", Players.searchByName_cloud);
  * @return {Player} player
  */
 Parse.Cloud.define("Players_searchByRosterId", Players.searchByRosterId_cloud);
-
-/** Instance */
-
-/**
- * Initialize players.
- * Links user to Player object
- */
-Parse.Cloud.define("Players_init", Players.init_cloud);
 
 /**
  * Add a media object

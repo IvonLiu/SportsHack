@@ -1,3 +1,4 @@
+exports.getSeasons_cloud = getSeasons_cloud;
 exports.searchByName_cloud = searchByName_cloud;
 exports.searchByRosterId_cloud = searchByRosterId_cloud;
 exports.init_cloud = init_cloud;
@@ -7,6 +8,24 @@ exports.searchByName = searchByName;
 
 var ResponseCodes = require('cloud/response_codes.js');
 var Media = Parse.Object.extend("Media");
+
+function getSeasons_cloud(request, response) {
+	var player = request.params.player;
+	getSeasons(player, {
+		success: function(responseCode, object) {
+			response.success({
+				code: responseCode,
+				data: object
+			});
+		},
+		error: function(responseCode, errorMsg) {
+			response.success({
+				code: responseCode,
+				data: errorMsg
+			});
+		}
+	});
+}
 
 function searchByName_cloud(request, response) {
 	var playerName = request.params.playerName;
@@ -82,28 +101,31 @@ function uploadVideo_cloud(request, response) {
 	});
 }
 
+function getSeasons(player, callbacks) {
+	var seasonsQuery = player.relation("seasons").query();
+	seasonsQuery.addDescending("sesason");
+	seasonsQuery.find({
+		success: function(seasons) {
+			callbacks.success(ResponseCodes.OK, seasons);
+		},
+		error: function(object, error) {
+			callbacks.error(error.code, error.message);
+			return;
+		}
+	});
+}
+
 function searchByName(playerName, callbacks) {
 	var firstName = playerName.split(" ")[0];
 	var lastName = playerName.split(" ")[1];
 	
-	var userQuery = new Parse.Query(Parse.User);
-	userQuery.equalTo("firstName", firstName);
-	userQuery.equalTo("lastName", lastName);
-	userQuery.first({
-		success: function(user) {
-			var rosterId = user.get("roster_id");
-			var playerQuery = new Parse.Query("Player");
-			playerQuery.equalTo("roster_id", rosterId);
-			playerQuery.first({
-				success: function(player) {
-					callbacks.success(ResponseCodes.OK, player);
-					return;
-				},
-				error: function(object, error) {
-					callbacks.error(error.code, error.message);
-					return;
-				}
-			});
+	var playerQuery = new Parse.Query("Player");
+	playerQuery.equalTo("first", firstName);
+	playerQuery.equalTo("last", lastName);
+	playerQuery.first({
+		success: function(player) {
+			callbacks.success(ResponseCodes.OK, player);
+			return;
 		},
 		error: function(object, error) {
 			callbacks.error(error.code, error.message);

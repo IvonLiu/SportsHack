@@ -44,8 +44,8 @@ function shareMedia_cloud(request, response) {
 }
 
 function findPlayerMatches_cloud(request, response) {
-	var user = request.user;
-	findPlayerMatches(user, {
+	var ids = request.params.ids;
+	findPlayerMatches(ids, {
 		success: function(responseCode, object) {
 			response.success({
 				code: responseCode,
@@ -145,17 +145,35 @@ function shareMedia(user, mediaId, callbacks) {
 	});
 }
 
-function findPlayerMatches(user, callbacks) {
-	var ids = [31, 33, 91, 99, 109];
-	callbacks.success(ResponseCodes.OK, ids);
+function findPlayerMatches(ids, callbacks) {
+	players = [];
+	var count = 0;
+	for (var i=0; i<ids.length; i++) {
+		var query = new Parse.Query("Player");
+		query.equalTo("roster_id", ids[i]);
+		query.first({
+			success: function(player) {
+				count++;
+				players.push(player);
+				if (count == ids.length) {
+					callbacks.success(ResponseCodes.OK, players);				
+					return;
+				}
+			},
+			error: function(object, error) {
+				callbacks.error(error.code, error.message);
+				return;
+			}
+		});
+	}
 }
 
 function setFollowedPlayer(user, playerId, callbacks) {
 	var playerQuery = new Parse.Query("Player");
-	playerQuery.equalTo("roster_id", playerId);
+	playerQuery.equalTo("objectId", playerId);
 	playerQuery.first({
 		success: function(player) {
-			user.set("followerPlayer", player);
+			user.set("followedPlayer", player);
 			user.save(null, {
 				success: function(user) {
 					callbacks.success(ResponseCodes.OK, null);
