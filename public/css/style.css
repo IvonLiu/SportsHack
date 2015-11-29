@@ -59,7 +59,7 @@ main {
 
 #theater-js {
     width: 100%;
-
+    margin-top:-100px;
     white-space: nowrap;
 }
 

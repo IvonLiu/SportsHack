@@ -38,55 +38,56 @@
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s12">
-
-                        <input id="first_name" type="text" class="validate" placeholder="First Name">
-                        <label for="first_name"></label>
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First name</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-
-                        <input id="last_name" type="text" class="validate" placeholder="Last Name">
-                        <label for="last_name"></label>
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last name</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-
-                        <input id="email" type="email" class="validate" placeholder="Email">
-                        <label for="email"></label>
+                        <input id="username" type="text" class="validate">
+                        <label for="username">Username</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="password" type="password" class="validate" placeholder="Password">
-                        <label for="password"></label>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="hometown" type="text" class="validate" placeholder="Hometown">
-                        <label for="hometown"></label>
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="favourite_team" type="text" class="validate" placeholder="Favourite Team">
-                        <label for="favourite_team"></label>
+                        <input id="hometown" type="text" class="validate">
+                        <label for="hometown">Hometown</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-
-                        <input id="height" type="text" class="validate" placeholder="Height">
-                        <label for="height"></label>
+                        <input id="favourite_team" type="text" class="validate">
+                        <label for="favourite_team">Favorite team</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-
-                        <input id="weight" type="text" class="validate" placeholder="Weight">
-                        <label for="weight"></label>
+                        <input id="height" type="text" class="validate">
+                        <label for="height">Height</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="weight" type="text" class="validate">
+                        <label for="weight">Weight</label>
                     </div>
                 </div>
             </form>
@@ -96,28 +97,36 @@
 
 </div>
 
-<div class="center" id="submit-button" onclick="signUp()">
-<a  href="players.html" class="waves-effect waves-light btn-large red lighten-1 ">Create Profile</a>
+<div class="center" id="submit-button">
+    <a class="waves-effect waves-light btn-large red lighten-1" onclick="signUp()">Create Profile</a>
 </div>
 
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 <script>
     Parse.initialize("A9o1bVMJ29KeXuOgFo9paozMJBfAjAyx8yJke3d8", "hIxa3h9x7V1PWDa8seTQQBdVxHzYcAPGmarJ4WPN");
 
     function signUp(){
-        var firstName = document.getElementById("first_name");
-        var lastName = document.getElementById("last_name");
-        var username = document.getElementById("email");
-        var password = document.getElementById("password");
-        var hometown = document.getElementById("hometown");
-        var favoriteTeam = document.getElementById("favourite_team");
-        var height = document.getElementById("height");
-        var weight = document.getElementById("weight");
+
+        var username = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        
+        var firstName = document.getElementById("first_name").value;
+        var lastName = document.getElementById("last_name").value;
+        var hometown = document.getElementById("hometown").value;
+        var favoriteTeam = document.getElementById("favourite_team").value;
+        var height = document.getElementById("height").value;
+        var weight = document.getElementById("weight").value;
 
         var user = new Parse.User();
+        user.set("username", username);
+        user.set("email", email);
+        user.set("password", password);
+
         user.set("firstName", firstName);
         user.set("lastName", lastName);
-        user.set("username", username);
-        user.set("password", password);
         user.set("hometown", hometown);
         user.set("favoriteTeam", favoriteTeam);
         user.set("height", height);
@@ -129,17 +138,19 @@
                 Parse.Cloud.run('Fans_init', params, {
                     success: function(object) {
                         // Show user create success
+                        window.location.href = "players.html";
                     },
                     error: function(error) {
                         // Show user init error
+                        console.log(JSON.stringify(error));
                     }
                 });
             },
             error: function(user, error) {
                 // Show signup error
+                console.log(JSON.stringify(error));
             }
-        })
-    });
+        });
     }
 </script>
 

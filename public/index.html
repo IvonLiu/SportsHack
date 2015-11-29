@@ -38,9 +38,9 @@
   <nav class="red lighten-1" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo">myCFL</a>
-      <img id="football" src="http://icons.iconarchive.com/icons/icons-land/metro-raster-sport/256/American-Football-Ball-icon.png">
+      <img id="football" src="images/football_white.png">
       <ul class="right hide-on-med-and-down">
-        <!-- SETTINGS ??? -mobile <li><a href="#">Settings</a></li>-->
+        <li><a href="#" onclick="logout()">Logout</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -164,7 +164,7 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text"> © 2015 Ivon Liu, Jason Peng, Jason Wong, Alex Jordache</h5>
+            <h6 class="white-text"> © 2015 Ivon Liu, Jason Peng, Jason Wong, Alex Jordache</h6>
 
           <div class="col l4 offset-l2 s12">
 
@@ -183,8 +183,13 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="../../bin/materialize.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-
+  <script>
+    function logout() {
+      Parse.User.logOut();
+      currentUser = Parse.User.current();
+    }
+  </script>
   </body>
 </html>
