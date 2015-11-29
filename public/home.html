@@ -13,8 +13,9 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style-home.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <!--  Scripts-->
+    <!-- Import Parse -->
     <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+    
     <style>
         body {
             overflow-x: hidden;
@@ -79,15 +80,16 @@
     var currentUser = Parse.User.current();
 
     $(document).ready(function() {
-        
-        currentUser.fetch().then(function(currentUser) {
+        currentUser = Parse.User.current();
+        console.log(JSON.stringify(currentUser));
+        //currentUser.fetch().then(function(currentUser) {
             document.getElementById('score').innerHTML = "Points: " + currentUser.get("points");
             var followedPlayer = currentUser.get("followedPlayer");
             followedPlayer.fetch().then(function(followedPlayer) {
                 var playerDiv = getPlayerDiv(followedPlayer);
                 document.getElementById('player_card').appendChild(playerDiv);
             });
-        });
+        //});
 
         var feed = [];
         length = Math.floor(Math.random() * 10 + 10);
@@ -278,6 +280,11 @@
         section.appendChild(title);
         section.appendChild(row);
         return section;
+    }
+
+    function logout() {
+        Parse.User.logOut();
+        currentUser = Parse.User.current();
     }
 </script>
 

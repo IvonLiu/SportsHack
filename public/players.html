@@ -180,13 +180,6 @@
     ageCol.appendChild(age);
     contentRow.appendChild(ageCol);
 
-    var yrsCol = document.createElement("div");
-    yrsCol.className = "col s4";
-    var yrs = document.createElement("p");
-    yrs.innerHTML = "Years in league: " + player.get("yrsleague");
-    yrsCol.appendChild(yrs);
-    contentRow.appendChild(yrsCol);
-
     var homeCol = document.createElement("div");
     homeCol.className = "col s4";
     var home = document.createElement("p");
@@ -208,8 +201,22 @@
     posCol.appendChild(pos);
     contentRow.appendChild(posCol);
 
+    var wCol = document.createElement("div");
+    wCol.className = "col s4";
+    var w = document.createElement("p");
+    w.innerHTML = "Weight: " + player.get("weight");
+    wCol.appendChild(w);
+    contentRow.appendChild(wCol);
+
+    var hCol = document.createElement("div");
+    hCol.className = "col s4";
+    var h = document.createElement("p");
+    h.innerHTML = "Height: " + player.get("height");
+    hCol.appendChild(h);
+    contentRow.appendChild(hCol);
+
     var moreCol = document.createElement("div");
-    moreCol.className = "col s4";
+    moreCol.className = "col s4 offset-s8";
     var anchor = document.createElement("a");
     anchor.className = "waves-effect waves-teal btn-flat";
     anchor.style.marginTop = "23px";
