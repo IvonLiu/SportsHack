@@ -138,8 +138,22 @@
             error: function(user, error) {
                 // Show signup error
             }
-        })
+        });
+        var params = {};
+        Parse.Cloud.run('Fans_findPlayerMatches', params, {
+            success: function(response) {
+                var feed = response.data;
+                console.log(JSON.stringify(feed));
+                
+            },
+            error: function(error) {
+
+            }
+        });
+
+
     });
+
     }
 </script>
 
