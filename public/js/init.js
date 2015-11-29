@@ -36,3 +36,12 @@ theater
     .addScene('text: A platform that takes you into the game.', 600)
 
     //.addScene(theater.replay.bind(theater))
+
+
+
+
+
+
+
+
+
