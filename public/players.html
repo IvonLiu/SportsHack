@@ -28,7 +28,6 @@
     </div>
 </nav>
 
-<<<<<<< HEAD
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
 
@@ -60,7 +59,7 @@
     </nav>
   	</div>
   	<div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="submit()">Submit</a>
     </div>
 </div>
 
@@ -269,6 +268,21 @@
         console.log(JSON.stringify(error));
       }
     })
+  }
+
+  function submit() {
+    var query = document.getElementById("search").value;
+    params = {
+      playerName: query
+    };
+    Parse.Cloud.run('Players_searchByName', params, {
+      success: function(player) {
+        follow(player);
+      },
+      error: function(error) {
+        console.log(JSON.stringify(error));
+      }
+    });
   }
 
   function httpGetAsync(theUrl, callback) {

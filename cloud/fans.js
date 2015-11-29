@@ -170,10 +170,10 @@ function findPlayerMatches(ids, callbacks) {
 
 function setFollowedPlayer(user, playerId, callbacks) {
 	var playerQuery = new Parse.Query("Player");
-	playerQuery.equalTo("roster_id", playerId);
+	playerQuery.equalTo("objectId", playerId);
 	playerQuery.first({
 		success: function(player) {
-			user.set("followerPlayer", player);
+			user.set("followedPlayer", player);
 			user.save(null, {
 				success: function(user) {
 					callbacks.success(ResponseCodes.OK, null);

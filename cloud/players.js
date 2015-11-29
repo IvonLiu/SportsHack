@@ -119,24 +119,13 @@ function searchByName(playerName, callbacks) {
 	var firstName = playerName.split(" ")[0];
 	var lastName = playerName.split(" ")[1];
 	
-	var userQuery = new Parse.Query(Parse.User);
-	userQuery.equalTo("firstName", firstName);
-	userQuery.equalTo("lastName", lastName);
-	userQuery.first({
-		success: function(user) {
-			var rosterId = user.get("roster_id");
-			var playerQuery = new Parse.Query("Player");
-			playerQuery.equalTo("roster_id", rosterId);
-			playerQuery.first({
-				success: function(player) {
-					callbacks.success(ResponseCodes.OK, player);
-					return;
-				},
-				error: function(object, error) {
-					callbacks.error(error.code, error.message);
-					return;
-				}
-			});
+	var playerQuery = new Parse.Query("Player");
+	playerQuery.equalTo("first", firstName);
+	playerQuery.equalTo("last", lastName);
+	playerQuery.first({
+		success: function(player) {
+			callbacks.success(ResponseCodes.OK, player);
+			return;
 		},
 		error: function(object, error) {
 			callbacks.error(error.code, error.message);
