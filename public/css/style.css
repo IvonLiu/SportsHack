@@ -6,6 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
 .icon-block {
   padding: 0 15px;
 }
@@ -23,6 +35,16 @@
 
 }
 
+#football {
+    z-index: 3 !important;
+    height:30px;
+    width: 50px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 20px;
+}
+
+
 #login-button {
 
     width: 150px;
@@ -31,15 +53,16 @@
 }
 
 #logo {
-    margin-top: -100px;
+    margin-top: -150px;
     background-size: 110%;
 }
 
 #theater-js {
     width: 100%;
- 
+
     white-space: nowrap;
 }
+
 
 
 .scene {
