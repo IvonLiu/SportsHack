@@ -10,8 +10,8 @@ var ResponseCodes = require('cloud/response_codes.js');
 var Media = Parse.Object.extend("Media");
 
 function getSeasons_cloud(request, response) {
-	var player = request.params.player;
-	getSeasons(player, {
+	var playerId = request.params.playerId;
+	getSeasons(playerId, {
 		success: function(responseCode, object) {
 			response.success({
 				code: responseCode,
@@ -82,10 +82,10 @@ function init_cloud(request, response) {
 }
 
 function uploadVideo_cloud(request, response) {
-	var user = request.user;
+	var playerId = request.params.playerId;
 	var videoUrl = request.params.videoUrl;
 	var caption = request.params.caption;
-	uploadVideo(user, {
+	uploadVideo(playerId, videoUrl, caption, {
 		success: function(responseCode, object) {
 			response.success({
 				code: responseCode,
@@ -101,12 +101,23 @@ function uploadVideo_cloud(request, response) {
 	});
 }
 
-function getSeasons(player, callbacks) {
-	var seasonsQuery = player.relation("seasons").query();
-	seasonsQuery.addDescending("sesason");
-	seasonsQuery.find({
-		success: function(seasons) {
-			callbacks.success(ResponseCodes.OK, seasons);
+function getSeasons(playerId, callbacks) {
+	var playerQuery = new Parse.Query("Player");
+	playerQuery.equalTo("objectId", playerId);
+	playerQuery.first({
+		success: function(player) {
+			var seasonsQuery = player.relation("seasons").query();
+			seasonsQuery.addDescending("season");
+			seasonsQuery.find({
+				success: function(seasons) {
+					callbacks.success(ResponseCodes.OK, seasons);
+					return;
+				},
+				error: function(object, error) {
+					callbacks.error(error.code, error.message);
+					return;
+				}
+			});
 		},
 		error: function(object, error) {
 			callbacks.error(error.code, error.message);
@@ -163,22 +174,23 @@ function init(user, callbacks) {
 	});
 }
 
-function uploadVideo(user, videoUrl, caption, callbacks) {
-	var media = new Media();
-	media.save({
-		createdBy: user,
-		url: videoUrl,
-		caption: caption
-    }, {
-      	success: function(media) {
-      		var playerQuery = Parse.Query("Player");
-      		playerQuery.equalTo("roster_id", user.get("roster_id"));
-      		playerQuery.first({
-      			success: function(player) {
-      				player.relation("media").add(media);
+function uploadVideo(playerId, videoUrl, caption, callbacks) {
+
+	var playerQuery = new Parse.Query("Player");
+	playerQuery.equalTo("objectId", playerId);
+	playerQuery.first({
+		success: function(player) {
+			var media = new Media();
+			media.save({
+				createdBy: player,
+				url: videoUrl,
+				caption: caption
+		    }, {
+		      	success: function(media) {
+  					player.relation("media").add(media);
       				player.save(null, {
       					success: function(player) {
-      						callbacks.success(ResponseCode.OK, media);        	
+      						callbacks.success(ResponseCodes.OK, media);        	
 							return;
       					},
       					error: function(object, error) {
@@ -186,11 +198,11 @@ function uploadVideo(user, videoUrl, caption, callbacks) {
       						return;
       					}
       				});
-      			},
-      			error: function(object, error) {
-      				callbacks.error(error.code, error.message);
+				},
+				error: function(object, error) {
+  					callbacks.error(error.code, error.message);
       				return;
-      			}
+      			}	
       		});
       	},
       	error: function(object, error) {

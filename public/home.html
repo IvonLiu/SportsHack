@@ -14,21 +14,13 @@
     <link href="css/style-home.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
     <!--  Scripts-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-            integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-
-    <!-- BOOTSTRAP -->
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
-
-
-
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
-
-
-
 
 <body>
 
@@ -37,6 +29,7 @@
         <a id="logo-container" href="index.html" class="brand-logo">myCFL</a>
         <img id="football" src="images/football_white.png">
         <ul class="right hide-on-med-and-down">
+            <li id="score" style="margin-right:16px"></li>
             <li><a href="#" onclick="logout()">Logout</a></li>
         </ul>
 
@@ -47,135 +40,246 @@
     </div>
 </nav>
 
-<br> </br>
-<br> </br>
-<br> </br>
-<br> </br>
-<br> </br>
-
-<div class="row">
+<div class="row" style="padding-right:4px">
     <div class="col s10">
         <div class="container">
-            <div class="row">
-                <div class="card">
-                    <div class="col s12 m6">
-                        <div id="video-frames" class="container">
-                            <div class="row">
-                                <div  class="col-sm-6 video-container">
+            <div class="row" id="container">
 
-                                    <h6>Lots of</h6>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="col s12 m6">
-                        <div id="video-frames" class="container">
-                            <div class="row">
-                                <div  class="col-sm-6 video-container">
-
-                                    <h6>Lots of</h6>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="col s12 m6">
-                        <div>
-                            <div class="row">
-                                <div  class="video-container">
-
-                                    <h6>Lots of</h6>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="col s12 m6">
-                        <div>
-                            <div class="row">
-                                <div  class="video-container">
-
-                                    <h6>Lots of</h6>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    <div class="col s12 m6"></div>
-                    <div class="col s12 m6"></div>
-                </div>
             </div>
         </div>
-        <div class="col s2">
+    </div>
+    <div class="col s2">
+        <div id="player_card"></div>
+    </div>
+</div>
 
-            <p> hello </p>
+<div id="show_stats_modal" class="modal modal-fixed-footer">
+    <div class="modal-content">
 
-        </div>
-        <!-- sidebar -->
+        <h4 id="show_stats_modal_title">Show Stats</h4>
 
-        <!--<div id="main" class="container">-->
+        <div id="seasons_container"></div>
+ 
+    </div>
+    <div class="modal-footer">
+        <a class="modal-action modal-close waves-effect waves-green btn-flat" href="#!">Cancel</a>
+        <a class="modal-action waves-effect waves-green btn-flat" onclick="updateTag()">Save</a>
+    </div>
+</div>
 
-        <!--&lt;!&ndash; VIDEO FRAMES &ndash;&gt;-->
-
-        <!--<div id="videos" class="container">-->
-
-
-        <!--<div id="video-frames" class="container">-->
-        <!--<div class="row">-->
-        <!--<div  class="col-sm-6 video-container">-->
-
-        <!--<h6>Lots of</h6>-->
-        <!--<div class="embed-responsive embed-responsive-16by9">-->
-        <!--<iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-
-        <!--<div id="video-frames-1" class="container right-align">-->
-        <!--<div class="row">-->
-        <!--<div  class="col-sm-6 video-container">-->
-
-        <!--<h6>Lots of</h6>-->
-        <!--<div class="embed-responsive embed-responsive-16by9">-->
-        <!--<iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<script>
 
 
-        <!--</div>-->
+    var urlList = ["https://www.youtube.com/embed/uxpDa-c-4Mc", "https://www.youtube.com/embed/_OBlgSz8sSM", "https://www.youtube.com/embed/kfVsfOSbJY0", "https://www.youtube.com/embed/88YovCsnMxs", "https://www.youtube.com/embed/Ywtd719FPpM"];
+    var commentList = ["The ornament collaborates the prose.", "The account pioneers the noisy opinion.", "The empty rule counsels the person.", "The trouble directs the ratty curve.", "The smile gathers the reason."];
 
-        <!--<div id="side-bar" class="container">-->
-        <!--<p> hello</p>-->
+    Parse.initialize("A9o1bVMJ29KeXuOgFo9paozMJBfAjAyx8yJke3d8", "hIxa3h9x7V1PWDa8seTQQBdVxHzYcAPGmarJ4WPN");
+    var currentUser = Parse.User.current();
 
-        <!--</div>-->
+    $(document).ready(function() {
+        
+        currentUser.fetch().then(function(currentUser) {
+            document.getElementById('score').innerHTML = "Points: " + currentUser.get("points");
+            var followedPlayer = currentUser.get("followedPlayer");
+            followedPlayer.fetch().then(function(followedPlayer) {
+                var playerDiv = getPlayerDiv(followedPlayer);
+                document.getElementById('player_card').appendChild(playerDiv);
+            });
+        });
 
+        var feed = [];
+        length = Math.floor(Math.random() * 10 + 10);
+        for (var j=0; j<length; j++) {
+            var x = Math.floor(Math.random() * 5);
+            var y = Math.floor(Math.random() * 5);
+            console.log("x=" + x + ", y=" + y + ", videoUrl=" + urlList[x] + ", caption=" + commentList[y]);
+            var params = {
+                videoUrl: urlList[x],
+                caption: commentList[y]
+            };
+            console.log(JSON.stringify(params));
+            feed.push(params);
+            console.log(JSON.stringify(feed));
+        }
+        loadFeed(feed);
 
-<!--</div>-->
+        $('.modal-trigger').leanModal();
+    });
 
+    function loadFeed(feed) {
+        var container = document.getElementById('container');
 
+        for (var i=0; i<feed.length; i++) {
+            console.log(JSON.stringify(feed[i]));
+            var col = document.createElement("div");
+            col.className = "col s12 l6";
+            var card = document.createElement("div");
+            card.className = "card";
+            var cardContent = document.createElement("div");
+            cardContent.className = "card-content";
+            var videoContainer = document.createElement("div");
+            videoContainer.className = "video-container";
+            videoContainer.innerHTML = "<iframe width=\"853\" height=\"480\" src=\"" + feed[i].videoUrl + "\" frameborder=\"0\" allowfullscreen></iframe>";
+            var p = document.createElement("p");
+            p.style.marginTop="16px";
+            p.innerHTML = feed[i].caption;
+            cardContent.appendChild(videoContainer);
+            cardContent.appendChild(p);
+            var cardAction = document.createElement("div");
+            cardAction.className = "card-action";
+            var anchor = document.createElement("a");
+            anchor.onclick = share;
+            anchor.href="#!";
+            anchor.innerHTML = "Share";
+            cardAction.appendChild(anchor);
+            card.appendChild(cardContent);
+            card.appendChild(cardAction);
+            col.appendChild(card);
+            container.appendChild(col);
+        }
+    }
 
+    function share() {
+        currentPoints = currentUser.get("points");
+        currentUser.set("points", currentPoints+1);
+        document.getElementById('score').innerHTML = "Points: " + (currentPoints+1);
+        currentUser.save(null, {
+            success: function(user) {
+                console.log("Updating points");
+            },
+            error: function(object, error) {
+                // I don't have time for this
+            }
+        });
+        Materialize.toast('Successfully shared', 4000);
+    }
 
+    function getPlayerDiv(player) {
+        var outer = document.createElement("div");
+        
+        var titleRow = document.createElement("div");
+        titleRow.className = "row";
+        var imageCol = document.createElement("div");
+        imageCol.className = "col";
+        var image = document.createElement("img");
+        image.src = "images/profile.png";
+        image.style.width = "200px";
+        image.style.padding = "16px";
+        var titleCol = document.createElement("div");
+        titleCol.className = "col";
+        //titleCol.style.paddingTop = "48px";
+        var titleColRow1 = document.createElement("h4");
+        titleColRow1.innerHTML = player.get("first");
+        var titleColRow2 = document.createElement("h6");
+        titleColRow2.innerHTML = player.get("last");
+        titleCol.appendChild(titleColRow1);
+        titleCol.appendChild(titleColRow2);
+        imageCol.appendChild(image);
+        titleRow.appendChild(imageCol);
+        titleRow.appendChild(titleCol);
+        outer.appendChild(titleRow);
 
+        var contentRow = document.createElement("div");
+        contentRow.className = "row";
 
+        var ageCol = document.createElement("div");
+        ageCol.className = "col s12";
+        var age = document.createElement("p");
+        age.innerHTML = "Birthdate: " + player.get("birthdate");
+        ageCol.appendChild(age);
+        contentRow.appendChild(ageCol);
+
+        var yrsCol = document.createElement("div");
+        yrsCol.className = "col s12";
+        var yrs = document.createElement("p");
+        yrs.innerHTML = "Years in league: " + player.get("yrsleague");
+        yrsCol.appendChild(yrs);
+        contentRow.appendChild(yrsCol);
+
+        var homeCol = document.createElement("div");
+        homeCol.className = "col s12";
+        var home = document.createElement("p");
+        home.innerHTML = "Hometown: " + player.get("City") + " " + player.get("State");
+        homeCol.appendChild(home);
+        contentRow.appendChild(homeCol);
+
+        var colCol = document.createElement("div");
+        colCol.className = "col s12";
+        var col = document.createElement("p");
+        col.innerHTML = "Alma mater: " + player.get("college");
+        colCol.appendChild(col);
+        contentRow.appendChild(colCol);
+
+        var posCol = document.createElement("div");
+        posCol.className = "col s12";
+        var pos = document.createElement("p");
+        pos.innerHTML = "Position: " + player.get("pos");
+        posCol.appendChild(pos);
+        contentRow.appendChild(posCol);
+
+        var moreCol = document.createElement("div");
+        moreCol.className = "col s4";
+        var anchor = document.createElement("a");
+        anchor.className = "waves-effect waves-teal btn-flat";
+        anchor.innerHTML = "stats";
+        anchor.onclick = function() {
+          showMoreStats(player);
+        };
+        moreCol.appendChild(anchor);
+        contentRow.appendChild(moreCol);
+
+        outer.appendChild(contentRow);
+        return outer;
+    }
+
+    function showMoreStats(player) {
+        var params = {
+            playerId: player.id
+        };
+        Parse.Cloud.run('Players_getSeasons', params, {
+            success: function(response) {
+                var seasons = response.data;
+                var container = document.getElementById("seasons_container");
+                for (var i=0; i<seasons.length; i++) {
+                    var season = seasons[i];
+                    var seasonDiv = getSeasonDiv(season);
+                    container.appendChild(seasonDiv);
+                }   
+            },
+            error: function(error) {
+                console.log(error.code + ", " + error.message);
+            }
+        });
+        $('#show_stats_modal').openModal();
+    }
+
+    function getSeasonDiv(season) {
+        var section = document.createElement("div");
+        section.className = "section";
+        var title = document.createElement("h5");
+        title.innerHTML = season.get("season") + " " + season.get("season_type");
+        var row = document.createElement("div");
+        row.className = "row";
+
+        var titles = ["Games", "Touchdowns", "Points", "Two point points", "Total singles", "Punt singles", "Field goal singles", "Kickoff singles", "Fumbles", "Fumbles lost", "Fumble return yards", "Fumble touchdowns"];
+        var keys = ["games", "touchdowns", "points", "two_point_points", "total_singles", "punt_singles", "field_goal_singles", "kickoff_singles", "fumbles", "fumbles_lost", "fumble_return_yards", "fumble_touchdowns"];
+
+        for (var i=0; i<titles.length; i++) {
+            var col = document.createElement("div");
+            col.className = "col s6";
+            var p = document.createElement("p");
+            p.innerHTML = titles[i] + ": " + season.get(keys[i]);
+            col.appendChild(p);
+            row.appendChild(col);
+        }
+
+        section.appendChild(title);
+        section.appendChild(row);
+        return section;
+    }
+</script>
 
 </body>
 </html>
