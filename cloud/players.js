@@ -1,3 +1,4 @@
+exports.getSeasons_cloud = getSeasons_cloud;
 exports.searchByName_cloud = searchByName_cloud;
 exports.searchByRosterId_cloud = searchByRosterId_cloud;
 exports.init_cloud = init_cloud;
@@ -7,6 +8,24 @@ exports.searchByName = searchByName;
 
 var ResponseCodes = require('cloud/response_codes.js');
 var Media = Parse.Object.extend("Media");
+
+function getSeasons_cloud(request, response) {
+	var player = request.params.player;
+	getSeasons(player, {
+		success: function(responseCode, object) {
+			response.success({
+				code: responseCode,
+				data: object
+			});
+		},
+		error: function(responseCode, errorMsg) {
+			response.success({
+				code: responseCode,
+				data: errorMsg
+			});
+		}
+	});
+}
 
 function searchByName_cloud(request, response) {
 	var playerName = request.params.playerName;
@@ -78,6 +97,20 @@ function uploadVideo_cloud(request, response) {
 				code: responseCode,
 				data: errorMsg
 			});
+		}
+	});
+}
+
+function getSeasons(player, callbacks) {
+	var seasonsQuery = player.relation("seasons").query();
+	seasonsQuery.addDescending("sesason");
+	seasonsQuery.find({
+		success: function(seasons) {
+			callbacks.success(ResponseCodes.OK, seasons);
+		},
+		error: function(object, error) {
+			callbacks.error(error.code, error.message);
+			return;
 		}
 	});
 }
